@@ -1,0 +1,595 @@
+:root {
+  /* Light Theme Variables */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-modal: #ffffff;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --text-muted: #6c757d;
+  --border-color: #dee2e6;
+  --success: #198754;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --info: #0dcaf0;
+  --primary: #0d6efd;
+  
+  /* Chart Colors - Light */
+  --chart-success: rgba(25, 135, 84, 0.8);
+  --chart-warning: rgba(255, 193, 7, 0.8);
+  --chart-danger: rgba(220, 53, 69, 0.8);
+  
+  /* Status Colors */
+  --http-ok: #198754;
+  --http-error: #dc3545;
+  --cert-valid: #198754;
+  --cert-expiring: #ffc107;
+  --cert-invalid: #dc3545;
+  
+  /* UI Elements */
+  --shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+  --shadow-lg: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  
+  /* Transition */
+  --transition-speed: 0.3s;
+}
+
+[data-theme="dark"] {
+  /* Dark Theme Variables */
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-card: #21262d;
+  --bg-modal: #2d333b;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #8b949e;
+  --border-color: #30363d;
+  --success: #3fb950;
+  --warning: #d29922;
+  --danger: #f85149;
+  --info: #58a6ff;
+  --primary: #58a6ff;
+  
+  /* Chart Colors - Dark */
+  --chart-success: rgba(63, 185, 80, 0.8);
+  --chart-warning: rgba(237, 179, 54, 0.8);
+  --chart-danger: rgba(248, 81, 73, 0.8);
+  
+  /* Dark Mode Overrides for Bootstrap Components */
+  .form-control {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+  
+  .form-control::placeholder {
+    color: var(--text-muted) !important;
+    opacity: 1;
+  }
+  
+  .input-group-text {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  .legend-text {
+    color: var(--text-primary) !important;
+  }
+  
+  /* Override Bootstrap light background on cards */
+  .text-bg-light {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+  }
+  
+  /* Force card titles to use dark theme text color */
+  .card .card-title {
+    color: var(--text-primary) !important;
+  }
+  
+  /* Override for the clipboard copy element */
+  .clipboard-copy, .copy-raw {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+  
+  /* Target button (or element) containing the copy raw text */
+  .copy-raw,
+  button.copy-raw,
+  .copy-raw * {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+  
+  /* Popup and toast notifications */
+  .toast, .alert {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+  
+  .toast .toast-header {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+  
+  /* UI Elements */
+  --shadow: 0 .125rem .25rem rgba(0, 0, 0, .3);
+  --shadow-lg: 0 .5rem 1rem rgba(0, 0, 0, .4);
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Base Styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color var(--transition-speed) ease, 
+              color var(--transition-speed) ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  transition: color var(--transition-speed) ease;
+}
+
+a {
+  color: var(--primary);
+  transition: color var(--transition-speed) ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--info);
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  transition: border-color var(--transition-speed) ease;
+}
+
+#domainCountDisplay {
+  font-weight: 500;
+  color: var(--primary);
+  background-color: var(--bg-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease,
+              box-shadow var(--transition-speed) ease;
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow-card);
+  transition: background-color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease,
+              box-shadow var(--transition-speed) ease,
+              transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.text-muted {
+  color: var(--text-muted) !important;
+}
+
+.text-success {
+  color: var(--success) !important;
+}
+
+.text-warning {
+  color: var(--warning) !important;
+}
+
+.text-danger {
+  color: var(--danger) !important;
+}
+
+.text-info {
+  color: var(--info) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+/* Summary Cards */
+.border-success {
+  border-color: var(--success) !important;
+  border-left-width: 4px;
+}
+
+.border-warning {
+  border-color: var(--warning) !important;
+  border-left-width: 4px;
+}
+
+.border-danger {
+  border-color: var(--danger) !important;
+  border-left-width: 4px;
+}
+
+.border-info {
+  border-color: var(--info) !important;
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--info);
+  border-color: var(--info);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  border-color: var(--warning);
+  color: #000;
+}
+
+.btn-warning:hover {
+  filter: brightness(110%);
+}
+
+.btn-outline-secondary {
+  color: var(--text-secondary);
+  border-color: var(--border-color);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+
+[data-theme="dark"] {
+  .btn-outline-dark {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--text-primary) !important;
+  }
+  
+  /* Optional hover state */
+  .btn-outline-dark:hover {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--text-primary) !important;
+  }
+}
+
+/* Modal Styles */
+.modal-content {
+  background-color: var(--bg-modal);
+  border-color: var(--border-color);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  transition: background-color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease;
+}
+
+.modal-header {
+  border-bottom-color: var(--border-color);
+  transition: border-color var(--transition-speed) ease;
+}
+
+.modal-title {
+  color: var(--text-primary);
+  transition: color var(--transition-speed) ease;
+}
+
+.btn-close {
+  filter: invert(var(--bs-btn-close-white));
+}
+
+[data-theme="dark"] .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+/* Log and Code Areas */
+pre {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease;
+}
+
+#scanLog {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* List Styles */
+.list-group-item {
+  background-color: var(--bg-card);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  transition: background-color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease,
+              color var(--transition-speed) ease;
+}
+
+.list-group-item:hover {
+  background-color: var(--bg-secondary);
+}
+
+/* Animation for Status Indicators */
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.card-title [class^="text-"] {
+  animation: pulse 2s infinite;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: 1rem;
+}
+
+.theme-toggle:hover {
+  background-color: var(--bg-card);
+  transform: rotate(15deg);
+}
+
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* Spotlight Effect on Cards */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), 
+              rgba(255, 255, 255, 0.06), 
+              transparent 40%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+[data-theme="dark"] .card::before {
+  background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), 
+              rgba(255, 255, 255, 0.03), 
+              transparent 40%);
+}
+
+/* Badge Styles */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.status-badge.ok {
+  background-color: rgba(var(--success-rgb), 0.1);
+  color: var(--success);
+  border: 1px solid rgba(var(--success-rgb), 0.2);
+}
+
+.status-badge.error {
+  background-color: rgba(var(--danger-rgb), 0.1);
+  color: var(--danger);
+  border: 1px solid rgba(var(--danger-rgb), 0.2);
+}
+
+.status-badge.warning {
+  background-color: rgba(var(--warning-rgb), 0.1);
+  color: var(--warning);
+  border: 1px solid rgba(var(--warning-rgb), 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  #domainCountDisplay {
+    margin-top: 1rem;
+  }
+  
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Chart container */
+.chart-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+  transition: background-color var(--transition-speed) ease;
+}
+
+/* Loading animation */
+.loading {
+  position: relative;
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+              transparent, 
+              rgba(255, 255, 255, 0.1), 
+              transparent);
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+[data-theme="dark"] .loading::after {
+  background: linear-gradient(90deg, 
+              transparent, 
+              rgba(255, 255, 255, 0.05), 
+              transparent);
+}
+
+/* Favicon Indicator */
+.favicon-wrapper {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.favicon-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Domain Badge */
+.domain-badge {
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.domain-badge:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Add custom class for legend text */
+.legend-text {
+    color: var(--text-primary) !important;
+}
+
+/* Additional styles to ensure the legend card toggles in dark/light mode */
+[data-theme="dark"] .legend-text {
+    color: var(--text-primary) !important;
+}
+
+/* Ensure the legend card background/border adapts to dark theme */
+[data-theme="dark"] .card.shadow-sm {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Custom styles for any <i> elements inside the legend (if applicable) */
+.legend-icon,
+[data-theme="dark"] .legend-icon {
+    font-style: italic;
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .status-legend .card,
+[data-theme="dark"] .legend-text,
+[data-theme="dark"] .card.shadow-sm {
+  background-color: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+/* Ensure that all strong and label text in card bodies are visible in dark mode */
+[data-theme="dark"] .card-body strong,
+[data-theme="dark"] .card-body div,
+[data-theme="dark"] .card-body span {
+    color: var(--text-primary) !important;
+}
+
