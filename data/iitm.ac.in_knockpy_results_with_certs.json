@@ -296,14 +296,14 @@
             "Caddy"
         ],
         "https": [
-            502,
             null,
-            "Caddy"
+            null,
+            null
         ],
         "cert": [
-            true,
-            "2025-07-06",
-            "5gtbdocs.dev.iitm.ac.in"
+            null,
+            null,
+            null
         ],
         "cert_details": {
             "subject_common_name": "5gtbdocs.dev.iitm.ac.in",
@@ -514,15 +514,15 @@
         ],
         "cert": [
             true,
-            "2025-07-02",
+            "2025-08-31",
             "asr.dev.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "asr.dev.iitm.ac.in",
             "issuer_common_name": "E6",
-            "valid_from": "Apr  3 00:58:47 2025 GMT",
-            "valid_to": "Jul  2 00:58:46 2025 GMT",
-            "serial_number": "052C675D8A8FEC5EE660F1E7B1EB0FC1A8E1",
+            "valid_from": "Jun  2 00:08:47 2025 GMT",
+            "valid_to": "Aug 31 00:08:46 2025 GMT",
+            "serial_number": "0504D4F4993A67F1B9631ACFA3BD60B2C766",
             "full_raw": {
                 "subject": [
                     [
@@ -553,23 +553,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "052C675D8A8FEC5EE660F1E7B1EB0FC1A8E1",
-                "notBefore": "Apr  3 00:58:47 2025 GMT",
-                "notAfter": "Jul  2 00:58:46 2025 GMT",
+                "serialNumber": "0504D4F4993A67F1B9631ACFA3BD60B2C766",
+                "notBefore": "Jun  2 00:08:47 2025 GMT",
+                "notAfter": "Aug 31 00:08:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "asr.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e6.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e6.c.lencr.org/98.crl"
+                    "http://e6.c.lencr.org/103.crl"
                 ]
             }
         }
@@ -991,10 +988,10 @@
     {
         "domain": "app.onlinedegree.iitm.ac.in",
         "ip": [
-            "216.239.38.21",
+            "216.239.32.21",
             "216.239.36.21",
-            "216.239.34.21",
-            "216.239.32.21"
+            "216.239.38.21",
+            "216.239.34.21"
         ],
         "http": [
             302,
@@ -1008,15 +1005,15 @@
         ],
         "cert": [
             true,
-            "2025-07-01",
+            "2025-08-28",
             "app.onlinedegree.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "app.onlinedegree.iitm.ac.in",
             "issuer_common_name": "WR3",
-            "valid_from": "Apr  2 11:07:00 2025 GMT",
-            "valid_to": "Jul  1 11:57:52 2025 GMT",
-            "serial_number": "905D8F8101295114122499052665DF47",
+            "valid_from": "May 30 02:45:42 2025 GMT",
+            "valid_to": "Aug 28 03:33:53 2025 GMT",
+            "serial_number": "3E79922268C97C431049230BB50A4CA3",
             "full_raw": {
                 "subject": [
                     [
@@ -1047,9 +1044,9 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "905D8F8101295114122499052665DF47",
-                "notBefore": "Apr  2 11:07:00 2025 GMT",
-                "notAfter": "Jul  1 11:57:52 2025 GMT",
+                "serialNumber": "3E79922268C97C431049230BB50A4CA3",
+                "notBefore": "May 30 02:45:42 2025 GMT",
+                "notAfter": "Aug 28 03:33:53 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -1057,13 +1054,13 @@
                     ]
                 ],
                 "OCSP": [
-                    "http://o.pki.goog/s/wr3/kF0"
+                    "http://o.pki.goog/s/wr3/Pnk"
                 ],
                 "caIssuers": [
                     "http://i.pki.goog/wr3.crt"
                 ],
                 "crlDistributionPoints": [
-                    "http://c.pki.goog/wr3/IbKPqAbrcUs.crl"
+                    "http://c.pki.goog/wr3/MaRhzPFka6o.crl"
                 ]
             }
         }
@@ -1214,10 +1211,10 @@
     {
         "domain": "backend.seek.onlinedegree.iitm.ac.in",
         "ip": [
-            "216.239.32.21",
-            "216.239.36.21",
+            "216.239.34.21",
             "216.239.38.21",
-            "216.239.34.21"
+            "216.239.36.21",
+            "216.239.32.21"
         ],
         "http": [
             302,
@@ -1583,10 +1580,10 @@
     {
         "domain": "ai4bharat.iitm.ac.in",
         "ip": [
-            "185.199.111.153",
             "185.199.109.153",
             "185.199.108.153",
-            "185.199.110.153"
+            "185.199.110.153",
+            "185.199.111.153"
         ],
         "http": [
             200,
@@ -2065,9 +2062,9 @@
     {
         "domain": "admissions.ge.iitm.ac.in",
         "ip": [
-            "15.206.141.246",
-            "3.108.95.50",
-            "3.7.133.126"
+            "3.7.133.126",
+            "15.206.54.181",
+            "13.234.195.145"
         ],
         "http": [
             301,
@@ -2273,13 +2270,13 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
         "domain": "backend.exams.study.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
             302,
@@ -2287,14 +2284,14 @@
             "Google Frontend"
         ],
         "https": [
-            302,
-            "http://backend.exams.study.iitm.ac.in/modules/firebase_auth/login?continue=http://backend.exams.study.iitm.ac.in/",
-            "Google Frontend"
+            null,
+            null,
+            null
         ],
         "cert": [
-            true,
-            "2025-08-07",
-            "backend.exams.study.iitm.ac.in"
+            null,
+            null,
+            null
         ],
         "cert_details": {
             "subject_common_name": "backend.exams.study.iitm.ac.in",
@@ -2356,7 +2353,7 @@
     {
         "domain": "app.diploma.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
             302,
@@ -2447,15 +2444,15 @@
         ],
         "cert": [
             true,
-            "2025-06-18",
+            "2025-08-22",
             "cacs.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "cacs.iitm.ac.in",
             "issuer_common_name": "R11",
-            "valid_from": "Mar 20 07:29:51 2025 GMT",
-            "valid_to": "Jun 18 07:29:50 2025 GMT",
-            "serial_number": "05FEF3EC9D58ADE4065D424F5D00E491B58A",
+            "valid_from": "May 24 06:31:53 2025 GMT",
+            "valid_to": "Aug 22 06:31:52 2025 GMT",
+            "serial_number": "06EF13546CFDBE51B0EF56241E39E5156BB5",
             "full_raw": {
                 "subject": [
                     [
@@ -2486,23 +2483,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05FEF3EC9D58ADE4065D424F5D00E491B58A",
-                "notBefore": "Mar 20 07:29:51 2025 GMT",
-                "notAfter": "Jun 18 07:29:50 2025 GMT",
+                "serialNumber": "06EF13546CFDBE51B0EF56241E39E5156BB5",
+                "notBefore": "May 24 06:31:53 2025 GMT",
+                "notAfter": "Aug 22 06:31:52 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "cacs.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://r11.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://r11.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://r11.c.lencr.org/11.crl"
+                    "http://r11.c.lencr.org/54.crl"
                 ]
             }
         }
@@ -2528,7 +2522,7 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
@@ -3295,10 +3289,10 @@
     {
         "domain": "chennai36.iitm.ac.in",
         "ip": [
-            "18.67.161.19",
+            "18.67.161.116",
             "18.67.161.33",
             "18.67.161.52",
-            "18.67.161.116"
+            "18.67.161.19"
         ],
         "http": [
             200,
@@ -3756,15 +3750,15 @@
         ],
         "cert": [
             true,
-            "2025-06-26",
+            "2025-08-25",
             "code.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "code.iitm.ac.in",
             "issuer_common_name": "E6",
-            "valid_from": "Mar 28 05:03:37 2025 GMT",
-            "valid_to": "Jun 26 05:03:36 2025 GMT",
-            "serial_number": "0648AE5EE6F2AC7C250CE75BB0A5A92FD506",
+            "valid_from": "May 27 08:15:47 2025 GMT",
+            "valid_to": "Aug 25 08:15:46 2025 GMT",
+            "serial_number": "0614C2EE7A093CC4EB918867DDB07739E524",
             "full_raw": {
                 "subject": [
                     [
@@ -3795,23 +3789,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "0648AE5EE6F2AC7C250CE75BB0A5A92FD506",
-                "notBefore": "Mar 28 05:03:37 2025 GMT",
-                "notAfter": "Jun 26 05:03:36 2025 GMT",
+                "serialNumber": "0614C2EE7A093CC4EB918867DDB07739E524",
+                "notBefore": "May 27 08:15:47 2025 GMT",
+                "notAfter": "Aug 25 08:15:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "code.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e6.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e6.c.lencr.org/7.crl"
+                    "http://e6.c.lencr.org/37.crl"
                 ]
             }
         }
@@ -4104,15 +4095,15 @@
         ],
         "cert": [
             true,
-            "2025-06-21",
+            "2025-08-21",
             "cs1102.study.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "cs1102.study.iitm.ac.in",
             "issuer_common_name": "R10",
-            "valid_from": "Mar 23 18:42:53 2025 GMT",
-            "valid_to": "Jun 21 18:42:52 2025 GMT",
-            "serial_number": "069C9523158D28D2A81B8C75A110F708A39B",
+            "valid_from": "May 23 02:21:26 2025 GMT",
+            "valid_to": "Aug 21 02:21:25 2025 GMT",
+            "serial_number": "050479947887B095951CA71ED2489061F059",
             "full_raw": {
                 "subject": [
                     [
@@ -4143,23 +4134,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "069C9523158D28D2A81B8C75A110F708A39B",
-                "notBefore": "Mar 23 18:42:53 2025 GMT",
-                "notAfter": "Jun 21 18:42:52 2025 GMT",
+                "serialNumber": "050479947887B095951CA71ED2489061F059",
+                "notBefore": "May 23 02:21:26 2025 GMT",
+                "notAfter": "Aug 21 02:21:25 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "cs1102.study.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://r10.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://r10.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://r10.c.lencr.org/28.crl"
+                    "http://r10.c.lencr.org/90.crl"
                 ]
             }
         }
@@ -4588,9 +4576,9 @@
     {
         "domain": "diploma.iitm.ac.in",
         "ip": [
-            "216.239.38.21",
-            "216.239.36.21",
             "216.239.32.21",
+            "216.239.36.21",
+            "216.239.38.21",
             "216.239.34.21"
         ],
         "http": [
@@ -4772,8 +4760,8 @@
             "103.158.43.140"
         ],
         "http": [
-            301,
-            "https://doe.iitm.ac.in/",
+            200,
+            null,
             "Apache/2.4.52 (Ubuntu)"
         ],
         "https": [
@@ -5288,10 +5276,10 @@
     {
         "domain": "ds.study.iitm.ac.in",
         "ip": [
-            "216.239.34.21",
+            "216.239.36.21",
             "216.239.38.21",
-            "216.239.32.21",
-            "216.239.36.21"
+            "216.239.34.21",
+            "216.239.32.21"
         ],
         "http": [
             302,
@@ -5595,7 +5583,7 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
@@ -5643,7 +5631,7 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
@@ -5730,9 +5718,9 @@
     {
         "domain": "courses.iitm.ac.in",
         "ip": [
-            "15.207.152.40",
-            "3.7.147.239",
-            "65.1.220.212"
+            "13.127.186.173",
+            "3.108.100.154",
+            "15.207.12.152"
         ],
         "http": [
             301,
@@ -6180,7 +6168,7 @@
     {
         "domain": "e-verify.acservices.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
             302,
@@ -6601,10 +6589,10 @@
     {
         "domain": "es.study.iitm.ac.in",
         "ip": [
+            "216.239.38.21",
             "216.239.36.21",
             "216.239.34.21",
-            "216.239.32.21",
-            "216.239.38.21"
+            "216.239.32.21"
         ],
         "http": [
             302,
@@ -6618,15 +6606,15 @@
         ],
         "cert": [
             true,
-            "2025-07-02",
+            "2025-08-30",
             "es.study.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "es.study.iitm.ac.in",
             "issuer_common_name": "WR3",
-            "valid_from": "Apr  3 20:36:02 2025 GMT",
-            "valid_to": "Jul  2 21:23:32 2025 GMT",
-            "serial_number": "67B239B28037D0320A1FED7BD9589E90",
+            "valid_from": "Jun  1 00:32:51 2025 GMT",
+            "valid_to": "Aug 30 01:21:41 2025 GMT",
+            "serial_number": "F2AFEEC6437B0A6B095A2E0B07BD829B",
             "full_raw": {
                 "subject": [
                     [
@@ -6657,9 +6645,9 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "67B239B28037D0320A1FED7BD9589E90",
-                "notBefore": "Apr  3 20:36:02 2025 GMT",
-                "notAfter": "Jul  2 21:23:32 2025 GMT",
+                "serialNumber": "F2AFEEC6437B0A6B095A2E0B07BD829B",
+                "notBefore": "Jun  1 00:32:51 2025 GMT",
+                "notAfter": "Aug 30 01:21:41 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -6667,13 +6655,13 @@
                     ]
                 ],
                 "OCSP": [
-                    "http://o.pki.goog/s/wr3/Z7I"
+                    "http://o.pki.goog/s/wr3/8q8"
                 ],
                 "caIssuers": [
                     "http://i.pki.goog/wr3.crt"
                 ],
                 "crlDistributionPoints": [
-                    "http://c.pki.goog/wr3/hHvoUaVG06Q.crl"
+                    "http://c.pki.goog/wr3/xNmLyP3CgUE.crl"
                 ]
             }
         }
@@ -7657,7 +7645,7 @@
             null
         ],
         "cert_details": {
-            "error": "[Errno 11001] getaddrinfo failed"
+            "error": "[Errno -2] Name or service not known"
         }
     },
     {
@@ -8395,7 +8383,7 @@
             null
         ],
         "cert_details": {
-            "error": "timed out"
+            "error": "[Errno 113] No route to host"
         }
     },
     {
@@ -8409,8 +8397,8 @@
             null
         ],
         "https": [
-            302,
-            "https://discourse.onlinedegree.iitm.ac.in/login",
+            200,
+            null,
             "nginx"
         ],
         "cert": [
@@ -8419,60 +8407,7 @@
             "discourse.onlinedegree.iitm.ac.in"
         ],
         "cert_details": {
-            "subject_common_name": "discourse.onlinedegree.iitm.ac.in",
-            "issuer_common_name": "R11",
-            "valid_from": "Apr 28 00:01:39 2025 GMT",
-            "valid_to": "Jul 27 00:01:38 2025 GMT",
-            "serial_number": "05DF05D0C75C2BCA03C34A158F36CB5ACA50",
-            "full_raw": {
-                "subject": [
-                    [
-                        [
-                            "commonName",
-                            "discourse.onlinedegree.iitm.ac.in"
-                        ]
-                    ]
-                ],
-                "issuer": [
-                    [
-                        [
-                            "countryName",
-                            "US"
-                        ]
-                    ],
-                    [
-                        [
-                            "organizationName",
-                            "Let's Encrypt"
-                        ]
-                    ],
-                    [
-                        [
-                            "commonName",
-                            "R11"
-                        ]
-                    ]
-                ],
-                "version": 3,
-                "serialNumber": "05DF05D0C75C2BCA03C34A158F36CB5ACA50",
-                "notBefore": "Apr 28 00:01:39 2025 GMT",
-                "notAfter": "Jul 27 00:01:38 2025 GMT",
-                "subjectAltName": [
-                    [
-                        "DNS",
-                        "discourse.onlinedegree.iitm.ac.in"
-                    ]
-                ],
-                "OCSP": [
-                    "http://r11.o.lencr.org"
-                ],
-                "caIssuers": [
-                    "http://r11.i.lencr.org/"
-                ],
-                "crlDistributionPoints": [
-                    "http://r11.c.lencr.org/81.crl"
-                ]
-            }
+            "error": "[Errno 101] Network is unreachable"
         }
     },
     {
@@ -9171,7 +9106,7 @@
             null
         ],
         "cert_details": {
-            "error": "[Errno 11001] getaddrinfo failed"
+            "error": "[Errno -2] Name or service not known"
         }
     },
     {
@@ -9185,9 +9120,9 @@
             null
         ],
         "https": [
-            503,
+            200,
             null,
-            null
+            "Apache/2.4.37 (centos)"
         ],
         "cert": [
             true,
@@ -9326,7 +9261,7 @@
         ],
         "cert": [
             true,
-            "2026-05-18",
+            "2026-05-25",
             null
         ],
         "cert_details": {
@@ -9535,15 +9470,15 @@
         ],
         "cert": [
             true,
-            "2025-06-30",
+            "2025-08-29",
             "internship.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "internship.iitm.ac.in",
-            "issuer_common_name": "R10",
-            "valid_from": "Apr  1 20:48:38 2025 GMT",
-            "valid_to": "Jun 30 20:48:37 2025 GMT",
-            "serial_number": "063BF85A4E3A3C6077FFB04A87683135D281",
+            "issuer_common_name": "R11",
+            "valid_from": "May 31 19:58:11 2025 GMT",
+            "valid_to": "Aug 29 19:58:10 2025 GMT",
+            "serial_number": "056C05CCEB3C99F09303C2EC9EE5BFBA4AEC",
             "full_raw": {
                 "subject": [
                     [
@@ -9569,28 +9504,25 @@
                     [
                         [
                             "commonName",
-                            "R10"
+                            "R11"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "063BF85A4E3A3C6077FFB04A87683135D281",
-                "notBefore": "Apr  1 20:48:38 2025 GMT",
-                "notAfter": "Jun 30 20:48:37 2025 GMT",
+                "serialNumber": "056C05CCEB3C99F09303C2EC9EE5BFBA4AEC",
+                "notBefore": "May 31 19:58:11 2025 GMT",
+                "notAfter": "Aug 29 19:58:10 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "internship.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://r10.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://r10.i.lencr.org/"
+                    "http://r11.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://r10.c.lencr.org/2.crl"
+                    "http://r11.c.lencr.org/109.crl"
                 ]
             }
         }
@@ -9672,9 +9604,9 @@
     {
         "domain": "ioe.iitm.ac.in",
         "ip": [
+            "52.84.12.34",
             "52.84.12.105",
             "52.84.12.109",
-            "52.84.12.34",
             "52.84.12.12"
         ],
         "http": [
@@ -9757,9 +9689,9 @@
         "domain": "joyofgiving.alumni.iitm.ac.in",
         "ip": [
             "108.158.251.40",
-            "108.158.251.22",
+            "108.158.251.12",
             "108.158.251.16",
-            "108.158.251.12"
+            "108.158.251.22"
         ],
         "http": [
             301,
@@ -10267,7 +10199,7 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
@@ -10644,15 +10576,15 @@
         ],
         "cert": [
             true,
-            "2025-05-29",
+            "2025-08-27",
             "leap.respark.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "leap.respark.iitm.ac.in",
             "issuer_common_name": "R10",
-            "valid_from": "Feb 28 05:15:30 2025 GMT",
-            "valid_to": "May 29 05:15:29 2025 GMT",
-            "serial_number": "03F6CCFD6C5507890BB977A595EC725E6DFD",
+            "valid_from": "May 29 09:37:59 2025 GMT",
+            "valid_to": "Aug 27 09:37:58 2025 GMT",
+            "serial_number": "06468B44297509B75EEB21708920A56E7FA4",
             "full_raw": {
                 "subject": [
                     [
@@ -10683,9 +10615,9 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "03F6CCFD6C5507890BB977A595EC725E6DFD",
-                "notBefore": "Feb 28 05:15:30 2025 GMT",
-                "notAfter": "May 29 05:15:29 2025 GMT",
+                "serialNumber": "06468B44297509B75EEB21708920A56E7FA4",
+                "notBefore": "May 29 09:37:59 2025 GMT",
+                "notAfter": "Aug 27 09:37:58 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -10696,11 +10628,11 @@
                         "www.leap.respark.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://r10.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://r10.i.lencr.org/"
+                ],
+                "crlDistributionPoints": [
+                    "http://r10.c.lencr.org/37.crl"
                 ]
             }
         }
@@ -11114,21 +11046,21 @@
         ],
         "cert": [
             true,
-            "2025-08-10",
-            "www.zaistra.com"
+            "2025-08-31",
+            "www.amlarize.com"
         ],
         "cert_details": {
-            "subject_common_name": "www.zaistra.com",
+            "subject_common_name": "www.amlarize.com",
             "issuer_common_name": "R11",
-            "valid_from": "May 12 04:52:47 2025 GMT",
-            "valid_to": "Aug 10 04:52:46 2025 GMT",
-            "serial_number": "05A1C068293D07EDEE09892EEEB4A6BA5946",
+            "valid_from": "Jun  2 06:43:03 2025 GMT",
+            "valid_to": "Aug 31 06:43:02 2025 GMT",
+            "serial_number": "054EF1DC5F4931513396064A9F5C8160054C",
             "full_raw": {
                 "subject": [
                     [
                         [
                             "commonName",
-                            "www.zaistra.com"
+                            "www.amlarize.com"
                         ]
                     ]
                 ],
@@ -11153,9 +11085,9 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05A1C068293D07EDEE09892EEEB4A6BA5946",
-                "notBefore": "May 12 04:52:47 2025 GMT",
-                "notAfter": "Aug 10 04:52:46 2025 GMT",
+                "serialNumber": "054EF1DC5F4931513396064A9F5C8160054C",
+                "notBefore": "Jun  2 06:43:03 2025 GMT",
+                "notAfter": "Aug 31 06:43:02 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -11187,11 +11119,23 @@
                     ],
                     [
                         "DNS",
+                        "www.amlarize.com"
+                    ],
+                    [
+                        "DNS",
                         "www.availit.us"
                     ],
                     [
                         "DNS",
+                        "www.cherrymakeup.mx"
+                    ],
+                    [
+                        "DNS",
                         "www.corecprod.com"
+                    ],
+                    [
+                        "DNS",
+                        "www.exvist.com"
                     ],
                     [
                         "DNS",
@@ -11231,10 +11175,6 @@
                     ],
                     [
                         "DNS",
-                        "www.mannalandinc.com"
-                    ],
-                    [
-                        "DNS",
                         "www.millanao.cl"
                     ],
                     [
@@ -11255,6 +11195,10 @@
                     ],
                     [
                         "DNS",
+                        "www.perdomodistributor.com"
+                    ],
+                    [
+                        "DNS",
                         "www.peregrineworx.com"
                     ],
                     [
@@ -11268,10 +11212,6 @@
                     [
                         "DNS",
                         "www.splendorsoft-demo.in"
-                    ],
-                    [
-                        "DNS",
-                        "www.tree.com.eg"
                     ],
                     [
                         "DNS",
@@ -11298,7 +11238,7 @@
                     "http://r11.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://r11.c.lencr.org/71.crl"
+                    "http://r11.c.lencr.org/77.crl"
                 ]
             }
         }
@@ -11731,7 +11671,7 @@
             null
         ],
         "cert_details": {
-            "error": "[Errno 11001] getaddrinfo failed"
+            "error": "[Errno -2] Name or service not known"
         }
     },
     {
@@ -12263,7 +12203,7 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
@@ -12390,8 +12330,8 @@
     {
         "domain": "onlinedegree.iitm.ac.in",
         "ip": [
-            "216.239.34.21",
             "216.239.36.21",
+            "216.239.34.21",
             "216.239.32.21",
             "216.239.38.21"
         ],
@@ -12829,7 +12769,7 @@
     {
         "domain": "nptelonlinecourses.iitm.ac.in",
         "ip": [
-            "142.250.183.148"
+            "142.250.77.148"
         ],
         "http": [
             404,
@@ -12843,7 +12783,7 @@
         ],
         "cert": [
             false,
-            "2025-07-14",
+            "2025-08-04",
             "*.appspot-preview.com"
         ],
         "cert_details": {
@@ -12967,9 +12907,9 @@
             "103.158.43.196"
         ],
         "http": [
-            null,
-            null,
-            null
+            301,
+            "https://ntcpwc.iitm.ac.in/",
+            "Apache"
         ],
         "https": [
             200,
@@ -13132,15 +13072,15 @@
         ],
         "cert": [
             true,
-            "2025-06-29",
+            "2025-08-28",
             "pynq5.dev.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "pynq5.dev.iitm.ac.in",
-            "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "0589B6C7B5F4035497269E34D3D6F92B9D78",
+            "issuer_common_name": "E6",
+            "valid_from": "May 30 14:48:48 2025 GMT",
+            "valid_to": "Aug 28 14:48:47 2025 GMT",
+            "serial_number": "06201039D76E2B03073BC73ED1EAC7C90DBA",
             "full_raw": {
                 "subject": [
                     [
@@ -13166,28 +13106,25 @@
                     [
                         [
                             "commonName",
-                            "E5"
+                            "E6"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "0589B6C7B5F4035497269E34D3D6F92B9D78",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "06201039D76E2B03073BC73ED1EAC7C90DBA",
+                "notBefore": "May 30 14:48:48 2025 GMT",
+                "notAfter": "Aug 28 14:48:47 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq5.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://e5.i.lencr.org/"
+                    "http://e6.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/121.crl"
+                    "http://e6.c.lencr.org/59.crl"
                 ]
             }
         }
@@ -13203,21 +13140,21 @@
             "Caddy"
         ],
         "https": [
-            302,
-            "/tree?",
-            "Caddy, TornadoServer/6.1"
+            null,
+            null,
+            null
         ],
         "cert": [
-            true,
-            "2025-06-29",
-            "pynq12.dev.iitm.ac.in"
+            null,
+            null,
+            null
         ],
         "cert_details": {
             "subject_common_name": "pynq12.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "057A9078E4ED412FF8B7DF4C9D95FCEED626",
+            "valid_from": "May 30 14:48:57 2025 GMT",
+            "valid_to": "Aug 28 14:48:56 2025 GMT",
+            "serial_number": "0612F2855EC2F4336A564E0C48B6258AAAB1",
             "full_raw": {
                 "subject": [
                     [
@@ -13248,23 +13185,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "057A9078E4ED412FF8B7DF4C9D95FCEED626",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "0612F2855EC2F4336A564E0C48B6258AAAB1",
+                "notBefore": "May 30 14:48:57 2025 GMT",
+                "notAfter": "Aug 28 14:48:56 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq12.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/39.crl"
+                    "http://e5.c.lencr.org/50.crl"
                 ]
             }
         }
@@ -13280,14 +13214,14 @@
             null
         ],
         "https": [
-            200,
             null,
-            "Apache/2.4.41 (Ubuntu)"
+            null,
+            null
         ],
         "cert": [
-            true,
-            "2026-01-06",
-            "*.iitm.ac.in"
+            null,
+            null,
+            null
         ],
         "cert_details": {
             "subject_common_name": "*.iitm.ac.in",
@@ -13925,9 +13859,9 @@
         "cert_details": {
             "subject_common_name": "pynq1.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:28:46 2025 GMT",
-            "valid_to": "Jun 29 15:28:45 2025 GMT",
-            "serial_number": "0529F7E914216B80DEBA8806E20DDFFD0E50",
+            "valid_from": "May 30 14:38:47 2025 GMT",
+            "valid_to": "Aug 28 14:38:46 2025 GMT",
+            "serial_number": "05B3DC59052A90C93C9CAE7EE7516B1D9728",
             "full_raw": {
                 "subject": [
                     [
@@ -13958,23 +13892,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "0529F7E914216B80DEBA8806E20DDFFD0E50",
-                "notBefore": "Mar 31 15:28:46 2025 GMT",
-                "notAfter": "Jun 29 15:28:45 2025 GMT",
+                "serialNumber": "05B3DC59052A90C93C9CAE7EE7516B1D9728",
+                "notBefore": "May 30 14:38:47 2025 GMT",
+                "notAfter": "Aug 28 14:38:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq1.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/81.crl"
+                    "http://e5.c.lencr.org/41.crl"
                 ]
             }
         }
@@ -14298,9 +14229,9 @@
         "cert_details": {
             "subject_common_name": "pynq11.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:47 2025 GMT",
-            "valid_to": "Jun 29 15:38:46 2025 GMT",
-            "serial_number": "0637063716A3A402105C933892A1F2475072",
+            "valid_from": "May 30 14:48:56 2025 GMT",
+            "valid_to": "Aug 28 14:48:55 2025 GMT",
+            "serial_number": "056F605D1208F322E1425633DB308B7E26AF",
             "full_raw": {
                 "subject": [
                     [
@@ -14331,23 +14262,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "0637063716A3A402105C933892A1F2475072",
-                "notBefore": "Mar 31 15:38:47 2025 GMT",
-                "notAfter": "Jun 29 15:38:46 2025 GMT",
+                "serialNumber": "056F605D1208F322E1425633DB308B7E26AF",
+                "notBefore": "May 30 14:48:56 2025 GMT",
+                "notAfter": "Aug 28 14:48:55 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq11.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/115.crl"
+                    "http://e5.c.lencr.org/48.crl"
                 ]
             }
         }
@@ -14525,21 +14453,21 @@
         ],
         "cert": [
             true,
-            "2025-07-13",
-            "sales.thepsycholingo.com"
+            "2025-09-01",
+            "crm.kryptoninc.co"
         ],
         "cert_details": {
-            "subject_common_name": "sales.thepsycholingo.com",
-            "issuer_common_name": "E6",
-            "valid_from": "Apr 14 10:20:13 2025 GMT",
-            "valid_to": "Jul 13 10:20:12 2025 GMT",
-            "serial_number": "05A4BE52D505F7FE88B908EB8641D7888BD4",
+            "subject_common_name": "crm.kryptoninc.co",
+            "issuer_common_name": "E5",
+            "valid_from": "Jun  3 08:17:38 2025 GMT",
+            "valid_to": "Sep  1 08:17:37 2025 GMT",
+            "serial_number": "05A18AC77BC85F3967CFBAE8AD4BCD9A986E",
             "full_raw": {
                 "subject": [
                     [
                         [
                             "commonName",
-                            "sales.thepsycholingo.com"
+                            "crm.kryptoninc.co"
                         ]
                     ]
                 ],
@@ -14559,14 +14487,14 @@
                     [
                         [
                             "commonName",
-                            "E6"
+                            "E5"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05A4BE52D505F7FE88B908EB8641D7888BD4",
-                "notBefore": "Apr 14 10:20:13 2025 GMT",
-                "notAfter": "Jul 13 10:20:12 2025 GMT",
+                "serialNumber": "05A18AC77BC85F3967CFBAE8AD4BCD9A986E",
+                "notBefore": "Jun  3 08:17:38 2025 GMT",
+                "notAfter": "Sep  1 08:17:37 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -14642,10 +14570,6 @@
                     ],
                     [
                         "DNS",
-                        "crm.hemchandnuerohospital.shop"
-                    ],
-                    [
-                        "DNS",
                         "crm.invenex.in"
                     ],
                     [
@@ -14659,10 +14583,6 @@
                     [
                         "DNS",
                         "crm.kryptoninc.co"
-                    ],
-                    [
-                        "DNS",
-                        "crm.levitation.co.in"
                     ],
                     [
                         "DNS",
@@ -14714,10 +14634,6 @@
                     ],
                     [
                         "DNS",
-                        "crm.sturdygroups.com"
-                    ],
-                    [
-                        "DNS",
                         "crm.talenthubindia.com"
                     ],
                     [
@@ -14735,6 +14651,10 @@
                     [
                         "DNS",
                         "crm.yakkaservices.com"
+                    ],
+                    [
+                        "DNS",
+                        "crmsre-customdomain.customdomain.fun"
                     ],
                     [
                         "DNS",
@@ -14806,10 +14726,6 @@
                     ],
                     [
                         "DNS",
-                        "zcrm.wakeupwith.in"
-                    ],
-                    [
-                        "DNS",
                         "zcrm.zealandimmigration.net"
                     ],
                     [
@@ -14817,14 +14733,11 @@
                         "zohocrm.flytxt.com"
                     ]
                 ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://e6.i.lencr.org/"
+                    "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e6.c.lencr.org/85.crl"
+                    "http://e5.c.lencr.org/111.crl"
                 ]
             }
         }
@@ -14832,8 +14745,8 @@
     {
         "domain": "seek.onlinedegree.iitm.ac.in",
         "ip": [
-            "151.101.1.195",
-            "151.101.65.195"
+            "151.101.65.195",
+            "151.101.1.195"
         ],
         "http": [
             301,
@@ -14847,21 +14760,21 @@
         ],
         "cert": [
             true,
-            "2025-07-02",
-            "anatijouxoficial.com"
+            "2025-08-31",
+            "mfiresource.com"
         ],
         "cert_details": {
-            "subject_common_name": "anatijouxoficial.com",
+            "subject_common_name": "mfiresource.com",
             "issuer_common_name": "WR3",
-            "valid_from": "Apr  3 10:47:42 2025 GMT",
-            "valid_to": "Jul  2 11:46:11 2025 GMT",
-            "serial_number": "592E6653658FAE0F0A5D26C4F66FB279",
+            "valid_from": "Jun  1 23:54:44 2025 GMT",
+            "valid_to": "Aug 31 00:53:20 2025 GMT",
+            "serial_number": "F1D41112BF270FD00AE728D879271631",
             "full_raw": {
                 "subject": [
                     [
                         [
                             "commonName",
-                            "anatijouxoficial.com"
+                            "mfiresource.com"
                         ]
                     ]
                 ],
@@ -14886,17 +14799,13 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "592E6653658FAE0F0A5D26C4F66FB279",
-                "notBefore": "Apr  3 10:47:42 2025 GMT",
-                "notAfter": "Jul  2 11:46:11 2025 GMT",
+                "serialNumber": "F1D41112BF270FD00AE728D879271631",
+                "notBefore": "Jun  1 23:54:44 2025 GMT",
+                "notAfter": "Aug 31 00:53:20 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
-                        "anatijouxoficial.com"
-                    ],
-                    [
-                        "DNS",
-                        "dharmaconsulting.lapzo.io"
+                        "mfiresource.com"
                     ],
                     [
                         "DNS",
@@ -14904,163 +14813,47 @@
                     ],
                     [
                         "DNS",
-                        "cah-prod.da.letsdive.io"
+                        "codelider.com"
                     ],
                     [
                         "DNS",
-                        "app.orderin.es"
+                        "www.beautyaround.co"
                     ],
                     [
                         "DNS",
-                        "delete-account.migrant.solutions"
+                        "midrandchapel.co.za"
                     ],
                     [
                         "DNS",
-                        "arphfacil.com.br"
+                        "eroge.pink"
                     ],
                     [
                         "DNS",
-                        "mizrachymarble.oz-tms.com"
+                        "www.pythonmedic.com"
                     ],
                     [
                         "DNS",
-                        "www.amouraconsol.com.au"
+                        "dl.nb44.com"
                     ],
                     [
                         "DNS",
-                        "www.titansne.ws"
+                        "www.flisolcancun.info"
                     ],
                     [
                         "DNS",
-                        "pallet-legno.tacchellaflli.it"
+                        "www.emanuelxavier.dev"
                     ],
                     [
                         "DNS",
-                        "nodessldeploy.salehhammudeh.com"
+                        "kitap.social"
                     ],
                     [
                         "DNS",
-                        "www.laperladellago.de"
+                        "www.happybirthdayfromjonny.com"
                     ],
                     [
                         "DNS",
-                        "flow.reflectio.pro"
-                    ],
-                    [
-                        "DNS",
-                        "sos.rakyat.com.my"
-                    ],
-                    [
-                        "DNS",
-                        "www.playgeomax.com"
-                    ],
-                    [
-                        "DNS",
-                        "www.vfi.eco"
-                    ],
-                    [
-                        "DNS",
-                        "armoire.com.uy"
-                    ],
-                    [
-                        "DNS",
-                        "obmify-cryptocurrency.com"
-                    ],
-                    [
-                        "DNS",
-                        "admin.ringrow2.wowdesk.jp"
-                    ],
-                    [
-                        "DNS",
-                        "binary-company.com"
-                    ],
-                    [
-                        "DNS",
-                        "thevivatribe.com"
-                    ],
-                    [
-                        "DNS",
-                        "dev.trymeel.com"
-                    ],
-                    [
-                        "DNS",
-                        "www.trymeel.com"
-                    ],
-                    [
-                        "DNS",
-                        "test.trymeel.com"
-                    ],
-                    [
-                        "DNS",
-                        "blog.valliki.jp"
-                    ],
-                    [
-                        "DNS",
-                        "www.derug.co.il"
-                    ],
-                    [
-                        "DNS",
-                        "web.sommo.io"
-                    ],
-                    [
-                        "DNS",
-                        "www.moomugs.no"
-                    ],
-                    [
-                        "DNS",
-                        "wangan.uechiryu.okinawa"
-                    ],
-                    [
-                        "DNS",
-                        "seek.onlinedegree.iitm.ac.in"
-                    ],
-                    [
-                        "DNS",
-                        "ai-sense-data.signage.ninja"
-                    ],
-                    [
-                        "DNS",
-                        "www.avag.org.in"
-                    ],
-                    [
-                        "DNS",
-                        "brilian.web.id"
-                    ],
-                    [
-                        "DNS",
-                        "www.epic.vision"
-                    ],
-                    [
-                        "DNS",
-                        "www.timosi.ch"
-                    ],
-                    [
-                        "DNS",
-                        "marathon-challenge.mherren.ch"
-                    ],
-                    [
-                        "DNS",
-                        "search.skip.work"
-                    ],
-                    [
-                        "DNS",
-                        "pvermeer.eu"
-                    ],
-                    [
-                        "DNS",
-                        "mms.kingdomappsolutions.tech"
-                    ],
-                    [
-                        "DNS",
-                        "ingresodesolicitudes-ejecutivos.cajalosandes.cl"
-                    ],
-                    [
-                        "DNS",
-                        "europakommunal.de"
-                    ],
-                    [
-                        "DNS",
-                        "www.jumbofun.xyz"
+                        "sdraft.io"
                     ],
                     [
                         "DNS",
@@ -15068,7 +14861,171 @@
                     ],
                     [
                         "DNS",
-                        "www.buscador.refaccionariaarboledas.com.mx"
+                        "sos.rakyat.com.my"
+                    ],
+                    [
+                        "DNS",
+                        "dashboard.orbit.codes"
+                    ],
+                    [
+                        "DNS",
+                        "surrogate.direct"
+                    ],
+                    [
+                        "DNS",
+                        "blog.valliki.jp"
+                    ],
+                    [
+                        "DNS",
+                        "sfpdp.clients.joinpromise.com"
+                    ],
+                    [
+                        "DNS",
+                        "skatescribe-admin.demo.cionstudio.com"
+                    ],
+                    [
+                        "DNS",
+                        "api.geckopay.co"
+                    ],
+                    [
+                        "DNS",
+                        "armoire.com.uy"
+                    ],
+                    [
+                        "DNS",
+                        "jsonschema.r35.dev"
+                    ],
+                    [
+                        "DNS",
+                        "www.multimarca-cundinamarca.com"
+                    ],
+                    [
+                        "DNS",
+                        "www.playgeomax.com"
+                    ],
+                    [
+                        "DNS",
+                        "rvm-s.dev-ltl-xpo.com"
+                    ],
+                    [
+                        "DNS",
+                        "flexepark.app"
+                    ],
+                    [
+                        "DNS",
+                        "www.eatrics.eu"
+                    ],
+                    [
+                        "DNS",
+                        "artlevinacademy.pl"
+                    ],
+                    [
+                        "DNS",
+                        "auradata.com.br"
+                    ],
+                    [
+                        "DNS",
+                        "cardosolocacao.com.br"
+                    ],
+                    [
+                        "DNS",
+                        "jobs.acho.io"
+                    ],
+                    [
+                        "DNS",
+                        "link.rocketpocket.id"
+                    ],
+                    [
+                        "DNS",
+                        "new.api.keybot.dev"
+                    ],
+                    [
+                        "DNS",
+                        "bookimages.booksphere.fr"
+                    ],
+                    [
+                        "DNS",
+                        "calcfor.me"
+                    ],
+                    [
+                        "DNS",
+                        "pronto.provincialsmarthome.com"
+                    ],
+                    [
+                        "DNS",
+                        "mediquery.org"
+                    ],
+                    [
+                        "DNS",
+                        "mapas.yatto.com.br"
+                    ],
+                    [
+                        "DNS",
+                        "sunnypdf.pvsc.fr"
+                    ],
+                    [
+                        "DNS",
+                        "wishlists-app.de"
+                    ],
+                    [
+                        "DNS",
+                        "ubique.io"
+                    ],
+                    [
+                        "DNS",
+                        "www.pic.as"
+                    ],
+                    [
+                        "DNS",
+                        "www.bridgingmedical.com"
+                    ],
+                    [
+                        "DNS",
+                        "app.farmaciadaddi.it"
+                    ],
+                    [
+                        "DNS",
+                        "yaci.wumbox.com"
+                    ],
+                    [
+                        "DNS",
+                        "wakinchan.work"
+                    ],
+                    [
+                        "DNS",
+                        "www.thisisegy.com"
+                    ],
+                    [
+                        "DNS",
+                        "i-win.io"
+                    ],
+                    [
+                        "DNS",
+                        "workplace.barbarinn.is"
+                    ],
+                    [
+                        "DNS",
+                        "ugofy.com"
+                    ],
+                    [
+                        "DNS",
+                        "dev-ops.campayna.com"
+                    ],
+                    [
+                        "DNS",
+                        "www.gauntletapp.com"
+                    ],
+                    [
+                        "DNS",
+                        "www.timosi.ch"
+                    ],
+                    [
+                        "DNS",
+                        "www.whatchado.ch"
+                    ],
+                    [
+                        "DNS",
+                        "apps.mobies.id"
                     ],
                     [
                         "DNS",
@@ -15076,11 +15033,131 @@
                     ],
                     [
                         "DNS",
-                        "www.waplat.com"
+                        "kb23.1337co.de"
                     ],
                     [
                         "DNS",
-                        "www.myren.ai"
+                        "checkin.apps.canadiancores.com"
+                    ],
+                    [
+                        "DNS",
+                        "kaltakquiserechner.fairysales.de"
+                    ],
+                    [
+                        "DNS",
+                        "auth.mpc.zkopru.network"
+                    ],
+                    [
+                        "DNS",
+                        "gameofnumbers.kiwicube.io"
+                    ],
+                    [
+                        "DNS",
+                        "karelmares.cz"
+                    ],
+                    [
+                        "DNS",
+                        "dev.pha.sokuyaku.jp"
+                    ],
+                    [
+                        "DNS",
+                        "www.rococo.uz"
+                    ],
+                    [
+                        "DNS",
+                        "www.dmemusic.com.my"
+                    ],
+                    [
+                        "DNS",
+                        "seek.onlinedegree.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "www.deenatural.ch"
+                    ],
+                    [
+                        "DNS",
+                        "www.derug.co.il"
+                    ],
+                    [
+                        "DNS",
+                        "tasktide.com.au"
+                    ],
+                    [
+                        "DNS",
+                        "aesteticcar.com"
+                    ],
+                    [
+                        "DNS",
+                        "jointeffortstl.org"
+                    ],
+                    [
+                        "DNS",
+                        "qhrd.online"
+                    ],
+                    [
+                        "DNS",
+                        "sis-trocknung.com"
+                    ],
+                    [
+                        "DNS",
+                        "www.sis-schadensmanagement.info"
+                    ],
+                    [
+                        "DNS",
+                        "discipledbyjesuschrist.com"
+                    ],
+                    [
+                        "DNS",
+                        "th-trade.net"
+                    ],
+                    [
+                        "DNS",
+                        "sis-trocknung.org"
+                    ],
+                    [
+                        "DNS",
+                        "www.sis-schadensmanagement.de"
+                    ],
+                    [
+                        "DNS",
+                        "sis-trocknung.online"
+                    ],
+                    [
+                        "DNS",
+                        "rodgergarbutt.ca"
+                    ],
+                    [
+                        "DNS",
+                        "lverify.cloud"
+                    ],
+                    [
+                        "DNS",
+                        "neurix.nodeshift.tech"
+                    ],
+                    [
+                        "DNS",
+                        "neepio.com"
+                    ],
+                    [
+                        "DNS",
+                        "st-paulelderlycarekiambu.co.ke"
+                    ],
+                    [
+                        "DNS",
+                        "sharksteroid.com"
+                    ],
+                    [
+                        "DNS",
+                        "signin.tiensongnguyen.com"
+                    ],
+                    [
+                        "DNS",
+                        "www.joinalias.app"
+                    ],
+                    [
+                        "DNS",
+                        "gdgnetherlands.org"
                     ],
                     [
                         "DNS",
@@ -15088,217 +15165,53 @@
                     ],
                     [
                         "DNS",
-                        "fmmt.hotekan.com"
+                        "anarosadesigns.com"
                     ],
                     [
                         "DNS",
-                        "gitekidb.com"
+                        "icanapp.com.au"
                     ],
                     [
                         "DNS",
-                        "hshs.strongline.smplabs.com"
+                        "opks.rs"
                     ],
                     [
                         "DNS",
-                        "spectrumbuildtech.com"
+                        "verber.me"
                     ],
                     [
                         "DNS",
-                        "puzzler.pudgypuzzles.com"
+                        "thanyapornjapantour.com"
                     ],
                     [
                         "DNS",
-                        "pimpmyemail.org"
+                        "v.cnhcare.in"
                     ],
                     [
                         "DNS",
-                        "ull.turnosweb.app"
+                        "webapp.zencillorevolution.com"
                     ],
                     [
                         "DNS",
-                        "getplundr.com"
+                        "joemcgrath.dev"
                     ],
                     [
                         "DNS",
-                        "fabiomartins8421.com"
+                        "postablur.com"
                     ],
                     [
                         "DNS",
-                        "www.originofdesign.com"
-                    ],
-                    [
-                        "DNS",
-                        "dev.opuswatch.nl"
-                    ],
-                    [
-                        "DNS",
-                        "www.kaboo.com.br"
-                    ],
-                    [
-                        "DNS",
-                        "lejeucallac.com"
-                    ],
-                    [
-                        "DNS",
-                        "eyealwaysfeellike.com"
-                    ],
-                    [
-                        "DNS",
-                        "www.sandos.us"
-                    ],
-                    [
-                        "DNS",
-                        "apphome-dev.ddangkongschool.com"
-                    ],
-                    [
-                        "DNS",
-                        "sezeret.com"
-                    ],
-                    [
-                        "DNS",
-                        "test.learningonprod.com"
-                    ],
-                    [
-                        "DNS",
-                        "familytree.labyb.com"
-                    ],
-                    [
-                        "DNS",
-                        "motto-nft.com"
-                    ],
-                    [
-                        "DNS",
-                        "kmttoursegypt.com"
-                    ],
-                    [
-                        "DNS",
-                        "campingberlin.co"
-                    ],
-                    [
-                        "DNS",
-                        "www.take.us"
-                    ],
-                    [
-                        "DNS",
-                        "theorigami.io"
-                    ],
-                    [
-                        "DNS",
-                        "miterabit.com"
-                    ],
-                    [
-                        "DNS",
-                        "admin.cannactrl.com"
-                    ],
-                    [
-                        "DNS",
-                        "ggobul.com"
-                    ],
-                    [
-                        "DNS",
-                        "www.orangegroveproperties.com"
-                    ],
-                    [
-                        "DNS",
-                        "www.saguji.com"
-                    ],
-                    [
-                        "DNS",
-                        "visiosto.com"
-                    ],
-                    [
-                        "DNS",
-                        "designsystem.yokoy.ai"
-                    ],
-                    [
-                        "DNS",
-                        "www.vitormalvestiti.dev"
-                    ],
-                    [
-                        "DNS",
-                        "www.muditkapur.com"
-                    ],
-                    [
-                        "DNS",
-                        "redalertsportal.foodbuy.com"
-                    ],
-                    [
-                        "DNS",
-                        "joshlipinski.com"
-                    ],
-                    [
-                        "DNS",
-                        "sd.prescouter.com"
-                    ],
-                    [
-                        "DNS",
-                        "mfiresource.com"
-                    ],
-                    [
-                        "DNS",
-                        "varejo360.com.br"
-                    ],
-                    [
-                        "DNS",
-                        "smcco.in"
-                    ],
-                    [
-                        "DNS",
-                        "chitchat.tohodo.com"
-                    ],
-                    [
-                        "DNS",
-                        "sparqle.app"
-                    ],
-                    [
-                        "DNS",
-                        "admin-dev.beequick.app"
-                    ],
-                    [
-                        "DNS",
-                        "www.warehousepreleased.com"
-                    ],
-                    [
-                        "DNS",
-                        "relayclosing.com"
-                    ],
-                    [
-                        "DNS",
-                        "sbolel.dev"
-                    ],
-                    [
-                        "DNS",
-                        "zawnshop.com"
-                    ],
-                    [
-                        "DNS",
-                        "bookstruck.in"
-                    ],
-                    [
-                        "DNS",
-                        "fanmosaic.fox"
-                    ],
-                    [
-                        "DNS",
-                        "view.vvsphotos.com"
-                    ],
-                    [
-                        "DNS",
-                        "famvision.it"
-                    ],
-                    [
-                        "DNS",
-                        "startchats.com"
+                        "universidadpolitecnicamesoamericana.lapieza.io"
                     ]
                 ],
                 "OCSP": [
-                    "http://o.pki.goog/s/wr3/WS4"
+                    "http://o.pki.goog/s/wr3/8dQ"
                 ],
                 "caIssuers": [
                     "http://i.pki.goog/wr3.crt"
                 ],
                 "crlDistributionPoints": [
-                    "http://c.pki.goog/wr3/9xUvJCeNSs0.crl"
+                    "http://c.pki.goog/wr3/QFD-W7RJLCQ.crl"
                 ]
             }
         }
@@ -15625,9 +15538,9 @@
         "cert_details": {
             "subject_common_name": "pynq10.dev.iitm.ac.in",
             "issuer_common_name": "E6",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "05ACEAD9DB8A23B2E16D6A6679E6476C7C4F",
+            "valid_from": "May 30 14:48:47 2025 GMT",
+            "valid_to": "Aug 28 14:48:46 2025 GMT",
+            "serial_number": "05B07564386CF636D49C775AD434C259EE9B",
             "full_raw": {
                 "subject": [
                     [
@@ -15658,23 +15571,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05ACEAD9DB8A23B2E16D6A6679E6476C7C4F",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "05B07564386CF636D49C775AD434C259EE9B",
+                "notBefore": "May 30 14:48:47 2025 GMT",
+                "notAfter": "Aug 28 14:48:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq10.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e6.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e6.c.lencr.org/80.crl"
+                    "http://e6.c.lencr.org/28.crl"
                 ]
             }
         }
@@ -15683,9 +15593,9 @@
         "domain": "r2d2.iitm.ac.in",
         "ip": [
             "216.239.34.21",
+            "216.239.32.21",
             "216.239.38.21",
-            "216.239.36.21",
-            "216.239.32.21"
+            "216.239.36.21"
         ],
         "http": [
             301,
@@ -15782,9 +15692,9 @@
         "cert_details": {
             "subject_common_name": "pynq3.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "067B3F8220B9ECD6593661193E19A179DCE4",
+            "valid_from": "May 30 14:48:47 2025 GMT",
+            "valid_to": "Aug 28 14:48:46 2025 GMT",
+            "serial_number": "050CEE41B83D283761E71F6703EC0DA26B3C",
             "full_raw": {
                 "subject": [
                     [
@@ -15815,23 +15725,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "067B3F8220B9ECD6593661193E19A179DCE4",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "050CEE41B83D283761E71F6703EC0DA26B3C",
+                "notBefore": "May 30 14:48:47 2025 GMT",
+                "notAfter": "Aug 28 14:48:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq3.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/101.crl"
+                    "http://e5.c.lencr.org/61.crl"
                 ]
             }
         }
@@ -15857,7 +15764,7 @@
             null
         ],
         "cert_details": {
-            "error": "[WinError 10061] No connection could be made because the target machine actively refused it"
+            "error": "[Errno 111] Connection refused"
         }
     },
     {
@@ -15882,10 +15789,10 @@
         ],
         "cert_details": {
             "subject_common_name": "pynq13.dev.iitm.ac.in",
-            "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "056366A13045BA66798208BE9E269FB42477",
+            "issuer_common_name": "E6",
+            "valid_from": "May 30 14:48:47 2025 GMT",
+            "valid_to": "Aug 28 14:48:46 2025 GMT",
+            "serial_number": "0559944A21C759495BDD316249EEAEFD5EDF",
             "full_raw": {
                 "subject": [
                     [
@@ -15911,28 +15818,25 @@
                     [
                         [
                             "commonName",
-                            "E5"
+                            "E6"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "056366A13045BA66798208BE9E269FB42477",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "0559944A21C759495BDD316249EEAEFD5EDF",
+                "notBefore": "May 30 14:48:47 2025 GMT",
+                "notAfter": "Aug 28 14:48:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq13.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://e5.i.lencr.org/"
+                    "http://e6.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/120.crl"
+                    "http://e6.c.lencr.org/96.crl"
                 ]
             }
         }
@@ -15960,9 +15864,9 @@
         "cert_details": {
             "subject_common_name": "pynq14.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "058E7816F349CB360A9762FCCAEB330FA631",
+            "valid_from": "May 30 14:48:47 2025 GMT",
+            "valid_to": "Aug 28 14:48:46 2025 GMT",
+            "serial_number": "064A03C3408CB1F6AAB24511C43869D0BFED",
             "full_raw": {
                 "subject": [
                     [
@@ -15993,23 +15897,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "058E7816F349CB360A9762FCCAEB330FA631",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "064A03C3408CB1F6AAB24511C43869D0BFED",
+                "notBefore": "May 30 14:48:47 2025 GMT",
+                "notAfter": "Aug 28 14:48:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq14.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/50.crl"
+                    "http://e5.c.lencr.org/110.crl"
                 ]
             }
         }
@@ -16036,10 +15937,10 @@
         ],
         "cert_details": {
             "subject_common_name": "pynq4.dev.iitm.ac.in",
-            "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:56 2025 GMT",
-            "valid_to": "Jun 29 15:38:55 2025 GMT",
-            "serial_number": "0656264CC7AD6AF241E40DCC21F453CC0D81",
+            "issuer_common_name": "E6",
+            "valid_from": "May 30 14:48:47 2025 GMT",
+            "valid_to": "Aug 28 14:48:46 2025 GMT",
+            "serial_number": "0656C54470F3AA9EBBD895F7BF7226A2D976",
             "full_raw": {
                 "subject": [
                     [
@@ -16065,28 +15966,25 @@
                     [
                         [
                             "commonName",
-                            "E5"
+                            "E6"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "0656264CC7AD6AF241E40DCC21F453CC0D81",
-                "notBefore": "Mar 31 15:38:56 2025 GMT",
-                "notAfter": "Jun 29 15:38:55 2025 GMT",
+                "serialNumber": "0656C54470F3AA9EBBD895F7BF7226A2D976",
+                "notBefore": "May 30 14:48:47 2025 GMT",
+                "notAfter": "Aug 28 14:48:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq4.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://e5.i.lencr.org/"
+                    "http://e6.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/2.crl"
+                    "http://e6.c.lencr.org/119.crl"
                 ]
             }
         }
@@ -16150,21 +16048,21 @@
             "Caddy"
         ],
         "https": [
-            null,
-            null,
-            null
+            302,
+            "/tree?",
+            "Caddy, TornadoServer/6.1"
         ],
         "cert": [
-            null,
-            null,
-            null
+            true,
+            "2025-08-28",
+            "pynq2.dev.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "pynq2.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:56 2025 GMT",
-            "valid_to": "Jun 29 15:38:55 2025 GMT",
-            "serial_number": "052475DED5C6D1C69713589213E4E90EACC4",
+            "valid_from": "May 30 14:48:46 2025 GMT",
+            "valid_to": "Aug 28 14:48:45 2025 GMT",
+            "serial_number": "05BCDFA032662E0A3EFD558E338E9AFFD8A0",
             "full_raw": {
                 "subject": [
                     [
@@ -16195,23 +16093,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "052475DED5C6D1C69713589213E4E90EACC4",
-                "notBefore": "Mar 31 15:38:56 2025 GMT",
-                "notAfter": "Jun 29 15:38:55 2025 GMT",
+                "serialNumber": "05BCDFA032662E0A3EFD558E338E9AFFD8A0",
+                "notBefore": "May 30 14:48:46 2025 GMT",
+                "notAfter": "Aug 28 14:48:45 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq2.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/69.crl"
+                    "http://e5.c.lencr.org/33.crl"
                 ]
             }
         }
@@ -16239,9 +16134,9 @@
         "cert_details": {
             "subject_common_name": "pynq7.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "05301711CA5C3B0E11EC4926E072D8AEE85D",
+            "valid_from": "May 30 14:48:47 2025 GMT",
+            "valid_to": "Aug 28 14:48:46 2025 GMT",
+            "serial_number": "059B2AE635CBB13DED042E95536CFB24FBC5",
             "full_raw": {
                 "subject": [
                     [
@@ -16272,23 +16167,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05301711CA5C3B0E11EC4926E072D8AEE85D",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "059B2AE635CBB13DED042E95536CFB24FBC5",
+                "notBefore": "May 30 14:48:47 2025 GMT",
+                "notAfter": "Aug 28 14:48:46 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq7.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/94.crl"
+                    "http://e5.c.lencr.org/70.crl"
                 ]
             }
         }
@@ -16315,10 +16207,10 @@
         ],
         "cert_details": {
             "subject_common_name": "pynq9.dev.iitm.ac.in",
-            "issuer_common_name": "E6",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "0582F25995A41CCC16F860BD373B409CF35D",
+            "issuer_common_name": "E5",
+            "valid_from": "May 30 14:48:46 2025 GMT",
+            "valid_to": "Aug 28 14:48:45 2025 GMT",
+            "serial_number": "05C8D5A19372011B92AF57A1E8AE4EA5192A",
             "full_raw": {
                 "subject": [
                     [
@@ -16344,28 +16236,25 @@
                     [
                         [
                             "commonName",
-                            "E6"
+                            "E5"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "0582F25995A41CCC16F860BD373B409CF35D",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "05C8D5A19372011B92AF57A1E8AE4EA5192A",
+                "notBefore": "May 30 14:48:46 2025 GMT",
+                "notAfter": "Aug 28 14:48:45 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq9.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://e6.i.lencr.org/"
+                    "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e6.c.lencr.org/94.crl"
+                    "http://e5.c.lencr.org/43.crl"
                 ]
             }
         }
@@ -16392,10 +16281,10 @@
         ],
         "cert_details": {
             "subject_common_name": "pynq6.dev.iitm.ac.in",
-            "issuer_common_name": "E6",
-            "valid_from": "Mar 31 15:38:46 2025 GMT",
-            "valid_to": "Jun 29 15:38:45 2025 GMT",
-            "serial_number": "05542E2D513876FD0AF7726345A148D71109",
+            "issuer_common_name": "E5",
+            "valid_from": "May 30 14:48:56 2025 GMT",
+            "valid_to": "Aug 28 14:48:55 2025 GMT",
+            "serial_number": "055BDF667BFFF9DBBB5F85BF6A7AE04275E6",
             "full_raw": {
                 "subject": [
                     [
@@ -16421,28 +16310,25 @@
                     [
                         [
                             "commonName",
-                            "E6"
+                            "E5"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05542E2D513876FD0AF7726345A148D71109",
-                "notBefore": "Mar 31 15:38:46 2025 GMT",
-                "notAfter": "Jun 29 15:38:45 2025 GMT",
+                "serialNumber": "055BDF667BFFF9DBBB5F85BF6A7AE04275E6",
+                "notBefore": "May 30 14:48:56 2025 GMT",
+                "notAfter": "Aug 28 14:48:55 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq6.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://e6.i.lencr.org/"
+                    "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e6.c.lencr.org/10.crl"
+                    "http://e5.c.lencr.org/103.crl"
                 ]
             }
         }
@@ -16470,9 +16356,9 @@
         "cert_details": {
             "subject_common_name": "pynq8.dev.iitm.ac.in",
             "issuer_common_name": "E5",
-            "valid_from": "Mar 31 15:38:55 2025 GMT",
-            "valid_to": "Jun 29 15:38:54 2025 GMT",
-            "serial_number": "05BDBEA840303A33BA9BFC41BC601A92D1AA",
+            "valid_from": "May 30 14:48:46 2025 GMT",
+            "valid_to": "Aug 28 14:48:45 2025 GMT",
+            "serial_number": "056E88E4725D8E6EE4DAF2E06E5C34E0C490",
             "full_raw": {
                 "subject": [
                     [
@@ -16503,23 +16389,20 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "05BDBEA840303A33BA9BFC41BC601A92D1AA",
-                "notBefore": "Mar 31 15:38:55 2025 GMT",
-                "notAfter": "Jun 29 15:38:54 2025 GMT",
+                "serialNumber": "056E88E4725D8E6EE4DAF2E06E5C34E0C490",
+                "notBefore": "May 30 14:48:46 2025 GMT",
+                "notAfter": "Aug 28 14:48:45 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "pynq8.dev.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://e5.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://e5.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://e5.c.lencr.org/43.crl"
+                    "http://e5.c.lencr.org/17.crl"
                 ]
             }
         }
@@ -16527,12 +16410,12 @@
     {
         "domain": "school-connect.study.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
-            301,
-            "https://school-connect.study.iitm.ac.in/",
-            "ESF"
+            null,
+            null,
+            null
         ],
         "https": [
             200,
@@ -16844,60 +16727,7 @@
             null
         ],
         "cert_details": {
-            "subject_common_name": "respark.iitm.ac.in",
-            "issuer_common_name": "R10",
-            "valid_from": "Apr 16 13:27:33 2025 GMT",
-            "valid_to": "Jul 15 13:27:32 2025 GMT",
-            "serial_number": "0581ACB94C674EE356865FDC512589642C0D",
-            "full_raw": {
-                "subject": [
-                    [
-                        [
-                            "commonName",
-                            "respark.iitm.ac.in"
-                        ]
-                    ]
-                ],
-                "issuer": [
-                    [
-                        [
-                            "countryName",
-                            "US"
-                        ]
-                    ],
-                    [
-                        [
-                            "organizationName",
-                            "Let's Encrypt"
-                        ]
-                    ],
-                    [
-                        [
-                            "commonName",
-                            "R10"
-                        ]
-                    ]
-                ],
-                "version": 3,
-                "serialNumber": "0581ACB94C674EE356865FDC512589642C0D",
-                "notBefore": "Apr 16 13:27:33 2025 GMT",
-                "notAfter": "Jul 15 13:27:32 2025 GMT",
-                "subjectAltName": [
-                    [
-                        "DNS",
-                        "respark.iitm.ac.in"
-                    ]
-                ],
-                "OCSP": [
-                    "http://r10.o.lencr.org"
-                ],
-                "caIssuers": [
-                    "http://r10.i.lencr.org/"
-                ],
-                "crlDistributionPoints": [
-                    "http://r10.c.lencr.org/14.crl"
-                ]
-            }
+            "error": "_ssl.c:983: The handshake operation timed out"
         }
     },
     {
@@ -16916,62 +16746,12 @@
             "nginx"
         ],
         "cert": [
-            true,
+            false,
             "2025-06-02",
-            "shaastramag-uat.iitm.ac.in"
+            null
         ],
         "cert_details": {
-            "subject_common_name": "shaastramag-uat.iitm.ac.in",
-            "issuer_common_name": "E6",
-            "valid_from": "Mar  4 05:03:26 2025 GMT",
-            "valid_to": "Jun  2 05:03:25 2025 GMT",
-            "serial_number": "0451A2822B178FC6F9E41B6E26A90BDD0FF8",
-            "full_raw": {
-                "subject": [
-                    [
-                        [
-                            "commonName",
-                            "shaastramag-uat.iitm.ac.in"
-                        ]
-                    ]
-                ],
-                "issuer": [
-                    [
-                        [
-                            "countryName",
-                            "US"
-                        ]
-                    ],
-                    [
-                        [
-                            "organizationName",
-                            "Let's Encrypt"
-                        ]
-                    ],
-                    [
-                        [
-                            "commonName",
-                            "E6"
-                        ]
-                    ]
-                ],
-                "version": 3,
-                "serialNumber": "0451A2822B178FC6F9E41B6E26A90BDD0FF8",
-                "notBefore": "Mar  4 05:03:26 2025 GMT",
-                "notAfter": "Jun  2 05:03:25 2025 GMT",
-                "subjectAltName": [
-                    [
-                        "DNS",
-                        "shaastramag-uat.iitm.ac.in"
-                    ]
-                ],
-                "OCSP": [
-                    "http://e6.o.lencr.org"
-                ],
-                "caIssuers": [
-                    "http://e6.i.lencr.org/"
-                ]
-            }
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
         }
     },
     {
@@ -17271,10 +17051,10 @@
     {
         "domain": "study.iitm.ac.in",
         "ip": [
-            "216.239.38.21",
+            "216.239.34.21",
             "216.239.36.21",
             "216.239.32.21",
-            "216.239.34.21"
+            "216.239.38.21"
         ],
         "http": [
             301,
@@ -17288,15 +17068,15 @@
         ],
         "cert": [
             true,
-            "2025-06-26",
+            "2025-08-25",
             "study.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "study.iitm.ac.in",
             "issuer_common_name": "WR3",
-            "valid_from": "Mar 28 21:59:52 2025 GMT",
-            "valid_to": "Jun 26 22:46:01 2025 GMT",
-            "serial_number": "AC4CDE4BD1CB360F1205FD575F56F942",
+            "valid_from": "May 27 08:04:06 2025 GMT",
+            "valid_to": "Aug 25 08:53:37 2025 GMT",
+            "serial_number": "FDAB4483D3C1AC1D09027700E451302D",
             "full_raw": {
                 "subject": [
                     [
@@ -17327,9 +17107,9 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "AC4CDE4BD1CB360F1205FD575F56F942",
-                "notBefore": "Mar 28 21:59:52 2025 GMT",
-                "notAfter": "Jun 26 22:46:01 2025 GMT",
+                "serialNumber": "FDAB4483D3C1AC1D09027700E451302D",
+                "notBefore": "May 27 08:04:06 2025 GMT",
+                "notAfter": "Aug 25 08:53:37 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -17337,13 +17117,13 @@
                     ]
                 ],
                 "OCSP": [
-                    "http://o.pki.goog/s/wr3/rEw"
+                    "http://o.pki.goog/s/wr3/_as"
                 ],
                 "caIssuers": [
                     "http://i.pki.goog/wr3.crt"
                 ],
                 "crlDistributionPoints": [
-                    "http://c.pki.goog/wr3/aQd59BNjD5A.crl"
+                    "http://c.pki.goog/wr3/MbJBMFoQ-sk.crl"
                 ]
             }
         }
@@ -17528,7 +17308,7 @@
             null
         ],
         "cert_details": {
-            "error": "timed out"
+            "error": "[Errno 113] No route to host"
         }
     },
     {
@@ -17653,7 +17433,7 @@
             null
         ],
         "cert_details": {
-            "error": "timed out"
+            "error": "[Errno 113] No route to host"
         }
     },
     {
@@ -17677,7 +17457,7 @@
             null
         ],
         "cert_details": {
-            "error": "timed out"
+            "error": "[Errno 113] No route to host"
         }
     },
     {
@@ -17985,9 +17765,9 @@
     {
         "domain": "uat.joyofgiving.alumni.iitm.ac.in",
         "ip": [
-            "15.207.149.33",
-            "13.232.15.6",
-            "43.204.193.230"
+            "43.205.221.80",
+            "52.66.123.19",
+            "13.127.229.121"
         ],
         "http": [
             301,
@@ -18064,9 +17844,9 @@
     {
         "domain": "uatv2.joyofgiving.alumni.iitm.ac.in",
         "ip": [
-            "15.207.149.33",
-            "43.204.193.230",
-            "13.232.15.6"
+            "13.127.229.121",
+            "43.205.221.80",
+            "52.66.123.19"
         ],
         "http": [
             301,
@@ -18383,7 +18163,7 @@
             null
         ],
         "cert_details": {
-            "error": "[Errno 11001] getaddrinfo failed"
+            "error": "[Errno -2] Name or service not known"
         }
     },
     {
@@ -18602,9 +18382,9 @@
     {
         "domain": "ssan.iitm.ac.in",
         "ip": [
-            "18.67.161.121",
-            "18.67.161.93",
             "18.67.161.40",
+            "18.67.161.93",
+            "18.67.161.121",
             "18.67.161.106"
         ],
         "http": [
@@ -18716,8 +18496,8 @@
     {
         "domain": "techsoc.iitm.ac.in",
         "ip": [
-            "66.33.60.130",
-            "76.76.21.61"
+            "66.33.60.35",
+            "66.33.60.34"
         ],
         "http": [
             null,
@@ -18765,10 +18545,10 @@
     {
         "domain": "tech-talk.iitm.ac.in",
         "ip": [
-            "18.161.246.123",
             "18.161.246.68",
+            "18.161.246.72",
             "18.161.246.6",
-            "18.161.246.72"
+            "18.161.246.123"
         ],
         "http": [
             200,
@@ -18903,7 +18683,7 @@
     {
         "domain": "www.backend.seek.onlinedegree.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
             302,
@@ -19007,13 +18787,13 @@
             "103.158.43.140"
         ],
         "http": [
-            301,
-            "https://doe.iitm.ac.in/",
+            200,
+            null,
             "Apache/2.4.52 (Ubuntu)"
         ],
         "https": [
-            301,
-            "https://doe.iitm.ac.in/",
+            200,
+            null,
             "Apache/2.4.52 (Ubuntu)"
         ],
         "cert": [
@@ -19334,7 +19114,7 @@
     {
         "domain": "web.ee.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
             301,
@@ -19504,10 +19284,10 @@
         ],
         "cert_details": {
             "subject_common_name": "tlc2.iitm.ac.in",
-            "issuer_common_name": "R10",
-            "valid_from": "Mar 29 16:19:27 2025 GMT",
-            "valid_to": "Jun 27 16:19:26 2025 GMT",
-            "serial_number": "069120AE3333ACC370FDB11342C8F6855C7B",
+            "issuer_common_name": "R11",
+            "valid_from": "May 29 18:19:12 2025 GMT",
+            "valid_to": "Aug 27 18:19:11 2025 GMT",
+            "serial_number": "05BCECB466376CD1946C87645F33800C525C",
             "full_raw": {
                 "subject": [
                     [
@@ -19533,28 +19313,25 @@
                     [
                         [
                             "commonName",
-                            "R10"
+                            "R11"
                         ]
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "069120AE3333ACC370FDB11342C8F6855C7B",
-                "notBefore": "Mar 29 16:19:27 2025 GMT",
-                "notAfter": "Jun 27 16:19:26 2025 GMT",
+                "serialNumber": "05BCECB466376CD1946C87645F33800C525C",
+                "notBefore": "May 29 18:19:12 2025 GMT",
+                "notAfter": "Aug 27 18:19:11 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
                         "tlc2.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://r10.o.lencr.org"
-                ],
                 "caIssuers": [
-                    "http://r10.i.lencr.org/"
+                    "http://r11.i.lencr.org/"
                 ],
                 "crlDistributionPoints": [
-                    "http://r10.c.lencr.org/124.crl"
+                    "http://r11.c.lencr.org/93.crl"
                 ]
             }
         }
@@ -19829,7 +19606,7 @@
     {
         "domain": "www.onlinedegree.iitm.ac.in",
         "ip": [
-            "142.250.196.179"
+            "142.250.195.243"
         ],
         "http": [
             303,
@@ -20098,10 +19875,10 @@
     {
         "domain": "yrf.iitm.ac.in",
         "ip": [
+            "18.161.229.90",
             "18.161.229.10",
-            "18.161.229.127",
             "18.161.229.7",
-            "18.161.229.90"
+            "18.161.229.127"
         ],
         "http": [
             200,
@@ -20250,15 +20027,15 @@
         ],
         "cert": [
             true,
-            "2025-05-29",
+            "2025-08-27",
             "leap.respark.iitm.ac.in"
         ],
         "cert_details": {
             "subject_common_name": "leap.respark.iitm.ac.in",
             "issuer_common_name": "R10",
-            "valid_from": "Feb 28 05:15:30 2025 GMT",
-            "valid_to": "May 29 05:15:29 2025 GMT",
-            "serial_number": "03F6CCFD6C5507890BB977A595EC725E6DFD",
+            "valid_from": "May 29 09:37:59 2025 GMT",
+            "valid_to": "Aug 27 09:37:58 2025 GMT",
+            "serial_number": "06468B44297509B75EEB21708920A56E7FA4",
             "full_raw": {
                 "subject": [
                     [
@@ -20289,9 +20066,9 @@
                     ]
                 ],
                 "version": 3,
-                "serialNumber": "03F6CCFD6C5507890BB977A595EC725E6DFD",
-                "notBefore": "Feb 28 05:15:30 2025 GMT",
-                "notAfter": "May 29 05:15:29 2025 GMT",
+                "serialNumber": "06468B44297509B75EEB21708920A56E7FA4",
+                "notBefore": "May 29 09:37:59 2025 GMT",
+                "notAfter": "Aug 27 09:37:58 2025 GMT",
                 "subjectAltName": [
                     [
                         "DNS",
@@ -20302,11 +20079,11 @@
                         "www.leap.respark.iitm.ac.in"
                     ]
                 ],
-                "OCSP": [
-                    "http://r10.o.lencr.org"
-                ],
                 "caIssuers": [
                     "http://r10.i.lencr.org/"
+                ],
+                "crlDistributionPoints": [
+                    "http://r10.c.lencr.org/37.crl"
                 ]
             }
         }
@@ -20314,8 +20091,8 @@
     {
         "domain": "zanzibar.iitm.ac.in",
         "ip": [
-            "66.33.60.67",
-            "66.33.60.129"
+            "66.33.60.35",
+            "66.33.60.193"
         ],
         "http": [
             308,
@@ -20465,6 +20242,2763 @@
                     "http://e6.c.lencr.org/39.crl"
                 ]
             }
+        }
+    },
+    {
+        "domain": "cae.iitm.ac.in",
+        "ip": [
+            "103.158.42.58"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "bmevsp.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            301,
+            "http://www.indiavsp.org/",
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "cc.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://cc.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.58 (Ubuntu)"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "cmmdip0809.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "ches.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            302,
+            "https://ches.iitm.ac.in",
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "coeut.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://coeut.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "csswww.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "deakiniitmcoe.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "create.iitm.ac.in",
+        "ip": [
+            "103.158.43.119"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.41 (Ubuntu)"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.41 (Ubuntu)"
+        ],
+        "cert": [
+            true,
+            "2025-08-07",
+            "www.ee.iitm.ac.in"
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'create.iitm.ac.in'. (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "ctap.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://ctap.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            301,
+            "https://hss.iitm.ac.in/ctap",
+            null
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "dmc.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "dstuns.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            301,
+            "https://dstuns.iitm.ac.in:443/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            false,
+            "2024-12-22",
+            null
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "ecell.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://ecell.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            302,
+            "/home",
+            "nginx/1.14.0 (Ubuntu)"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "eeservice.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://eeservice.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "facapp.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://facapp.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "genesis.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "gjfund.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "eescholars.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://eescholars.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "ibot.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "indokorea.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "indouk.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "jmet.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "ishmt.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://ishmt.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "nginx/1.18.0 (Ubuntu)"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "measurements.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "mems.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://mems.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "nano.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "mtechspons.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            301,
+            "https://mtechspons.iitm.ac.in:443/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            false,
+            "2024-12-22",
+            null
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "samanvay.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "recruit.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://recruit.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (CentOS Stream) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "tlc.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            301,
+            "https://tlc.iitm.ac.in:443/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            false,
+            "2024-12-22",
+            null
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "tue.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "vsc.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "water.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "trainee.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            301,
+            "https://trainee.iitm.ac.in:443/",
+            null
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            false,
+            "2024-12-22",
+            null
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "www.astro.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "skillsacademy.iitm.ac.in",
+        "ip": [
+            "103.158.42.45"
+        ],
+        "http": [
+            302,
+            "https://skillsacademy.iitm.ac.in/",
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "www.catalysis.eprints.iitm.ac.in",
+        "ip": [
+            "103.158.43.112"
+        ],
+        "http": [
+            302,
+            "http://catalysis.eprints.iitm.ac.in/",
+            "Apache/2.4.7 (Ubuntu)"
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno 111] Connection refused"
+        }
+    },
+    {
+        "domain": "touchlab.iitm.ac.in",
+        "ip": [
+            "103.158.42.51"
+        ],
+        "http": [
+            301,
+            "https://touchlab.iitm.ac.in/",
+            "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_wsgi/3.4 Python/2.7.5"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_wsgi/3.4 Python/2.7.5"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "subject_common_name": "*.iitm.ac.in",
+            "issuer_common_name": "Sectigo RSA Organization Validation Secure Server CA",
+            "valid_from": "Dec  6 00:00:00 2024 GMT",
+            "valid_to": "Jan  6 23:59:59 2026 GMT",
+            "serial_number": "4440BF81FC36A50CEDB5730B34880330",
+            "full_raw": {
+                "subject": [
+                    [
+                        [
+                            "countryName",
+                            "IN"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Tamil Nadu"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Indian Institute of Technology Madras"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "*.iitm.ac.in"
+                        ]
+                    ]
+                ],
+                "issuer": [
+                    [
+                        [
+                            "countryName",
+                            "GB"
+                        ]
+                    ],
+                    [
+                        [
+                            "stateOrProvinceName",
+                            "Greater Manchester"
+                        ]
+                    ],
+                    [
+                        [
+                            "localityName",
+                            "Salford"
+                        ]
+                    ],
+                    [
+                        [
+                            "organizationName",
+                            "Sectigo Limited"
+                        ]
+                    ],
+                    [
+                        [
+                            "commonName",
+                            "Sectigo RSA Organization Validation Secure Server CA"
+                        ]
+                    ]
+                ],
+                "version": 3,
+                "serialNumber": "4440BF81FC36A50CEDB5730B34880330",
+                "notBefore": "Dec  6 00:00:00 2024 GMT",
+                "notAfter": "Jan  6 23:59:59 2026 GMT",
+                "subjectAltName": [
+                    [
+                        "DNS",
+                        "*.iitm.ac.in"
+                    ],
+                    [
+                        "DNS",
+                        "iitm.ac.in"
+                    ]
+                ],
+                "OCSP": [
+                    "http://ocsp.sectigo.com"
+                ],
+                "caIssuers": [
+                    "http://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt"
+                ],
+                "crlDistributionPoints": [
+                    "http://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl"
+                ]
+            }
+        }
+    },
+    {
+        "domain": "www.genesis.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "www.library.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "www.amalgam.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.amalgam.iitm.ac.in'. (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "www.coap.iitm.ac.in",
+        "ip": [
+            "103.158.43.176"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.58 (Ubuntu)"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.58 (Ubuntu)"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "www.qip.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            null,
+            null,
+            null
+        ],
+        "https": [
+            null,
+            null,
+            null
+        ],
+        "cert": [
+            null,
+            null,
+            null
+        ],
+        "cert_details": {
+            "error": "[Errno -2] Name or service not known"
+        }
+    },
+    {
+        "domain": "www.ivil.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ivil.iitm.ac.in'. (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "www.mitr.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.mitr.iitm.ac.in'. (_ssl.c:1000)"
+        }
+    },
+    {
+        "domain": "www.vsc.iitm.ac.in",
+        "ip": [
+            "103.158.42.52"
+        ],
+        "http": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "https": [
+            200,
+            null,
+            "Apache/2.4.37 (centos) OpenSSL/1.1.1k"
+        ],
+        "cert": [
+            true,
+            "2026-01-06",
+            "*.iitm.ac.in"
+        ],
+        "cert_details": {
+            "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.vsc.iitm.ac.in'. (_ssl.c:1000)"
         }
     }
 ]
