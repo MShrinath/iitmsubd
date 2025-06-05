@@ -1,0 +1,329 @@
+domain,dns_resolves,ip_address,http_status,https_status,notes
+asr.iitm.ac.in,True,10.24.6.151,200,200,
+ae.iitm.ac.in,True,10.21.40.77,200,200,
+bcga.iitm.ac.in,True,10.21.184.153,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='bcga.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)')))"
+admissions-bsmse.iitm.ac.in,True,10.24.1.71,200,200,
+bioincubator.iitm.ac.in,True,10.24.9.248,200,200,
+appsgate.iitm.ac.in,True,10.21.216.231,200,200,
+asr.dev.iitm.ac.in,True,103.158.43.64,502,502,
+btcm.iitm.ac.in,False,,,,DNS resolution failed
+api.cms-beta.study.iitm.ac.in,True,35.201.74.145,404,404,
+admin.exams.study.iitm.ac.in,True,199.36.158.100,200,200,
+catalysis.chem.iitm.ac.in,True,10.24.0.162,200,200,
+biotech.iitm.ac.in,True,10.24.9.248,200,200,
+alumni.iitm.ac.in,True,108.158.46.104,404,404,
+ai4bharat.iitm.ac.in,True,185.199.108.153,200,200,
+archive.iitm.ac.in,True,13.248.243.5,200,200,
+cb-dev.seek.study.iitm.ac.in,True,35.190.67.10,200,200,
+cb-exam.seek.study.iitm.ac.in,True,34.149.243.161,200,200,
+bharatbhasha.respark.iitm.ac.in,True,121.242.232.208,200,200,
+cb-staging.seek.study.iitm.ac.in,True,34.149.13.74,200,200,
+app.onlinedegree.iitm.ac.in,True,216.239.38.21,200,200,
+apm.iitm.ac.in,True,10.24.9.248,200,200,
+backend.seek.onlinedegree.iitm.ac.in,True,216.239.34.21,200,200,
+cfi.iitm.ac.in,True,10.24.1.88,200,200,
+ccd.cse.iitm.ac.in,True,10.21.227.7,200,200,
+civil.iitm.ac.in,True,10.24.9.248,200,200,
+admissions.ge.iitm.ac.in,True,15.206.54.181,200,200,
+backend.exams.study.iitm.ac.in,True,142.250.195.211,200,200,
+cacs.iitm.ac.in,True,139.59.64.28,200,200,
+app.diploma.iitm.ac.in,True,142.250.195.211,200,200,
+ccw.iitm.ac.in,True,10.24.9.248,200,200,
+cammd.iitm.ac.in,True,68.178.147.71,200,200,
+coap.iitm.ac.in,True,10.21.216.230,200,200,
+ceet.iitm.ac.in,True,3.7.32.22,200,200,
+car.iitm.ac.in,True,10.21.24.228,200,Failed,"HTTPS request failed: HTTPSConnectionPool(host='car.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B105556340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+biomimicry.iitm.ac.in,True,34.149.87.45,404,404,
+cppics.iitm.ac.in,True,10.24.9.248,200,200,
+catalysis.eprints.iitm.ac.in,True,10.21.72.214,200,Failed,"HTTPS request failed: HTTPSConnectionPool(host='catalysis.eprints.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B1055722E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+cms-beta.study.iitm.ac.in,True,199.36.158.100,200,200,
+csbm.iitm.ac.in,True,10.24.9.248,200,200,
+cse.iitm.ac.in,True,10.21.227.7,200,200,
+chennai36.iitm.ac.in,True,13.227.249.110,200,200,
+cstf.iitm.ac.in,True,10.24.9.248,200,200,
+csie.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='csie.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+acr.iitm.ac.in,True,108.158.46.104,200,200,
+code.iitm.ac.in,True,34.100.211.61,200,200,
+cessa.iitm.ac.in,True,68.178.146.88,200,200,
+dart.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='dart.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+cb-prod.seek.study.iitm.ac.in,True,34.36.226.219,200,200,
+cs1102.study.iitm.ac.in,True,34.93.154.121,200,200,
+5gtbdocs.dev.iitm.ac.in,True,103.158.43.64,Failed,502,"HTTP request failed: HTTPSConnectionPool(host='5gtbdocs.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+10x.respark.iitm.ac.in,True,43.205.17.188,200,200,
+drone.ee2003.dev.iitm.ac.in,True,103.158.43.64,502,502,
+dost.iitm.ac.in,True,10.24.9.248,200,200,
+dev.seek.study.iitm.ac.in,True,199.36.158.100,200,200,
+aidblab.cse.iitm.ac.in,True,10.21.226.115,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='aidblab.cse.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054D6B50>, 'Connection to aidblab.cse.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='aidblab.cse.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1055044F0>, 'Connection to aidblab.cse.iitm.ac.in timed out. (connect timeout=5)'))"
+aero2.ae.iitm.ac.in,True,10.1.0.2,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='aero2.ae.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105478C10>, 'Connection to aero2.ae.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='aero2.ae.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105601190>, 'Connection to aero2.ae.iitm.ac.in timed out. (connect timeout=5)'))"
+autodiscover.iitm.ac.in,True,10.24.3.64,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='autodiscover.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054F57C0>, 'Connection to autodiscover.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='autodiscover.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1055F28E0>, 'Connection to autodiscover.iitm.ac.in timed out. (connect timeout=5)'))"
+ae2.iitm.ac.in,True,10.1.0.2,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='ae2.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105455850>, 'Connection to ae2.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='ae2.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1055F29D0>, 'Connection to ae2.iitm.ac.in timed out. (connect timeout=5)'))"
+doe.iitm.ac.in,True,10.24.8.93,200,200,
+ed.iitm.ac.in,True,10.21.88.201,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='ed.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)')))"
+ee5332.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='ee5332.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='ee5332.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+bbb.evc.iitm.ac.in,True,14.139.160.25,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='bbb.evc.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B10554A2E0>, 'Connection to bbb.evc.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='bbb.evc.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10558BD60>, 'Connection to bbb.evc.iitm.ac.in timed out. (connect timeout=5)'))"
+cce.iitm.ac.in,True,10.24.0.190,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='cce.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='cce.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+eeuop.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='eeuop.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+eegpu.dev.iitm.ac.in,True,103.158.43.64,200,200,
+ee2003.dev.iitm.ac.in,True,103.158.43.64,200,200,
+diploma.iitm.ac.in,True,216.239.38.21,200,200,
+eex.dev.iitm.ac.in,True,103.158.43.64,200,200,
+doms.iitm.ac.in,True,10.24.9.248,200,200,
+ee.iitm.ac.in,True,10.24.8.165,200,200,
+datacommons.iitm.ac.in,True,34.111.65.19,200,200,
+ds.study.iitm.ac.in,True,216.239.38.21,200,200,
+ers.iitm.ac.in,True,10.21.24.226,200,200,
+ctcs.iitm.ac.in,True,34.149.87.45,200,200,
+cec.iitm.ac.in,True,88.222.247.65,200,200,
+courses.iitm.ac.in,True,15.207.12.152,200,200,
+coezet.iitm.ac.in,True,10.21.24.203,Failed,200,"HTTP request failed: HTTPConnectionPool(host='coezet.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1055763D0>, 'Connection to coezet.iitm.ac.in timed out. (connect timeout=5)'))"
+blog.techsoc.iitm.ac.in,True,65.1.226.63,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='blog.techsoc.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B10554A6A0>, 'Connection to blog.techsoc.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='blog.techsoc.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10548AC40>, 'Connection to blog.techsoc.iitm.ac.in timed out. (connect timeout=5)'))"
+dns1.iitm.ac.in,True,10.24.4.10,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='dns1.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B105601A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')); HTTPS request failed: HTTPSConnectionPool(host='dns1.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B10557ED60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+fd.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='fd.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='fd.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+enggunit.iitm.ac.in,True,10.24.9.248,200,200,
+dns2.iitm.ac.in,True,10.24.4.11,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='dns2.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B10560BBB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')); HTTPS request failed: HTTPSConnectionPool(host='dns2.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B10558B460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+gate.iitm.ac.in,True,10.21.216.230,200,200,
+courses0.iitm.ac.in,True,10.24.0.215,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='courses0.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105576700>, 'Connection to courses0.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='courses0.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10557E0A0>, 'Connection to courses0.iitm.ac.in timed out. (connect timeout=5)'))"
+e-verify.acservices.iitm.ac.in,True,142.250.195.211,200,200,
+gitlab.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='gitlab.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='gitlab.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+csc.iitm.ac.in,True,10.24.0.192,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='csc.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)'))); HTTPS request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+cryoem.iitm.ac.in,True,68.178.145.145,200,200,
+git.ee2003.dev.iitm.ac.in,True,103.158.43.64,200,200,
+home.iitm.ac.in,True,10.24.9.76,200,200,
+hospital.iitm.ac.in,True,10.24.9.248,200,200,
+ftp.iitm.ac.in,True,10.24.0.100,200,200,
+ge.iitm.ac.in,True,108.158.251.19,200,200,
+cmsrv.iitm.ac.in,True,10.24.0.156,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='cmsrv.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105511DC0>, 'Connection to cmsrv.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='cmsrv.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105572190>, 'Connection to cmsrv.iitm.ac.in timed out. (connect timeout=5)'))"
+dsai.iitm.ac.in,True,52.66.128.36,200,200,
+es.study.iitm.ac.in,True,216.239.34.21,200,200,
+appdev.onlinedegree.iitm.ac.in,True,35.185.44.232,200,200,
+exams.study.iitm.ac.in,True,199.36.158.100,200,200,
+hosteldine.iitm.ac.in,True,10.24.9.248,200,200,
+hpce.iitm.ac.in,True,10.24.9.248,200,200,
+iitmwww.iitm.ac.in,False,,,,DNS resolution failed
+forms.study.iitm.ac.in,True,34.117.211.177,Failed,200,"HTTP request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+heritage.iitm.ac.in,True,52.66.127.0,200,200,
+hc-uat.iitm.ac.in,True,52.66.127.0,401,401,
+icsrpis.iitm.ac.in,True,10.21.24.226,200,200,
+icsris.iitm.ac.in,True,10.21.25.239,Failed,200,"HTTP request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+idp.iitm.ac.in,True,10.24.0.137,200,200,
+icandsr.iitm.ac.in,True,10.24.9.248,200,200,
+htic.iitm.ac.in,True,10.24.9.248,200,200,
+hsee.iitm.ac.in,True,10.24.1.71,200,200,
+discourse.onlinedegree.iitm.ac.in,True,184.104.178.43,200,200,
+csemail.iitm.ac.in,True,10.6.5.215,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='csemail.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1055046D0>, 'Connection to csemail.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='csemail.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105521C40>, 'Connection to csemail.iitm.ac.in timed out. (connect timeout=5)'))"
+events.respark.iitm.ac.in,True,121.242.232.208,200,200,
+ipa.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='ipa.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='ipa.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+ikollege.iitm.ac.in,True,10.24.9.248,200,200,
+jitsi.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='jitsi.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='jitsi.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+ia.iitm.ac.in,True,108.158.46.104,200,200,
+jeeadv.iitm.ac.in,True,10.24.1.71,200,200,
+ioas.iitm.ac.in,True,10.21.25.239,Failed,200,"HTTP request failed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+joaps.iitm.ac.in,True,10.21.216.231,200,200,
+jup.ee1103.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='jup.ee1103.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='jup.ee1103.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+lotus.iitm.ac.in,False,,,,DNS resolution failed
+hss.iitm.ac.in,True,10.24.9.248,200,200,
+jup.ee2003.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='jup.ee2003.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='jup.ee2003.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+inup.iitm.ac.in,True,10.24.9.248,200,200,
+jup.ee5332.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='jup.ee5332.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='jup.ee5332.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+jeerep.iitm.ac.in,True,10.24.1.71,200,200,
+jup.dev.iitm.ac.in,True,103.158.43.64,200,200,
+dns3.iitm.ac.in,True,35.244.9.74,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='dns3.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105601E50>, 'Connection to dns3.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='dns3.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10548AF40>, 'Connection to dns3.iitm.ac.in timed out. (connect timeout=5)'))"
+internship.iitm.ac.in,True,20.235.8.220,200,200,
+ioe.iitm.ac.in,True,18.161.229.77,200,200,
+joyofgiving.alumni.iitm.ac.in,True,108.158.251.40,200,200,
+chem.iitm.ac.in,True,10.24.0.11,200,200,
+dos.iitm.ac.in,True,10.21.226.172,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='dos.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B10549EFA0>, 'Connection to dos.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='dos.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10558B0A0>, 'Connection to dos.iitm.ac.in timed out. (connect timeout=5)'))"
+incubation.iitm.ac.in,True,121.242.232.210,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='rtbi.in', port=443): Max retries exceeded with url: /incubationiitm/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1108)')))"
+math.iitm.ac.in,True,10.24.9.248,200,200,
+moodle.ee5332.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='moodle.ee5332.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='moodle.ee5332.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+iitmk8s.wcte.iitm.ac.in,True,4.213.221.145,Failed,200,"HTTP request failed: HTTPConnectionPool(host='iitmk8s.wcte.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105511730>, 'Connection to iitmk8s.wcte.iitm.ac.in timed out. (connect timeout=5)'))"
+mailx4.iitm.ac.in,True,10.24.0.134,200,200,
+email.iitm.ac.in,True,10.24.3.64,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='email.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1055A4760>, 'Connection to email.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='email.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10558BAC0>, 'Connection to email.iitm.ac.in timed out. (connect timeout=5)'))"
+mech.iitm.ac.in,True,10.24.9.248,200,200,
+mea.iitm.ac.in,True,10.24.9.248,200,200,
+mailx2.iitm.ac.in,True,10.24.0.124,200,Failed,"HTTPS request failed: HTTPSConnectionPool(host='mailx2.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B105455D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+keepitflowing.alumni.iitm.ac.in,True,15.207.24.252,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='keepitflowing.alumni.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+monitor.dev.iitm.ac.in,True,103.158.43.64,200,200,
+leap.respark.iitm.ac.in,True,121.242.232.204,200,200,
+impactstories.iitm.ac.in,True,199.60.103.29,404,404,
+mm.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='mm.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='mm.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+mtechadm.iitm.ac.in,True,10.21.216.230,200,200,
+empower23.respark.iitm.ac.in,True,13.251.87.251,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='empower23.respark.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105472880>, 'Connection to empower23.respark.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='empower23.respark.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105601910>, 'Connection to empower23.respark.iitm.ac.in timed out. (connect timeout=5)'))"
+nbg.dev.iitm.ac.in,True,103.158.43.64,200,200,
+mme.iitm.ac.in,True,10.24.9.248,200,200,
+nctb.iitm.ac.in,True,10.24.9.248,200,200,
+fees.iitm.ac.in,True,18.223.7.2,Failed,200,"HTTP request failed: HTTPConnectionPool(host='fees.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105511070>, 'Connection to fees.iitm.ac.in timed out. (connect timeout=5)'))"
+publications.cse.iitm.ac.in,False,,,,DNS resolution failed
+evc.iitm.ac.in,True,14.139.160.25,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='evc.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054788B0>, 'Connection to evc.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='evc.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1054A5310>, 'Connection to evc.iitm.ac.in timed out. (connect timeout=5)'))"
+ext01ldap.iitm.ac.in,True,10.24.9.71,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='ext01ldap.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054B5C70>, 'Connection to ext01ldap.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='ext01ldap.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105431D00>, 'Connection to ext01ldap.iitm.ac.in timed out. (connect timeout=5)'))"
+mentorship.study.iitm.ac.in,True,35.244.25.117,200,200,
+pallava.iitm.ac.in,True,10.24.0.163,200,200,
+instisafe.iitm.ac.in,True,10.24.0.190,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='instisafe.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='instisafe.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+ovd.iitm.ac.in,True,10.24.9.36,200,200,
+mst.iitm.ac.in,True,88.222.247.65,200,200,
+owncloud.iitm.ac.in,True,10.24.8.110,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='owncloud.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+periurban.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='periurban.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+pace.cse.iitm.ac.in,True,10.21.227.7,200,200,
+nccrd.iitm.ac.in,True,10.24.9.248,200,200,
+ms2001p.study.iitm.ac.in,True,34.93.192.119,200,200,
+pbl.biotech.iitm.ac.in,True,10.24.9.248,200,200,
+nssi.iitm.ac.in,True,10.24.0.162,200,200,
+onlinedegree.iitm.ac.in,True,216.239.38.21,200,200,
+nptelonlinecourses.iitm.ac.in,True,142.250.77.148,404,404,
+physics.iitm.ac.in,True,10.24.9.248,200,200,
+mailx3.iitm.ac.in,True,10.24.0.133,Failed,200,"HTTP request failed: HTTPConnectionPool(host='mailx3.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B105511370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+ntcpwc.iitm.ac.in,True,10.17.24.57,200,200,
+payments.study.iitm.ac.in,True,34.8.180.70,200,200,
+pve.dev.iitm.ac.in,True,103.158.43.64,200,200,
+pynq5.dev.iitm.ac.in,True,103.158.43.64,200,200,
+remote.iitm.ac.in,True,10.24.4.222,200,200,
+moodle.respark.iitm.ac.in,True,121.242.232.204,200,200,
+giftshop.iitm.ac.in,True,204.141.43.194,200,200,
+redmine.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='redmine.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='redmine.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+placement.iitm.ac.in,True,52.172.26.26,200,200,
+rbg.iitm.ac.in,True,10.24.6.128,200,200,
+rbcdsai.iitm.ac.in,True,10.24.9.248,200,200,
+nsm.iitm.ac.in,True,10.24.6.97,200,Failed,"HTTPS request failed: HTTPSConnectionPool(host='nsm.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B105601FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+saif.iitm.ac.in,True,10.24.9.248,200,200,
+placements.study.iitm.ac.in,True,35.200.132.199,200,200,
+research.iitm.ac.in,True,10.24.0.172,200,200,
+jitsi.evc.iitm.ac.in,True,14.139.160.25,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='jitsi.evc.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054A15B0>, 'Connection to jitsi.evc.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='jitsi.evc.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1055115B0>, 'Connection to jitsi.evc.iitm.ac.in timed out. (connect timeout=5)'))"
+philanthropy.iitm.ac.in,True,199.60.103.29,404,404,
+kushal.iitm.ac.in,True,20.219.96.44,Failed,200,"HTTP request failed: HTTPConnectionPool(host='kushal.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105472130>, 'Connection to kushal.iitm.ac.in timed out. (connect timeout=5)'))"
+se2001.ds.study.iitm.ac.in,True,194.195.113.53,200,200,
+seek.onlinedegree.iitm.ac.in,True,151.101.1.195,200,200,
+semantic.iitm.ac.in,True,10.24.1.78,200,200,
+seek.study.iitm.ac.in,True,199.36.158.100,200,200,
+sfp.iitm.ac.in,True,10.24.9.248,200,200,
+rpcrm.iitm.ac.in,True,103.103.196.126,200,200,
+oldcourses.iitm.ac.in,True,10.24.2.22,Failed,200,"HTTP request failed: HTTPConnectionPool(host='oldcourses.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105455BB0>, 'Connection to oldcourses.iitm.ac.in timed out. (connect timeout=5)'))"
+r2d2.iitm.ac.in,True,216.239.36.21,200,200,
+kashitamil.iitm.ac.in,True,3.17.105.204,Failed,200,"HTTP request failed: HTTPConnectionPool(host='kashitamil.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B10560B730>, 'Connection to kashitamil.iitm.ac.in timed out. (connect timeout=5)'))"
+irepose.iitm.ac.in,True,10.24.0.241,200,200,
+rise.cse.iitm.ac.in,True,10.21.226.184,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='rise.cse.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B10558B040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')); HTTPS request failed: HTTPSConnectionPool(host='rise.cse.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B1054B1730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+pynq12.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq12.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq12.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+o1.ptr404.mail.nptel.iitm.ac.in,True,149.72.209.135,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='o1.ptr404.mail.nptel.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B105455B80>, 'Connection to o1.ptr404.mail.nptel.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='o1.ptr404.mail.nptel.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B10557EA90>, 'Connection to o1.ptr404.mail.nptel.iitm.ac.in timed out. (connect timeout=5)'))"
+students.iitm.ac.in,True,10.24.8.215,Failed,502,"HTTP request failed: HTTPSConnectionPool(host='students.iitm.ac.in', port=443): Max retries exceeded with url: // (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)')))"
+pynq2.dev.iitm.ac.in,True,103.158.43.64,200,200,
+old.ge.iitm.ac.in,True,3.87.102.249,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='old.ge.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B10558B7C0>, 'Connection to old.ge.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='old.ge.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1054B1190>, 'Connection to old.ge.iitm.ac.in timed out. (connect timeout=5)'))"
+pynq1.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq1.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq1.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+pynq11.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq11.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq11.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+pynq10.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq10.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq10.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+pynq3.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq3.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq3.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+school-connect.study.iitm.ac.in,True,142.250.195.211,200,200,
+term.ee2003.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='term.ee2003.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='term.ee2003.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+term.ee1103.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='term.ee1103.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='term.ee1103.dev.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1108)')))"
+staging.seek.study.iitm.ac.in,True,199.36.158.100,200,200,
+theory.cse.iitm.ac.in,True,10.21.227.7,200,200,
+shaastramag-uat.iitm.ac.in,True,52.66.170.228,Failed,401,"HTTP request failed: HTTPSConnectionPool(host='shaastramag-uat.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+uay.iitm.ac.in,True,10.21.25.239,Failed,403,"HTTP request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+waf1.iitm.ac.in,True,10.24.0.190,503,503,
+waf2.iitm.ac.in,True,10.24.0.211,503,503,
+tgh.iitm.ac.in,True,10.24.9.248,200,200,
+waf01.iitm.ac.in,True,10.24.9.248,503,503,
+pynq13.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq13.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq13.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+vanavani.iitm.ac.in,True,10.24.9.248,200,200,
+waf3.iitm.ac.in,True,10.24.0.228,503,Failed,"HTTPS request failed: HTTPSConnectionPool(host='waf3.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1108)')))"
+waf6.iitm.ac.in,True,10.24.0.191,503,503,
+study.iitm.ac.in,True,216.239.34.21,200,200,
+pynq14.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq14.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq14.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+vivaflow.study.iitm.ac.in,True,34.8.215.252,Failed,200,"HTTP request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+pynq4.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq4.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq4.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+scholars.iitm.ac.in,True,10.24.1.54,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='scholars.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054BFD00>, 'Connection to scholars.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='scholars.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105511070>, 'Connection to scholars.iitm.ac.in timed out. (connect timeout=5)'))"
+waf7.iitm.ac.in,True,10.24.0.192,503,503,
+web.zmail.iitm.ac.in,True,10.24.3.144,200,200,
+pynq7.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq7.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq7.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+web.iitm.ac.in,True,10.24.9.248,200,200,
+webtest.dev.iitm.ac.in,True,103.158.43.64,502,502,
+pynq9.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq9.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq9.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+pynq6.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq6.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq6.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+uat.joyofgiving.alumni.iitm.ac.in,True,43.205.221.80,401,401,
+www.htic.iitm.ac.in,False,,,,DNS resolution failed
+uatv2.joyofgiving.alumni.iitm.ac.in,True,43.205.221.80,401,401,
+web1.iitm.ac.in,True,10.24.0.161,200,200,
+wmail.iitm.ac.in,True,10.24.0.163,200,200,
+pynq8.dev.iitm.ac.in,True,103.158.43.64,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='pynq8.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='pynq8.dev.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+webopac.iitm.ac.in,True,10.24.0.173,200,200,
+www.dstuns.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='www.dstuns.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+techsoc.iitm.ac.in,True,76.76.21.98,404,Failed,"HTTPS request failed: ('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))"
+www.ioas.iitm.ac.in,True,10.21.25.239,Failed,Failed,"HTTP request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); HTTPS request failed: ('Connection aborted.', FileNotFoundError(2, 'No such file or directory'))"
+shaastramag.iitm.ac.in,True,52.66.170.228,200,200,
+www.ed.iitm.ac.in,True,10.21.88.201,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='ed.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)')))"
+www.doe.iitm.ac.in,True,10.24.8.93,200,200,
+www.iitm.ac.in,True,10.24.9.248,403,403,
+tech-talk.iitm.ac.in,True,13.227.249.76,200,200,
+www.gate.iitm.ac.in,True,10.21.216.230,200,200,
+www.cse.iitm.ac.in,True,10.21.227.7,200,200,
+www.ee.iitm.ac.in,True,10.24.8.165,200,200,
+www.backend.seek.onlinedegree.iitm.ac.in,True,142.250.192.83,200,200,
+wcte.iitm.ac.in,True,20.235.244.223,200,200,
+web.ee.iitm.ac.in,True,142.250.195.211,200,200,
+zmail.iitm.ac.in,True,10.24.3.144,200,200,
+www.mtechadm.iitm.ac.in,True,10.21.216.230,200,200,
+www.biomimicry.iitm.ac.in,True,34.149.87.45,404,404,
+respark.iitm.ac.in,True,3.110.10.77,200,Failed,"HTTPS request failed: HTTPSConnectionPool(host='respark.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+wsai.iitm.ac.in,True,52.66.128.36,200,200,
+www.onlinedegree.iitm.ac.in,True,142.250.195.211,200,200,
+smtp1.iitm.ac.in,True,10.24.8.102,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='smtp1.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1055D4A30>, 'Connection to smtp1.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='smtp1.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1055F2970>, 'Connection to smtp1.iitm.ac.in timed out. (connect timeout=5)'))"
+www.incubation.iitm.ac.in,True,121.242.232.210,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='www.incubation.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(""hostname 'www.incubation.iitm.ac.in' doesn't match 'incubation.iitm.ac.in'"")))"
+siddhi.iitm.ac.in,True,52.45.184.64,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='siddhi.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1055D4790>, 'Connection to siddhi.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='siddhi.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1055A44F0>, 'Connection to siddhi.iitm.ac.in timed out. (connect timeout=5)'))"
+yrf.iitm.ac.in,True,18.161.229.9,200,200,
+www.ctcs.iitm.ac.in,True,34.149.87.45,200,200,
+www.leap.respark.iitm.ac.in,True,121.242.232.204,200,200,
+tlc2.iitm.ac.in,True,167.86.68.80,200,200,
+cae.iitm.ac.in,False,,,,DNS resolution failed
+zanzibar.iitm.ac.in,True,66.33.60.35,200,200,
+bmevsp.iitm.ac.in,True,10.24.0.162,Failed,200,"HTTP request failed: HTTPConnectionPool(host='www.indiavsp.org', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(""<urllib3.connection.HTTPConnection object at 0x000001B105511C40>: Failed to resolve 'www.indiavsp.org' ([Errno 11001] getaddrinfo failed)""))"
+cmmdip0809.iitm.ac.in,False,,,,DNS resolution failed
+ches.iitm.ac.in,True,10.24.0.162,200,200,
+cc.iitm.ac.in,True,10.24.9.248,200,200,
+csswww.iitm.ac.in,False,,,,DNS resolution failed
+smtp2.iitm.ac.in,True,10.24.1.48,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='smtp2.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054B4280>, 'Connection to smtp2.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='smtp2.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B1054B4B20>, 'Connection to smtp2.iitm.ac.in timed out. (connect timeout=5)'))"
+smtp.iitm.ac.in,True,10.24.8.102,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='smtp.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1055219A0>, 'Connection to smtp.iitm.ac.in timed out. (connect timeout=5)')); HTTPS request failed: HTTPSConnectionPool(host='smtp.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001B105601DF0>, 'Connection to smtp.iitm.ac.in timed out. (connect timeout=5)'))"
+deakiniitmcoe.iitm.ac.in,True,10.24.0.162,200,200,
+coeut.iitm.ac.in,True,10.24.9.248,200,200,
+dmc.iitm.ac.in,True,10.24.0.162,200,200,
+create.iitm.ac.in,True,10.24.8.165,200,200,
+dstuns.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='dstuns.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+ecell.iitm.ac.in,True,10.24.9.248,200,200,
+genesis.iitm.ac.in,False,,,,DNS resolution failed
+gjfund.iitm.ac.in,False,,,,DNS resolution failed
+facapp.iitm.ac.in,True,10.24.9.248,200,200,
+ibot.iitm.ac.in,False,,,,DNS resolution failed
+indokorea.iitm.ac.in,False,,,,DNS resolution failed
+indouk.iitm.ac.in,False,,,,DNS resolution failed
+jmet.iitm.ac.in,False,,,,DNS resolution failed
+eeservice.iitm.ac.in,True,10.24.9.248,200,200,
+measurements.iitm.ac.in,False,,,,DNS resolution failed
+ishmt.iitm.ac.in,True,10.24.9.248,200,200,
+eescholars.iitm.ac.in,True,10.24.9.248,200,200,
+nano.iitm.ac.in,True,10.24.0.162,200,200,
+mems.iitm.ac.in,True,10.24.9.248,200,200,
+samanvay.iitm.ac.in,False,,,,DNS resolution failed
+mtechspons.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='mtechspons.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+tlc.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='tlc.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+recruit.iitm.ac.in,True,10.24.9.248,200,200,
+www.shaastramag.iitm.ac.in,True,52.66.170.228,200,200,
+water.iitm.ac.in,False,,,,DNS resolution failed
+www.astro.iitm.ac.in,False,,,,DNS resolution failed
+tue.iitm.ac.in,True,10.24.0.162,200,200,
+vsc.iitm.ac.in,True,10.24.0.162,200,200,
+trainee.iitm.ac.in,True,10.24.0.190,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='trainee.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)')))"
+ctap.iitm.ac.in,True,10.24.9.248,200,200,
+www.genesis.iitm.ac.in,False,,,,DNS resolution failed
+www.library.iitm.ac.in,False,,,,DNS resolution failed
+www.amalgam.iitm.ac.in,True,10.24.0.162,200,200,
+www.qip.iitm.ac.in,False,,,,DNS resolution failed
+www.coap.iitm.ac.in,True,10.21.216.230,200,200,
+www.ivil.iitm.ac.in,True,10.24.0.162,200,200,
+www.chem.iitm.ac.in,True,10.24.0.11,Failed,200,"HTTP request failed: HTTPSConnectionPool(host='www.chem.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError(""hostname 'www.chem.iitm.ac.in' doesn't match either of '*.iitm.ac.in', 'iitm.ac.in'"")))"
+www.mitr.iitm.ac.in,True,10.24.0.162,200,200,
+www.vsc.iitm.ac.in,True,10.24.0.162,200,200,
+www.ae.iitm.ac.in,True,10.21.40.77,200,200,
+ssan.iitm.ac.in,True,18.67.161.121,Failed,Failed,"HTTP request failed: HTTPConnectionPool(host='ssan.iitm.ac.in', port=80): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='ssan.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+womensforum.iitm.ac.in,True,10.24.0.190,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='womensforum.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1108)'))); HTTPS request failed: HTTPSConnectionPool(host='womensforum.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
+touchlab.iitm.ac.in,True,10.24.0.161,200,200,
+www.catalysis.eprints.iitm.ac.in,True,10.21.72.214,200,Failed,"HTTPS request failed: HTTPSConnectionPool(host='www.catalysis.eprints.iitm.ac.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001B105576CA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))"
+sri.iitm.ac.in,True,52.15.171.153,Failed,200,"HTTP request failed: HTTPConnectionPool(host='sri.iitm.ac.in', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001B1054A1580>, 'Connection to sri.iitm.ac.in timed out. (connect timeout=5)'))"
+skillsacademy.iitm.ac.in,True,10.24.9.248,Failed,Failed,"HTTP request failed: HTTPSConnectionPool(host='skillsacademy.iitm.ac.in', port=443): Read timed out. (read timeout=5); HTTPS request failed: HTTPSConnectionPool(host='skillsacademy.iitm.ac.in', port=443): Read timed out. (read timeout=5)"
