@@ -1,4 +1,4 @@
-import ssl, socket, json, os
+import ssl, socket, datetime, requests
 from knock import KNOCKPY
 
 def get_full_certificate(domain):
@@ -18,35 +18,70 @@ def get_full_certificate(domain):
     except Exception as e:
         return {"error": str(e)}
 
-def run_knockpy_and_enhance_streaming(domain, save_path):
+def get_mxtoolbox_data(domain, api_key):
+    try:
+        url = f"https://api.mxtoolbox.com/api/v1/lookup/dns/{domain}?authorization={api_key}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            return {
+                "error": True,
+                "status": response.status_code,
+                "message": response.text
+            }
+    except Exception as e:
+        return {"error": True, "message": str(e)}
+
+def get_dnsdumpster_data(domain, dnsdumpster_api_key):
+    try:
+        url = f"https://api.dnsdumpster.com/domain/{domain}"
+        headers = {
+            "X-API-Key": dnsdumpster_api_key
+        }
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            return {
+                "error": True,
+                "status": response.status_code,
+                "message": response.text
+            }
+    except Exception as e:
+        return {"error": True, "message": str(e)}
+
+def run_knockpy_and_enhance_streaming(domain, collection, mxtoolbox_api_key, dnsdumpster_api_key):
     yield f"[+] Running Knockpy on {domain}..."
     results = KNOCKPY(domain, recon=True, bruteforce=True)
 
-    # Load existing results if available
-    if os.path.exists(save_path):
-        with open(save_path, 'r') as f:
-            try:
-                existing_data = {entry["domain"]: entry for entry in json.load(f)}
-            except Exception:
-                existing_data = {}
-    else:
-        existing_data = {}
-
-    yield f"[+] Found {len(results)} subdomains. Starting cert collection..."
+    yield f"[+] Found {len(results)} subdomains. Starting data enrichment..."
 
     for idx, entry in enumerate(results):
         subdomain = entry.get("domain")
-        yield f"    ↳ Fetching cert for {subdomain} ({idx + 1}/{len(results)})"
-        
+        yield f"    ↳ {idx+1}/{len(results)}: {subdomain} → Fetching cert + MXToolbox + DNSDumpster"
+
+        # SSL Certificate
         cert_data = get_full_certificate(subdomain)
+
+        # MXToolbox
+        mxtoolbox_data = get_mxtoolbox_data(subdomain, mxtoolbox_api_key)
+
+        # DNSDumpster
+        dnsdumpster_data = get_dnsdumpster_data(subdomain, dnsdumpster_api_key)
+
+        # Update entry
+        entry["domain"] = subdomain
         entry["cert_details"] = cert_data
+        entry["mxtoolbox"] = mxtoolbox_data
+        entry["dnsdumpster"] = dnsdumpster_data
+        entry["scanned_at"] = datetime.datetime.utcnow().isoformat()
 
-        # Update if already present, otherwise add new
-        existing_data[subdomain] = entry
+        # Store in MongoDB
+        collection.update_one(
+            {"domain": subdomain},
+            {"$set": entry},
+            upsert=True
+        )
 
-    # Convert dict back to list and save
-    with open(save_path, 'w') as f:
-        json.dump(list(existing_data.values()), f, indent=4)
-
-    yield f"✅ Rescan complete."
-    print(f"[+] Results saved to {save_path}")
+    yield "✅ Rescan + enrichment complete."

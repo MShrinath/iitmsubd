@@ -1,13 +1,16 @@
 from flask import Flask, Response, render_template, jsonify
-from scanner.knock_runner import run_knockpy_and_enhance_streaming
-from pymongo import MongoClient
-from bson import ObjectId
+import json
 import os
+from pymongo import MongoClient
+from utils.knockpy_runner import run_knockpy_and_enhance_streaming
+
 app = Flask(__name__)
-client = MongoClient(os.getenv("MONGO_URI"))
-print(os.getenv("MONGO_URI"));
-db = client["iitm_scan"]
-collection = db["subdomains"]
+MXTOOLBOX_API_KEY = "abff5a1e-c212-4048-9095-6184c330bf5a"
+DNSDUMPSTER_API_KEY = "b9b1399a665b6fe4d62429fc43b4038435090c5f3659a74e747e831a9d902cf3"
+
+client = MongoClient("mongodb://localhost:27017/")
+db = client["subdomain_db"]
+collection = db["iitm_subdomains"]
 
 @app.route("/")
 def index():
@@ -15,14 +18,18 @@ def index():
 
 @app.route("/results")
 def results():
-    data = list(collection.find({}, {"_id": 0}))
-    return jsonify(data)
+    return jsonify(list(collection.find({}, {"_id": 0})))
 
 @app.route("/rescan/stream")
 def rescan_stream():
     def generate():
-        domain = "iitm.ac.in"
-        for message in run_knockpy_and_enhance_streaming(domain, collection):
+        domain = "snu.edu.in"
+        for message in run_knockpy_and_enhance_streaming(
+            domain,
+            collection,
+            MXTOOLBOX_API_KEY,
+            DNSDUMPSTER_API_KEY
+        ):
             yield f"data: {message}\n\n"
     return Response(generate(), mimetype="text/event-stream")
 
