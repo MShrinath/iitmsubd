@@ -1,5 +1,5 @@
 // Theme handling
-let currentTheme = localStorage.getItem('theme') || 'light';
+let currentTheme = localStorage.getItem('theme') || 'dark';
 
 // Set initial theme
 document.documentElement.setAttribute('data-theme', currentTheme);
@@ -393,12 +393,24 @@ function renderReport(data) {
                         </svg>
                         Certificate
                     </button>` : ''}
+                    ${item.ip && item.ip.length > 0 ? `
+                    <button class="btn btn-sm btn-outline-warning nmap-btn" data-ip="${item.ip[0]}">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-radar" viewBox="0 0 16 16">
+                            <path d="M6.634 1.135A7 7 0 0 1 15 8a.5.5 0 0 1-1 0 6 6 0 1 0-6.5 5.98v-1.005A5 5 0 1 1 13 8a.5.5 0 0 1-1 0 4 4 0 1 0-4.5 3.969v-1.011A2.999 2.999 0 1 1 11 8a.5.5 0 0 1-1 0 2 2 0 1 0-2.5 1.936v-.998A1 1 0 1 1 9 8a.5.5 0 0 1-1 0 .5.5 0 0 0-1-1v5.5a.5.5 0 0 1-1 0V8a1.5 1.5 0 1 1 1.5-1.5"/>
+                        </svg>
+                        Nmap
+                    </button>` : ''}
                 </div>
             </div>
         `;
 
         if (item.cert_details) {
             card.querySelector('.cert-details-btn').addEventListener("click", () => showCertModal(item.cert_details));
+        }
+        // Add Nmap button functionality
+        const nmapBtn = card.querySelector('.nmap-btn');
+        if (item) {
+            nmapBtn.addEventListener("click", () => runNmap(item.ip[0], item.domain));
         }
 
         col.appendChild(card);
@@ -561,6 +573,133 @@ function scrollToDomain(domain) {
             el.classList.remove("border-3", "border-info");
             el.style.boxShadow = "";
         }, 2000);
+    }
+}
+
+function runNmap(ip, domain) {
+    // Show loading state on the button
+    const nmapBtn = document.querySelector(`[data-ip="${ip}"]`);
+    const originalText = nmapBtn.innerHTML;
+    nmapBtn.innerHTML = `
+        <div class="spinner-border spinner-border-sm me-1" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        Running...
+    `;
+    nmapBtn.disabled = true;
+
+    showNmapModal({
+        output: `
+            <div class="d-flex align-items-center gap-2">
+                <div class="spinner-border text-info spinner-border-sm" role="status"></div>
+                <span>Scan running...</span>
+            </div>
+        `
+    }, ip, domain);
+
+    fetch(`/nmap/${ip}`)
+        .then(response => response.text())
+        .then(text => {
+            if (text.trim().length > 0) {
+                showNmapModal({ output: text }, ip, domain);
+            } else {
+                showNmapModal({ error: "No output from Nmap." }, ip, domain);
+            }
+        })
+        .catch(error => {
+            console.error('Nmap error:', error);
+            showNmapModal({ error: error.message }, ip, domain);
+        })
+        .finally(() => {
+            nmapBtn.innerHTML = originalText;
+            nmapBtn.disabled = false;
+        });
+
+}
+
+const nmapModalInstance = new bootstrap.Modal(document.getElementById("nmapModal"));
+let nmapModalShown = false;
+
+function showNmapModal(nmapData, ip = "N/A", domain = "N/A") {
+    const modalTitle = document.getElementById("nmapModalTitle");
+    const modalBody = document.getElementById("nmapModalBody");
+
+    modalTitle.textContent = `Nmap Results for ${domain} (${ip})`;
+
+    if (nmapData.error) {
+        modalBody.innerHTML = `
+            <div class="alert alert-danger">
+                <h5>❌ Error running Nmap</h5>
+                <p>${nmapData.error}</p>
+            </div>
+        `;
+    } else {
+        modalBody.innerHTML = `
+            <div class="nmap-results">
+                <div class="mb-3">
+                    <h6>Target Information</h6>
+                    <div class="bg-dark p-3 rounded">
+                        <div class="text-info">Domain: <span class="text-white">${domain}</span></div>
+                        <div class="text-info">IP Address: <span class="text-white">${ip}</span></div>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <h6>Scan Results</h6>
+                    <pre class="bg-dark text-light p-3 rounded" style="max-height: 400px; overflow-y: auto; font-family: 'Courier New', monospace; font-size: 0.9em;">${nmapData.output}</pre>
+                </div>
+                
+                <div class="d-flex gap-2">
+                    <button class="btn btn-sm btn-outline-secondary" onclick="copyNmapResults('${ip}')">
+                        📋 Copy Results
+                    </button>
+                    <button class="btn btn-sm btn-outline-info" onclick="runNmap('${ip}', '${domain}')">
+                        🔄 Re-run Scan
+                    </button>
+                </div>
+            </div>
+        `;
+    }
+
+    if (!nmapModalShown) {
+        nmapModalInstance.show();
+        nmapModalShown = true;
+    }
+}
+// Handle modal close event to reset state
+document.getElementById("nmapModal").addEventListener("hidden.bs.modal", () => {
+    nmapModalShown = false;
+});
+
+
+function copyNmapResults(ip) {
+    const resultsElement = document.querySelector('.nmap-results pre');
+    if (resultsElement) {
+        navigator.clipboard.writeText(resultsElement.textContent)
+            .then(() => {
+                // Create toast notification
+                const toast = document.createElement('div');
+                toast.className = 'position-fixed top-0 end-0 p-3';
+                toast.style.zIndex = '1070';
+                toast.innerHTML = `
+                    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <strong class="me-auto">✅ Success</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Nmap results copied to clipboard!
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(toast);
+                
+                // Auto remove after 3 seconds
+                setTimeout(() => {
+                    toast.remove();
+                }, 3000);
+            })
+            .catch(() => alert("❌ Failed to copy results."));
     }
 }
 
