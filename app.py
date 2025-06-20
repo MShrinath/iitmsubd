@@ -2,7 +2,7 @@ from flask import Flask, Response, render_template, jsonify
 import json
 import os
 from utils.knockpy_runner import run_knockpy_and_enhance_streaming
-from utils.nmap_runner import run_nmap_raw
+from utils.nmap_runner import show_nmap , rerun_nmap_raw
 
 app = Flask(__name__)
 DATA_FILE = "data/iitm.ac.in_data.json"
@@ -30,8 +30,13 @@ def rescan_stream():
 
 @app.route('/nmap/<ip>')
 def nmap_scan(ip):
-    output = run_nmap_raw(ip, DATA_FILE)
+    output = show_nmap(ip, DATA_FILE)
+    return output
+
+@app.route('/renmap/<ip>')
+def renmap_scan(ip):
+    output = rerun_nmap_raw(ip, DATA_FILE)
     return output
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)

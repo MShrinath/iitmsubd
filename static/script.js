@@ -10,6 +10,16 @@ document.addEventListener('mousemove', (e) => {
     document.documentElement.style.setProperty('--mouse-y', `${e.clientY}px`);
 });
 
+function escapeHTML(str) {
+    return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+
 function loadResults() {
     // Show loading state
     const container = document.getElementById("reportSection");
@@ -590,10 +600,7 @@ function runNmap(ip, domain) {
 
     showNmapModal({
         output: `
-            <div class="d-flex align-items-center gap-2">
-                <div class="spinner-border text-info spinner-border-sm" role="status"></div>
-                <span>Scan running...</span>
-            </div>
+            🔍 Scan running...
         `
     }, ip, domain);
 
@@ -615,6 +622,43 @@ function runNmap(ip, domain) {
             nmapBtn.disabled = false;
         });
 
+}
+
+function rerunNmap(ip, domain) {
+    // Show loading state on the button
+    const nmapBtn = document.querySelector(`[data-ip="${ip}"]`);
+    const originalText = nmapBtn.innerHTML;
+    nmapBtn.innerHTML = `
+        <div class="spinner-border spinner-border-sm me-1" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        Re-running...
+    `;
+    nmapBtn.disabled = true;
+
+    showNmapModal({
+        output: `
+            🔍 Re-running scan...
+        `
+    }, ip, domain);
+
+    fetch(`/renmap/${ip}`)
+        .then(response => response.text())
+        .then(text => {
+            if (text.trim().length > 0) {
+                showNmapModal({ output: text }, ip, domain);
+            } else {
+                showNmapModal({ error: "No output from Nmap." }, ip, domain);
+            }
+        })
+        .catch(error => {
+            console.error('Nmap error:', error);
+            showNmapModal({ error: error.message }, ip, domain);
+        })
+        .finally(() => {
+            nmapBtn.innerHTML = originalText;
+            nmapBtn.disabled = false;
+        });
 }
 
 const nmapModalInstance = new bootstrap.Modal(document.getElementById("nmapModal"));
@@ -646,14 +690,14 @@ function showNmapModal(nmapData, ip = "N/A", domain = "N/A") {
                 
                 <div class="mb-3">
                     <h6>Scan Results</h6>
-                    <pre class="bg-dark text-light p-3 rounded" style="max-height: 400px; overflow-y: auto; font-family: 'Courier New', monospace; font-size: 0.9em;">${nmapData.output}</pre>
+                    <pre class="bg-dark text-light p-3 rounded" style="max-height: 400px; overflow-y: auto; font-family: 'Courier New', monospace; font-size: 0.9em;">${escapeHTML(nmapData.output)}</pre>
                 </div>
                 
                 <div class="d-flex gap-2">
                     <button class="btn btn-sm btn-outline-secondary" onclick="copyNmapResults('${ip}')">
                         📋 Copy Results
                     </button>
-                    <button class="btn btn-sm btn-outline-info" onclick="runNmap('${ip}', '${domain}')">
+                    <button class="btn btn-sm btn-outline-info" onclick="rerunNmap('${ip}', '${domain}')">
                         🔄 Re-run Scan
                     </button>
                 </div>
