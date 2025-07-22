@@ -1,15 +1,17 @@
 from flask import Flask, Response, render_template, jsonify
 import json
 import os
+from utils import config 
 from utils.knockpy_runner import run_knockpy_and_enhance_streaming
 from utils.nmap_runner import show_nmap , rerun_nmap_raw
 
 app = Flask(__name__)
-DATA_FILE = "data/iitm.ac.in_data.json"
+DOMAIN = config.DOMAIN
+DATA_FILE = config.DATA_FILE
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", domain=DOMAIN)
 
 @app.route("/results")
 def results():
@@ -20,10 +22,10 @@ def results():
     else:
         return jsonify([])
 
-@app.route("/rescan/stream")
-def rescan_stream():
+@app.route("/rescan/knockpy")
+def rescan_knockpy():
     def generate():
-        domain = "iitm.ac.in"
+        domain = DOMAIN
         for message in run_knockpy_and_enhance_streaming(domain, DATA_FILE):
             yield f"data: {message}\n\n"
     return Response(generate(), mimetype="text/event-stream")

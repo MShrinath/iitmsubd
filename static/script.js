@@ -1002,14 +1002,14 @@ function copyRawCertJSON() {
 }
 
 document.getElementById("rescanBtn").addEventListener("click", () => {
-    if (!confirm("Do you want to re-scan iitm.ac.in?")) return;
+    if (!confirm("Do you want to re-scan?")) return;
 
     const modal = new bootstrap.Modal(document.getElementById("scanModal"));
     const logBox = document.getElementById("scanLog");
     logBox.textContent = "Starting scan...\n";
     modal.show();
 
-    const source = new EventSource("/rescan/stream");
+    const source = new EventSource("/rescan/knockpy");
 
     source.onmessage = function (event) {
         logBox.textContent += event.data + "\n";
