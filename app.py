@@ -7,16 +7,17 @@ from utils.nmap_runner import show_nmap , rerun_nmap_raw
 
 app = Flask(__name__)
 DOMAIN = config.DOMAIN
-DATA_FILE = config.DATA_FILE
+KNOCKPY_DATA_FILE = config.KNOCKPY_DATA_FILE
+SUBFINDER_DATA_FILE = config.SUBFINDER_DATA_FILE
 
 @app.route("/")
 def index():
     return render_template("index.html", domain=DOMAIN)
 
-@app.route("/results")
+@app.route("/results/knockpy")
 def results():
-    if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r") as f:
+    if os.path.exists(KNOCKPY_DATA_FILE):
+        with open(KNOCKPY_DATA_FILE, "r") as f:
             data = json.load(f)
         return jsonify(data)
     else:
@@ -26,18 +27,18 @@ def results():
 def rescan_knockpy():
     def generate():
         domain = DOMAIN
-        for message in run_knockpy_and_enhance_streaming(domain, DATA_FILE):
+        for message in run_knockpy_and_enhance_streaming(domain, KNOCKPY_DATA_FILE):
             yield f"data: {message}\n\n"
     return Response(generate(), mimetype="text/event-stream")
 
 @app.route('/nmap/<ip>')
 def nmap_scan(ip):
-    output = show_nmap(ip, DATA_FILE)
+    output = show_nmap(ip, KNOCKPY_DATA_FILE)
     return output
 
 @app.route('/renmap/<ip>')
 def renmap_scan(ip):
-    output = rerun_nmap_raw(ip, DATA_FILE)
+    output = rerun_nmap_raw(ip, KNOCKPY_DATA_FILE)
     return output
 
 if __name__ == "__main__":

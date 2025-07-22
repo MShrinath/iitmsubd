@@ -32,7 +32,7 @@ function loadResults() {
         </div>
     `;
     
-    fetch("/results")
+    fetch("/results/knockpy")
         .then(res => res.json())
         .then(data => {
             renderReport(data);
