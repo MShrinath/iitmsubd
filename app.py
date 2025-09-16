@@ -12,7 +12,15 @@ SUBFINDER_DATA_FILE = config.SUBFINDER_DATA_FILE
 
 @app.route("/")
 def index():
+    return render_template("index.html", domain=DOMAIN)
+
+@app.route("/knockpy")
+def index_knockpy():
     return render_template("knockpy.html", domain=DOMAIN)
+
+@app.route("/subfinder")
+def index_subfinder():
+    return render_template("subfinder.html", domain=DOMAIN)
 
 @app.route("/results/knockpy")
 def results_knockpy():
