@@ -12,10 +12,10 @@ SUBFINDER_DATA_FILE = config.SUBFINDER_DATA_FILE
 
 @app.route("/")
 def index():
-    return render_template("index.html", domain=DOMAIN)
+    return render_template("knockpy.html", domain=DOMAIN)
 
 @app.route("/results/knockpy")
-def results():
+def results_knockpy():
     if os.path.exists(KNOCKPY_DATA_FILE):
         with open(KNOCKPY_DATA_FILE, "r") as f:
             data = json.load(f)
@@ -30,6 +30,23 @@ def rescan_knockpy():
         for message in run_knockpy_and_enhance_streaming(domain, KNOCKPY_DATA_FILE):
             yield f"data: {message}\n\n"
     return Response(generate(), mimetype="text/event-stream")
+
+# @app.route("/results/subfinder")
+# def results_subfinder():
+#     if os.path.exists(SUBFINDER_DATA_FILE):
+#         with open(SUBFINDER_DATA_FILE, "r") as f:
+#             data = json.load(f)
+#         return jsonify(data)
+#     else:
+#         return jsonify([])
+
+# @app.route("/rescan/subfinder")
+# def rescan_subfinder():
+#     def generate():
+#         domain = DOMAIN
+#         for message in run_subfinder_and_enhance_streaming(domain, SUBFINDER_DATA_FILE):
+#             yield f"data: {message}\n\n"
+#     return Response(generate(), mimetype="text/event-stream")
 
 @app.route('/nmap/<ip>')
 def nmap_scan(ip):
