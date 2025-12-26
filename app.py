@@ -2,13 +2,24 @@ from flask import Flask, Response, render_template, jsonify
 import json
 import os
 from utils import config 
-from utils.knockpy_runner import run_knockpy_and_enhance_streaming
+from utils.knockpy_runner import runner_knockpy
+from utils.subfinder_runner import runner_subfinder
 from utils.nmap_runner import show_nmap , rerun_nmap_raw
 
 app = Flask(__name__)
+
 DOMAIN = config.DOMAIN
 KNOCKPY_DATA_FILE = config.KNOCKPY_DATA_FILE
 SUBFINDER_DATA_FILE = config.SUBFINDER_DATA_FILE
+
+# TOOL_MAP = {
+#     "knockpy": {
+#         "data_file": KNOCKPY_DATA_FILE
+#     },
+#     "subfinder": {
+#         "data_file": SUBFINDER_DATA_FILE
+#     }
+# }
 
 @app.route("/")
 def index():
@@ -34,8 +45,7 @@ def results_knockpy():
 @app.route("/rescan/knockpy")
 def rescan_knockpy():
     def generate():
-        domain = DOMAIN
-        for message in run_knockpy_and_enhance_streaming(domain, KNOCKPY_DATA_FILE):
+        for message in runner_knockpy(DOMAIN, KNOCKPY_DATA_FILE):
             yield f"data: {message}\n\n"
     return Response(generate(), mimetype="text/event-stream")
 
@@ -51,8 +61,7 @@ def rescan_knockpy():
 # @app.route("/rescan/subfinder")
 # def rescan_subfinder():
 #     def generate():
-#         domain = DOMAIN
-#         for message in run_subfinder_and_enhance_streaming(domain, SUBFINDER_DATA_FILE):
+#         for message in runner_subfinder(DOMAIN, SUBFINDER_DATA_FILE):
 #             yield f"data: {message}\n\n"
 #     return Response(generate(), mimetype="text/event-stream")
 

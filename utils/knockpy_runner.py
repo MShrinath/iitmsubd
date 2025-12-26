@@ -19,7 +19,7 @@ def get_full_certificate(domain):
     except Exception as e:
         return {"error": str(e)}
 
-def run_knockpy_and_enhance_streaming(domain, save_path):
+def runner_knockpy(domain, save_path):
     yield f"[+] Running Knockpy on {domain}..."
     print(f"[+] Running Knockpy on {domain}...")
     results = KNOCKPY(domain, recon=True, bruteforce=True)

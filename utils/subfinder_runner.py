@@ -13,17 +13,6 @@ dnsx_path = os.path.join(tools_dir, 'dnsx.exe')
 sslscan_path = os.path.join(tools_dir, 'sslscan.exe')
 wappalyzer_path = os.path.join(tools_dir, 'wappalyzer.exe')
 
-sub_out = os.path.join(tools_dir, 'txt', f'{domain}_subfinder_output.txt')
-dnsx_out = os.path.join(tools_dir, 'txt', f'{domain}_dnsx_output.json')
-dnsx_hout = os.path.join(tools_dir, 'txt', f'{domain}_dnsx_hosts.txt')
-sslscan_out = os.path.join(tools_dir, 'txt', f'{domain}_sslscan_output.json')
-wap_out = os.path.join(tools_dir, 'txt', f'{domain}_wappalyzer_output.json')
-wap_out_temp = os.path.join(tools_dir, 'txt', f'{domain}_wappalyzer_output_temp.json')
-http_status_out = os.path.join(tools_dir, 'txt', f'{domain}_http_status.json')
-
-# FINAL_DATA = os.path.join(base_dir, '..', 'data', 'final_data.json')
-
-
 def update_final_data(host, field, value):
     data = []
     if os.path.exists(FINAL_DATA):
@@ -168,11 +157,22 @@ def check_http_https_status(hosts):
         json.dump(results, f, indent=4)
 
 
-def run_subfinder(target,SUBFINDER_DATA_FILE):
-    global domain
-    global FINAL_DATA  
+def runner_subfinder(target,SUBFINDER_DATA_FILE):
+    global domain, FINAL_DATA 
     domain = target
     FINAL_DATA = SUBFINDER_DATA_FILE
+
+    global sub_out, dnsx_out, dnsx_hout
+    global sslscan_out, wap_out, wap_out_temp, http_status_out
+
+    sub_out = os.path.join(tools_dir, 'txt', f'{domain}_subfinder_output.txt')
+    dnsx_out = os.path.join(tools_dir, 'txt', f'{domain}_dnsx_output.json')
+    dnsx_hout = os.path.join(tools_dir, 'txt', f'{domain}_dnsx_hosts.txt')
+    sslscan_out = os.path.join(tools_dir, 'txt', f'{domain}_sslscan_output.json')
+    wap_out = os.path.join(tools_dir, 'txt', f'{domain}_wappalyzer_output.json')
+    wap_out_temp = os.path.join(tools_dir, 'txt', f'{domain}_wappalyzer_output_temp.json')
+    http_status_out = os.path.join(tools_dir, 'txt', f'{domain}_http_status.json')
+
     print(f"[INFO] Starting scan for domain: {domain}\n")
     run_subfinder(domain)
     run_dnsx(domain)
@@ -187,4 +187,4 @@ def run_subfinder(target,SUBFINDER_DATA_FILE):
 
 
 # Example usage:
-run_subfinder("iitm.ac.in", "subfinderdummmmmyyoutput.txt")
+# runner_subfinder("iitm.ac.in", "subfinderdummmmmyyoutput.txt")
