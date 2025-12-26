@@ -1,0 +1,3979 @@
+{
+    "backend.seek.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "backend.seek.onlinedegree.iitm.ac.in",
+            "altnames": "DNS:backend.seek.onlinedegree.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 10 20:24:51 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 10 21:10:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "code.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "code.iitm.ac.in",
+            "altnames": "DNS:code.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 22 03:59:09 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 20 03:59:08 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "app.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "app.onlinedegree.iitm.ac.in",
+            "altnames": "DNS:app.onlinedegree.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 17 20:18:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 15 21:06:11 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "facapp.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ds.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "ds.study.iitm.ac.in",
+            "altnames": "DNS:ds.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 24 17:14:05 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 24 17:57:12 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cb-staging.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cb-staging.seek.study.iitm.ac.in",
+            "altnames": "DNS:cb-staging.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 10 13:20:23 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 10 14:14:57 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "gate.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cs1102.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cs1102.study.iitm.ac.in",
+            "altnames": "DNS:cs1102.study.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov 20 09:40:53 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 18 09:40:52 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "forms.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "forms.study.iitm.ac.in",
+            "altnames": "DNS:forms.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 21 17:32:02 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 21 18:25:35 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cb-prod.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cb-prod.seek.study.iitm.ac.in",
+            "altnames": "DNS:cb-prod.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  2 09:49:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  2 10:43:49 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "exams-cb.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "exams-cb.seek.study.iitm.ac.in",
+            "altnames": "DNS:exams-cb.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov  9 06:28:03 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  7 07:22:57 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dns2.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host dns2.iitm.ac.in (103.158.43.2) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "diploma.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "diploma.iitm.ac.in",
+            "altnames": "DNS:diploma.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov  4 10:01:28 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  2 10:51:19 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "bcga.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "api.cms-beta.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "api.cms-beta.study.iitm.ac.in",
+            "altnames": "DNS:api.cms-beta.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 08:36:13 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 09:30:07 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dns3.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host dns3.iitm.ac.in (35.244.9.74) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "examcheck.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "examcheck.study.iitm.ac.in",
+            "altnames": "DNS:examcheck.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 22 18:52:37 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 20 19:46:11 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "exams.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "exams.study.iitm.ac.in",
+            "altnames": "DNS:exams.study.iitm.ac.in, DNS:admin.exams.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov  6 05:50:33 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  4 06:49:49 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ext01ldap.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host ext01ldap.iitm.ac.in (103.158.43.65) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "ftp.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ftp.iitm.ac.in",
+            "altnames": "DNS:ftp.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov  9 06:36:19 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  7 06:36:18 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "alumni.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host alumni.iitm.ac.in (18.155.99.22) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "discourse.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "discourse.onlinedegree.iitm.ac.in",
+            "altnames": "DNS:discourse.onlinedegree.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Dec 24 00:01:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 24 00:01:43 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cppics.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "events.respark.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "events.respark.iitm.ac.in",
+            "altnames": "DNS:events.respark.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Dec 16 18:20:16 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 16 18:20:15 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ccd.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "catalysis.eprints.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cacs.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cacs.iitm.ac.in",
+            "altnames": "DNS:cacs.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Dec  5 03:37:51 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  5 03:37:50 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "ae.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dev.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "dev.seek.study.iitm.ac.in",
+            "altnames": "DNS:dev.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 25 05:43:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 25 06:43:00 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "asuldap.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host asuldap.iitm.ac.in (103.158.43.67) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "5gtbdocs.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "5gtbdocs.dev.iitm.ac.in",
+            "altnames": "DNS:5gtbdocs.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 11:16:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 11:16:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "backend.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "backend.seek.study.iitm.ac.in",
+            "altnames": "DNS:backend.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 30 16:02:13 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 28 16:56:06 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "asr.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "acr.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cifil.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cifil.iitm.ac.in",
+            "altnames": "DNS:cifil.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 21:35:31 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 21:35:30 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ge.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "ge.iitm.ac.in",
+            "altnames": "DNS:ge.iitm.ac.in",
+            "issuer": "Amazon RSA 2048 M04",
+            "self-signed": "false",
+            "not-valid-before": "Nov  2 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec  1 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ccw.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cenlib.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "archive.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "archive.iitm.ac.in",
+            "altnames": "DNS:archive.iitm.ac.in",
+            "issuer": "Go Daddy Secure Certificate Authority - G2",
+            "self-signed": "false",
+            "not-valid-before": "Apr 23 05:37:11 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "May 22 21:25:58 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "global.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "global.iitm.ac.in",
+            "altnames": "DNS:global.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec 15 03:26:55 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 15 03:26:54 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "coezet.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "doms.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "heritage.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "heritage.iitm.ac.in",
+            "altnames": "DNS:heritage.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov 24 11:44:24 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 22 11:44:23 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "apm.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "conf.code.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "conf.code.iitm.ac.in",
+            "altnames": "DNS:conf.code.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 17 04:47:03 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 15 05:39:56 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cfi.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "biotech.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "eegpu.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "eegpu.dev.iitm.ac.in",
+            "altnames": "DNS:eegpu.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 10 14:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  8 14:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "car.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ceet.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host ceet.iitm.ac.in (3.7.32.22) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "dawnlab.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "app.diploma.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "app.diploma.iitm.ac.in",
+            "altnames": "DNS:app.diploma.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 24 10:56:28 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 22 11:43:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "chem.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dirv.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo RSA Organization Validation Secure Server CA",
+            "self-signed": "false",
+            "not-valid-before": "Dec  6 00:00:00 2024 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan  6 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "eex.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "eex.dev.iitm.ac.in",
+            "altnames": "DNS:eex.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 15 08:16:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 13 08:16:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mailx4.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cec.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "4096"
+            },
+            "subject": "cec.iitm.ac.in",
+            "altnames": "DNS:cec.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov  2 05:10:23 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan 31 05:10:22 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "api.ireflect.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "api.ireflect.study.iitm.ac.in",
+            "altnames": "DNS:api.ireflect.study.iitm.ac.in, DNS:ireflect.study.iitm.ac.in, DNS:mdl.ireflect.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  6 10:07:08 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  6 11:02:02 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "drone.ee2003.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "drone.ee2003.dev.iitm.ac.in",
+            "altnames": "DNS:drone.ee2003.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 10 14:16:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  8 14:16:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "fd.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "ai4bharat.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "ai4bharat.iitm.ac.in",
+            "altnames": "DNS:ai4bharat.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov  5 22:22:11 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  3 22:22:10 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dns1.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host dns1.iitm.ac.in (103.158.42.2) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "mech.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "asr.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "asr.dev.iitm.ac.in",
+            "altnames": "DNS:asr.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 28 21:36:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 26 21:36:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "e-verify.acservices.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "e-verify.acservices.iitm.ac.in",
+            "altnames": "DNS:e-verify.acservices.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 11 02:07:28 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 11 02:58:40 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "icandsr.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "jeerep.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ntcpwc.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "leap.respark.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "leap.respark.iitm.ac.in",
+            "altnames": "DNS:leap.respark.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Sep 24 10:50:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 23 10:50:43 2025 GMT",
+            "expired": "true"
+        }
+    },
+    "ncaht.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "ncaht.iitm.ac.in",
+            "altnames": "DNS:ncaht.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 28 04:22:02 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 26 05:11:53 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "internship.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "internship.iitm.ac.in",
+            "altnames": "DNS:internship.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec  9 21:06:03 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  9 21:06:02 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "aidblab.cse.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host aidblab.cse.iitm.ac.in (14.139.160.84) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "mentorship.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "mentorship.study.iitm.ac.in",
+            "altnames": "DNS:mentorship.study.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 14 02:40:53 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 12 02:40:52 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "htic.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ia.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ee.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ee.iitm.ac.in",
+            "altnames": "DNS:ee.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec 15 22:05:42 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 15 22:05:41 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ireflect.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "api.ireflect.study.iitm.ac.in",
+            "altnames": "DNS:api.ireflect.study.iitm.ac.in, DNS:ireflect.study.iitm.ac.in, DNS:mdl.ireflect.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  6 10:07:08 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  6 11:02:02 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ctcs.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "ctcs.iitm.ac.in",
+            "altnames": "DNS:ctcs.iitm.ac.in, DNS:www.ctcs.iitm.ac.in",
+            "issuer": "WR1",
+            "self-signed": "false",
+            "not-valid-before": "Nov  2 18:01:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan 31 18:01:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "idp.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "hc-uat.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "hc-uat.iitm.ac.in",
+            "altnames": "DNS:hc-uat.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Nov 25 11:50:42 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 23 11:50:41 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "icsrpis.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "datacommons.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "datacommons.iitm.ac.in",
+            "altnames": "DNS:datacommons.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  7 09:12:47 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  7 10:06:40 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "che.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "home.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ibse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "git.ee2003.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "git.ee2003.dev.iitm.ac.in",
+            "altnames": "DNS:git.ee2003.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 10 14:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  8 14:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "lotus.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host lotus.iitm.ac.in (202.141.25.100) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "ioas.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "keepitflowing.alumni.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "keepitflowing.alumni.iitm.ac.in",
+            "altnames": "DNS:keepitflowing.alumni.iitm.ac.in",
+            "issuer": "R3",
+            "self-signed": "false",
+            "not-valid-before": "Feb 10 09:54:38 2023 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "May 11 09:54:37 2023 GMT",
+            "expired": "true"
+        }
+    },
+    "jup.ee2003.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "irepose.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo RSA Organization Validation Secure Server CA",
+            "self-signed": "false",
+            "not-valid-before": "Dec  6 00:00:00 2024 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan  6 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mailx3.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host mailx3.iitm.ac.in (103.158.42.47) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "mtechadm.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "monitor.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "autodiscover.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname autodiscover.iitm.ac.in."
+        }
+    },
+    "biomimicry.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "biomimicry.iitm.ac.in",
+            "altnames": "DNS:biomimicry.iitm.ac.in, DNS:www.biomimicry.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Dec  1 12:10:30 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  1 12:10:29 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "incubation.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "incubation.iitm.ac.in",
+            "altnames": "DNS:incubation.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Nov 14 19:00:55 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 12 19:00:54 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mme.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "jup.ee1103.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "physics.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "10x.respark.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname 10x.respark.iitm.ac.in."
+        }
+    },
+    "oldcourses.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host oldcourses.iitm.ac.in (103.158.42.65) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "pynq9.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq9.dev.iitm.ac.in",
+            "altnames": "DNS:pynq9.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:43 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "old.ge.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host old.ge.iitm.ac.in (3.87.102.249) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "seek.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "sistemas.com.co",
+            "altnames": "DNS:sistemas.com.co, DNS:4images1mot.app, DNS:www.tasow.org, DNS:upsivale.lernit.app, DNS:ssmhealth.sevaro.com, DNS:www.naturally-salt-poolaccess.es, DNS:www.ecosys.mv, DNS:dev.vunzagroup.co.za, DNS:feasibility.syrex.28east.co.za, DNS:ankinfotech.ae, DNS:www.ptcstats.app, DNS:plytol.co.uk, DNS:admin.tolkeo.com, DNS:app.servicetid.dk, DNS:www.digicorp.com.bo, DNS:affirmativetherapyproducts.com, DNS:joshuacoda.com, DNS:schedules.choicemusicevents.org, DNS:heboconstruct.be, DNS:link.kenect.com, DNS:fcpos.co, DNS:2brothersadventure.com, DNS:chicky.andrewdsong.com, DNS:elephruit.com, DNS:admin.fashiontime.app, DNS:www.uddum.co.kr, DNS:waittime.jp, DNS:ajontheweb.com, DNS:zigva.net, DNS:pack312miami.org, DNS:buildfilm.io, DNS:mydearestlovefriend.com, DNS:leetminds.com, DNS:difintech.com, DNS:auth.stage.corriospc.org, DNS:easytaxconsultancy.com, DNS:nhrobertson.com, DNS:api.piperider.io, DNS:terkelola.com, DNS:www.open-dna.jp, DNS:dev.triple.fairchain.org, DNS:paivae.com, DNS:dev-eztags.ezcast.com, DNS:lionsbayconsulting.com, DNS:www.essoapps.com, DNS:poist.com, DNS:leetnetworking.com, DNS:lollighetti.ceosconnect.com.br, DNS:www.dvelsmithbuyshouses.com, DNS:indiclabs.com, DNS:hittravel.vn, DNS:www.peruse.app, DNS:consulta.infonotas.com.br, DNS:www.undersealabs.com, DNS:admin.handledelivery.com, DNS:annuaire.formation-decoration-ecoresponsable.fr, DNS:www.thebobaface.com, DNS:www.simpleappli.com, DNS:schoonheidsinstituut-scarabee.nl, DNS:business.lccouriers.com, DNS:links.ihairium.com, DNS:www.arcadongames.com, DNS:aaspv2.adego.academy, DNS:saleswillbecomeafather.in, DNS:www.tagomori.com, DNS:www.carmat.mx, DNS:www.mis15viole.com, DNS:soundcommerce.io, DNS:www.mqz.dk, DNS:www.tisanz.com, DNS:aasa.meep.earth, DNS:austin.profit.orderprinting.com, DNS:www.buddspreschool.com, DNS:www.yasushi.me, DNS:www.omarharoon.dev, DNS:www.greengrowth.io, DNS:www.brettlapierre.com, DNS:www.thunderevent.com, DNS:themes.nextlead.io, DNS:logistica-dev.datamachina.com.br, DNS:gavishori.co.il, DNS:dashboard-staging.usehighfive.com, DNS:book.craftsanddrafts.com, DNS:staff.inteam.my, DNS:www.diplomaticpost.io, DNS:www.texasstylekolaches.com, DNS:www.tecompramostucoche.com, DNS:tougennkyo.com, DNS:seek.onlinedegree.iitm.ac.in, DNS:catalogopepsi.yesmkt.com, DNS:www.nturing.com, DNS:auth.eliteacademy.co.in, DNS:chalupa-radimer.cz, DNS:cp6224090407895040.order.place, DNS:nsbus.transvision.nl, DNS:easypossible.it, DNS:renebodor.eu, DNS:www.aasllp.in, DNS:aakrasement.ordreplan.no, DNS:applink.ziggo.nl",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 23 08:03:47 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 21 09:01:10 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mst.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "4096"
+            },
+            "subject": "mst.iitm.ac.in",
+            "altnames": "DNS:mst.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov  6 02:51:53 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  4 02:51:52 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "doe.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "iitmk8s.wcte.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA256",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": null,
+            "issuer": null,
+            "self-signed": "true",
+            "not-valid-before": "Aug  3 00:46:31 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Aug  3 00:46:31 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "jeeadv.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "nbg.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "nbg.dev.iitm.ac.in",
+            "altnames": "DNS:nbg.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  2 10:56:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  2 10:56:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cms-beta.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cms-beta.study.iitm.ac.in",
+            "altnames": "DNS:cms-beta.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 17 21:52:49 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 17 22:52:05 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "evc.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname evc.iitm.ac.in."
+        }
+    },
+    "pve.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pve.dev.iitm.ac.in",
+            "altnames": "DNS:pve.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 18:26:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 18:26:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ovd.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "payments.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "payments.study.iitm.ac.in",
+            "altnames": "DNS:payments.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  4 16:38:55 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  4 17:33:50 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cmsrv.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname cmsrv.iitm.ac.in."
+        }
+    },
+    "blog.techsoc.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname blog.techsoc.iitm.ac.in."
+        }
+    },
+    "onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "onlinedegree.iitm.ac.in",
+            "altnames": "DNS:onlinedegree.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 11 14:09:49 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 11 14:56:58 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pace.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "se2001.ds.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "se2001.ds.study.iitm.ac.in",
+            "altnames": "DNS:se2001.ds.study.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 13 02:19:04 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 11 02:19:03 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq13.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq13.dev.iitm.ac.in",
+            "altnames": "DNS:pynq13.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:34 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:33 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "smtp2.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host smtp2.iitm.ac.in (103.158.42.41) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "jitsi.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "placements.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "placements.study.iitm.ac.in",
+            "altnames": "DNS:placements.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 24 05:12:22 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 24 06:06:36 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "r2d2.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "r2d2.iitm.ac.in",
+            "altnames": "DNS:r2d2.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  1 16:12:22 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  1 17:01:54 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "seek.study.iitm.ac.in",
+            "altnames": "DNS:seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  5 02:25:22 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  5 03:24:43 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq2.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq2.dev.iitm.ac.in",
+            "altnames": "DNS:pynq2.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "publications.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "rbcdsai.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cce.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname cce.iitm.ac.in."
+        }
+    },
+    "ipa.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "nipra.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname nipra.iitm.ac.in."
+        }
+    },
+    "placement.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "placement.iitm.ac.in",
+            "altnames": "DNS:placement.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Dec  4 03:11:10 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  4 03:11:09 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "nsm.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "o1.ptr404.mail.nptel.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host o1.ptr404.mail.nptel.iitm.ac.in (149.72.209.135) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "moodle.respark.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "moodle.respark.iitm.ac.in",
+            "altnames": "DNS:moodle.respark.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Sep 24 10:49:23 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 23 10:49:22 2025 GMT",
+            "expired": "true"
+        }
+    },
+    "pynq10.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq10.dev.iitm.ac.in",
+            "altnames": "DNS:pynq10.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "backend.exams.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "backend.exams.study.iitm.ac.in",
+            "altnames": "DNS:backend.exams.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov  4 22:46:25 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  2 23:35:54 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mm.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "oir.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host oir.iitm.ac.in (18.155.99.22) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "chennai36.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "chennai36.iitm.ac.in",
+            "altnames": "DNS:chennai36.iitm.ac.in, DNS:www.chennai36.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Dec  2 09:07:04 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  2 09:07:03 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "sfp.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "redmine.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "sense.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cb-dev.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cb-dev.seek.study.iitm.ac.in",
+            "altnames": "DNS:cb-dev.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 24 11:13:52 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 22 12:08:05 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "impactstories.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "8ad5a6e8.sni.cloudflaressl.com",
+            "altnames": "DNS:8ad5a6e8.sni.cloudflaressl.com, DNS:impactstories.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec 10 00:07:15 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 10 00:07:14 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "csemail.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname csemail.iitm.ac.in."
+        }
+    },
+    "pynq8.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq8.dev.iitm.ac.in",
+            "altnames": "DNS:pynq8.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:34 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:33 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq12.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq12.dev.iitm.ac.in",
+            "altnames": "DNS:pynq12.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:34 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:33 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "rpcrm.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "crm.swasthiq.in",
+            "altnames": "DNS:atlas.spironet.com, DNS:client.thewolfcorp.in, DNS:crm.acornf.com, DNS:crm.artigenius.com, DNS:crm.asa.in, DNS:crm.asrsbot.com, DNS:crm.astropuja.com, DNS:crm.auroitech.org, DNS:crm.avalontec.com, DNS:crm.bhojpur-consulting.com, DNS:crm.binaryglobal.com, DNS:crm.chattelsdesign.com, DNS:crm.claptek.com, DNS:crm.cmenvirosystems.com, DNS:crm.companymitra.com, DNS:crm.controldesksolutions.com, DNS:crm.dprsoftwares.com, DNS:crm.dreamskillcatcher.com, DNS:crm.gaurangatech.com, DNS:crm.go2trips.in, DNS:crm.goretailnow.com, DNS:crm.innoweave.in, DNS:crm.invenex.in, DNS:crm.ippotamil.com, DNS:crm.joshmachines.com, DNS:crm.karmicspark.com, DNS:crm.kerdos.in, DNS:crm.keshavkrishikendra.com, DNS:crm.kryptoninc.co, DNS:crm.lexisandcompany.in, DNS:crm.lpmresearch.com, DNS:crm.naadathitech.com, DNS:crm.ncsbharat.com, DNS:crm.ogemen.solutions, DNS:crm.pazcare.com, DNS:crm.penmenstudios.com, DNS:crm.predusk.com, DNS:crm.quickbric.in, DNS:crm.raybpo.com, DNS:crm.richie.club, DNS:crm.rooman.com, DNS:crm.shahcapserv.co.in, DNS:crm.shed2.co, DNS:crm.startravel.com.my, DNS:crm.stratist.in, DNS:crm.swasthiq.in, DNS:crm.talenthubindia.com, DNS:crm.technopark.in, DNS:crm.thinkrobotics.com, DNS:crm.truceps.in, DNS:crm.x-shift.com, DNS:crm.xploresense.com, DNS:crm.yakkaservices.com, DNS:crm.yyjcpl.in, DNS:crmsre-customdomain.customdomain.fun, DNS:crmsre-in.crmmonitoring.com, DNS:leads.theprofit.news, DNS:recruitment.benieva.com, DNS:rpcrm.iitm.ac.in, DNS:sales.aletasoftwarelabs.in, DNS:sales.amkkrishnarice.com, DNS:sales.batoi.systems, DNS:sales.globs.in, DNS:sales.himalayaninternational.co.in, DNS:sales.kryonknowledgeworks.com, DNS:sales.ranehcapital.com, DNS:sales.sysnap.com, DNS:sales.trimsel.com, DNS:sales.waywiz.ai, DNS:saless123.dewhaven.xyz, DNS:stgcsellos2.chola.murugappa.com, DNS:uniconnect.uipl.co.in, DNS:zcrm.zealandimmigration.net, DNS:zohocrm.flytxt.com",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec 16 12:39:09 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 16 12:39:08 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "philanthropy.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "73963893.sni.cloudflaressl.com",
+            "altnames": "DNS:73963893.sni.cloudflaressl.com, DNS:philanthropy.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec 10 00:25:06 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 10 00:25:05 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "siddhi.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.us-east-1.es.amazonaws.com",
+            "altnames": "DNS:*.us-east-1.es.amazonaws.com, DNS:*.cell-01.us-east-1.es.amazonaws.com",
+            "issuer": "Amazon RSA 2048 M04",
+            "self-signed": "false",
+            "not-valid-before": "Jun 13 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jul 12 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "recruit.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq6.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq6.dev.iitm.ac.in",
+            "altnames": "DNS:pynq6.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "cb-exam.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cb-exam.seek.study.iitm.ac.in",
+            "altnames": "DNS:cb-exam.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 20 13:59:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 20 14:53:18 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "respark.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "respark.iitm.ac.in",
+            "altnames": "DNS:respark.iitm.ac.in, DNS:www.respark.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 18 22:07:31 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 16 22:07:30 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "research.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "inup.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "quantum.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "remote.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "remote.iitm.ac.in",
+            "altnames": "DNS:remote.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Oct 31 11:37:34 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan 29 11:37:33 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "jam.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "shaastramag-uat.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "shaastramag-uat.iitm.ac.in",
+            "altnames": "DNS:shaastramag-uat.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov  7 03:45:24 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  5 03:45:23 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "smtp1.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host smtp1.iitm.ac.in (103.158.42.43) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "school-connect.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "school-connect.study.iitm.ac.in",
+            "altnames": "DNS:school-connect.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 13 00:12:57 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 11 01:02:27 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mdl.ireflect.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "api.ireflect.study.iitm.ac.in",
+            "altnames": "DNS:api.ireflect.study.iitm.ac.in, DNS:ireflect.study.iitm.ac.in, DNS:mdl.ireflect.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  6 10:07:08 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  6 11:02:02 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "shaastramag.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "shaastramag.iitm.ac.in",
+            "altnames": "DNS:shaastramag.iitm.ac.in, DNS:www.shaastramag.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov  7 03:45:36 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  5 03:45:35 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq5.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq5.dev.iitm.ac.in",
+            "altnames": "DNS:pynq5.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:43 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq3.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq3.dev.iitm.ac.in",
+            "altnames": "DNS:pynq3.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq4.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq4.dev.iitm.ac.in",
+            "altnames": "DNS:pynq4.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "uay.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "FG121GTK24004390",
+            "self-signed": "false",
+            "not-valid-before": "Nov 22 00:00:00 2023 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 22 23:59:59 2024 GMT",
+            "expired": "true"
+        }
+    },
+    "webtest.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "webtest.dev.iitm.ac.in",
+            "altnames": "DNS:webtest.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Dec  5 02:46:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  5 02:46:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "web1.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo RSA Organization Validation Secure Server CA",
+            "self-signed": "false",
+            "not-valid-before": "Dec  6 00:00:00 2024 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan  6 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "wmtech.code.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "wmtech.code.iitm.ac.in",
+            "altnames": "DNS:wmtech.code.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov  6 11:21:40 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  4 12:11:31 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "readcode.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "readcode.dev.iitm.ac.in",
+            "altnames": "DNS:readcode.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 13 15:56:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 11 15:56:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "waf01.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "jitsi.evc.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname jitsi.evc.iitm.ac.in."
+        }
+    },
+    "www.leap.respark.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "leap.respark.iitm.ac.in",
+            "altnames": "DNS:leap.respark.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Sep 24 10:50:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 23 10:50:43 2025 GMT",
+            "expired": "true"
+        }
+    },
+    "www.incubation.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "incubation.iitm.ac.in",
+            "altnames": "DNS:incubation.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Nov 14 19:00:55 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 12 19:00:54 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "tcoe.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host tcoe.iitm.ac.in (3.7.32.22) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "www.respark.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "respark.iitm.ac.in",
+            "altnames": "DNS:respark.iitm.ac.in, DNS:www.respark.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 18 22:07:31 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 16 22:07:30 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "www.onlinedegree.iitm.ac.in",
+            "altnames": "DNS:www.onlinedegree.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 20 00:11:39 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 20 01:02:51 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "iitmwww.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname iitmwww.iitm.ac.in."
+        }
+    },
+    "term.ee1103.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "wsai.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.shaastramag.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "shaastramag.iitm.ac.in",
+            "altnames": "DNS:shaastramag.iitm.ac.in, DNS:www.shaastramag.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov  7 03:45:36 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  5 03:45:35 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "web.zmail.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.zmail.iitm.ac.in",
+            "altnames": "DNS:*.zmail.iitm.ac.in, DNS:zmail.iitm.ac.in",
+            "issuer": "Sectigo RSA Domain Validation Secure Server CA",
+            "self-signed": "false",
+            "not-valid-before": "Feb  1 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan  4 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "sustainability.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.ioas.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "theory.cse.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ccd.cse.iitm.ac.in",
+            "altnames": "DNS:ccd.cse.iitm.ac.in, DNS:dawnlab.cse.iitm.ac.in, DNS:pace.cse.iitm.ac.in, DNS:sense.cse.iitm.ac.in, DNS:theory.cse.iitm.ac.in, DNS:www.cse.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  3 10:27:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  3 10:27:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq11.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq11.dev.iitm.ac.in",
+            "altnames": "DNS:pynq11.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:44 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:43 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "study.iitm.ac.in",
+            "altnames": "DNS:study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 18 13:17:18 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 16 14:08:50 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "zanzibar.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "zanzibar.iitm.ac.in",
+            "altnames": "DNS:zanzibar.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Oct 26 16:30:02 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan 24 16:30:01 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "zmail.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.zmail.iitm.ac.in",
+            "altnames": "DNS:*.zmail.iitm.ac.in, DNS:zmail.iitm.ac.in",
+            "issuer": "Sectigo RSA Domain Validation Secure Server CA",
+            "self-signed": "false",
+            "not-valid-before": "Feb  1 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan  4 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "smtp.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host smtp.iitm.ac.in (103.158.42.43) on port 443 (connect: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. )."
+        }
+    },
+    "tlc.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ugadmissions.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "admin.exams.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "exams.study.iitm.ac.in",
+            "altnames": "DNS:exams.study.iitm.ac.in, DNS:admin.exams.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov  6 05:50:33 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  4 06:49:49 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "yrf.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "yrf.iitm.ac.in",
+            "altnames": "DNS:yrf.iitm.ac.in",
+            "issuer": "Amazon RSA 2048 M04",
+            "self-signed": "false",
+            "not-valid-before": "Nov 12 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 11 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "term.ee2003.dev.iitm.ac.in": {
+        "cert_details": {
+            "error": "Certificate information couldnt be retrieved."
+        }
+    },
+    "uatv2.joyofgiving.alumni.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "uatv2.joyofgiving.alumni.iitm.ac.in",
+            "altnames": "DNS:uatv2.joyofgiving.alumni.iitm.ac.in",
+            "issuer": "Amazon RSA 2048 M01",
+            "self-signed": "false",
+            "not-valid-before": "Dec  1 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 30 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.ae.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "students.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname students.iitm.ac.in."
+        }
+    },
+    "waf7.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname waf7.iitm.ac.in."
+        }
+    },
+    "web.ee.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "web.ee.iitm.ac.in",
+            "altnames": "DNS:web.ee.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 27 02:23:06 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 25 03:12:57 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "tech-talk.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "tech-talk.iitm.ac.in",
+            "altnames": "DNS:tech-talk.iitm.ac.in",
+            "issuer": "Amazon RSA 2048 M04",
+            "self-signed": "false",
+            "not-valid-before": "Nov 12 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Dec 11 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "waf1.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname waf1.iitm.ac.in."
+        }
+    },
+    "staging.seek.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "staging.seek.study.iitm.ac.in",
+            "altnames": "DNS:staging.seek.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec 18 09:53:46 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 18 10:53:07 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.chennai36.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "chennai36.iitm.ac.in",
+            "altnames": "DNS:chennai36.iitm.ac.in, DNS:www.chennai36.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Dec  2 09:07:04 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  2 09:07:03 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.ed.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname www.ed.iitm.ac.in."
+        }
+    },
+    "waf6.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname waf6.iitm.ac.in."
+        }
+    },
+    "www.ee.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "www.ee.iitm.ac.in",
+            "altnames": "DNS:www.ee.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec 16 11:15:42 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 16 11:15:41 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.biomimicry.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "biomimicry.iitm.ac.in",
+            "altnames": "DNS:biomimicry.iitm.ac.in, DNS:www.biomimicry.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Dec  1 12:10:30 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  1 12:10:29 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.ctcs.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "ctcs.iitm.ac.in",
+            "altnames": "DNS:ctcs.iitm.ac.in, DNS:www.ctcs.iitm.ac.in",
+            "issuer": "WR1",
+            "self-signed": "false",
+            "not-valid-before": "Nov  2 18:01:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Jan 31 18:01:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "giftshop.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "www.ownsilent.com",
+            "altnames": "DNS:commerce.usatelecom.us, DNS:ecommerce.resautomatisation.com, DNS:giftshop.iitm.ac.in, DNS:portalb2b.collamin.com, DNS:shop.skilltechsaudi.com, DNS:shop.urohe.com, DNS:store.gnome.co.za, DNS:store.mainvine.wine, DNS:www.amlarize.com, DNS:www.availit.us, DNS:www.cherrymakeup.mx, DNS:www.corecprod.com, DNS:www.duritydistribution.com, DNS:www.exvist.com, DNS:www.farmamiga.com.mx, DNS:www.fathersontng.com, DNS:www.goodguystoys.com, DNS:www.hellocannarioclub.com, DNS:www.inspiredstylez.com, DNS:www.lanubein.online, DNS:www.lencatechsolutions.com, DNS:www.linkcofab.com, DNS:www.malvabeauty.ca, DNS:www.millanao.cl, DNS:www.mognovadrafting.com, DNS:www.omnitns.com, DNS:www.onlinerdservice.com, DNS:www.ossvie.com, DNS:www.overlandgurus.ca, DNS:www.ownsilent.com, DNS:www.peregrineworx.com, DNS:www.phonecenterpereira.com, DNS:www.sanitailors.com, DNS:www.shop.treesonline.co.za, DNS:www.sunshinecashandcarry.co.za, DNS:www.ulavaranand.in, DNS:www.washroomco.co.za, DNS:www.whogohb.com, DNS:www.zaistra.com",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Dec  9 22:57:55 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  9 22:57:54 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "appdev.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "4096"
+            },
+            "subject": "appdev.onlinedegree.iitm.ac.in",
+            "altnames": "DNS:appdev.onlinedegree.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Dec 15 07:42:47 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 15 07:42:46 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dsai.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "es.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "es.study.iitm.ac.in",
+            "altnames": "DNS:es.study.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Nov 16 07:34:20 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 14 08:23:29 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "civil.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ee2003.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ee2003.dev.iitm.ac.in",
+            "altnames": "DNS:ee2003.dev.iitm.ac.in",
+            "issuer": "E7",
+            "self-signed": "false",
+            "not-valid-before": "Nov 10 14:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  8 14:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "bioincubator.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "dos.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname dos.iitm.ac.in."
+        }
+    },
+    "cessa.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "cessa.iitm.ac.in",
+            "altnames": "DNS:cessa.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov 17 10:35:10 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 15 10:35:09 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ed.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ae2.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname ae2.iitm.ac.in."
+        }
+    },
+    "empower23.respark.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname empower23.respark.iitm.ac.in."
+        }
+    },
+    "hss.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "jup.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "jup.dev.iitm.ac.in",
+            "altnames": "DNS:jup.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 17:16:36 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb  1 17:16:35 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "mailx2.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ms2001p.study.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "ms2001p.study.iitm.ac.in",
+            "altnames": "DNS:ms2001p.study.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Dec  2 01:27:24 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  2 01:27:23 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "nccrd.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "admissions.ge.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "admissions.ge.iitm.ac.in",
+            "altnames": "DNS:admissions.ge.iitm.ac.in",
+            "issuer": "Amazon RSA 2048 M02",
+            "self-signed": "false",
+            "not-valid-before": "Feb 27 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar 29 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "rise.cse.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not open a connection to host rise.cse.iitm.ac.in (103.158.43.220) on port 443 (connect: No connection could be made because the target machine actively refused it. )."
+        }
+    },
+    "pynq7.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq7.dev.iitm.ac.in",
+            "altnames": "DNS:pynq7.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "joaps.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname joaps.iitm.ac.in."
+        }
+    },
+    "pallava.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "pynq14.dev.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "ecdsa-with-SHA384",
+            "pk": {
+                "@error": "false",
+                "@type": "EC",
+                "@curve_name": "prime256v1",
+                "@bits": "128"
+            },
+            "subject": "pynq14.dev.iitm.ac.in",
+            "altnames": "DNS:pynq14.dev.iitm.ac.in",
+            "issuer": "E8",
+            "self-signed": "false",
+            "not-valid-before": "Nov 26 15:06:35 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 24 15:06:34 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "ssp.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "*.iitm.ac.in",
+            "altnames": "DNS:*.iitm.ac.in, DNS:iitm.ac.in",
+            "issuer": "Sectigo Public Server Authentication CA OV R36",
+            "self-signed": "false",
+            "not-valid-before": "Nov  3 00:00:00 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Nov  3 23:59:59 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "wcte.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "wcte.iitm.ac.in",
+            "altnames": "DNS:wcte.iitm.ac.in",
+            "issuer": "R12",
+            "self-signed": "false",
+            "not-valid-before": "Nov 12 02:24:38 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 10 02:24:37 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "www.gate.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname www.gate.iitm.ac.in."
+        }
+    },
+    "www.doe.iitm.ac.in": {
+        "cert_details": {
+            "error": "Could not resolve hostname www.doe.iitm.ac.in."
+        }
+    },
+    "www.backend.seek.onlinedegree.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "www.backend.seek.onlinedegree.iitm.ac.in",
+            "altnames": "DNS:www.backend.seek.onlinedegree.iitm.ac.in",
+            "issuer": "WR3",
+            "self-signed": "false",
+            "not-valid-before": "Dec  2 13:16:40 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Mar  2 14:04:29 2026 GMT",
+            "expired": "false"
+        }
+    },
+    "tlc2.iitm.ac.in": {
+        "cert_details": {
+            "@type": "short",
+            "signature-algorithm": "sha256WithRSAEncryption",
+            "pk": {
+                "@error": "false",
+                "@type": "RSA",
+                "@bits": "2048"
+            },
+            "subject": "tlc2.iitm.ac.in",
+            "altnames": "DNS:tlc2.iitm.ac.in",
+            "issuer": "R13",
+            "self-signed": "false",
+            "not-valid-before": "Nov 28 17:48:50 2025 GMT",
+            "not-yet-valid": "false",
+            "not-valid-after": "Feb 26 17:48:49 2026 GMT",
+            "expired": "false"
+        }
+    }
+}

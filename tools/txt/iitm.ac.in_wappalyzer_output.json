@@ -1,0 +1,2151 @@
+{
+    "backend.seek.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "code.iitm.ac.in": {
+        "techstack": [
+            "Google Tag Manager",
+            "Apache HTTP Server",
+            "HSTS"
+        ]
+    },
+    "app.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Firebase",
+            "Socket.io",
+            "Popper",
+            "Axios",
+            "jQuery",
+            "jsDelivr",
+            "Unpkg",
+            "cdnjs",
+            "Htmx",
+            "Bootstrap",
+            "Google Cloud",
+            "Node.js",
+            "Cloudflare"
+        ]
+    },
+    "facapp.iitm.ac.in": {
+        "techstack": [
+            "Google Hosted Libraries",
+            "Apache HTTP Server",
+            "jQuery",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "ds.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Firebase",
+            "Socket.io",
+            "Popper",
+            "Axios",
+            "jQuery",
+            "jsDelivr",
+            "Unpkg",
+            "cdnjs",
+            "Htmx",
+            "Bootstrap",
+            "Google Cloud",
+            "Node.js",
+            "Cloudflare"
+        ]
+    },
+    "cb-staging.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Cloud Trace",
+            "Google Hosted Libraries",
+            "Firebase",
+            "jQuery",
+            "HTTP/3",
+            "Google Cloud"
+        ]
+    },
+    "cse.iitm.ac.in": {
+        "techstack": [
+            "Debian",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery UI"
+        ]
+    },
+    "gate.iitm.ac.in": {
+        "techstack": [
+            "jQuery",
+            "YouTube",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "cs1102.study.iitm.ac.in": {
+        "techstack": [
+            "Nginx",
+            "Popper",
+            "jsDelivr",
+            "Ubuntu",
+            "cdnjs",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "forms.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "cb-prod.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Cloud Trace",
+            "Google Hosted Libraries",
+            "Firebase",
+            "jQuery",
+            "HTTP/3",
+            "Google Cloud"
+        ]
+    },
+    "exams-cb.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Cloud Trace",
+            "Google Hosted Libraries",
+            "Firebase",
+            "jQuery",
+            "Google Cloud"
+        ]
+    },
+    "dns2.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "diploma.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Moment.js",
+            "reCAPTCHA",
+            "Popper",
+            "AddToAny",
+            "jQuery",
+            "Open Graph",
+            "Bootstrap",
+            "Google Cloud"
+        ]
+    },
+    "bcga.iitm.ac.in": {
+        "techstack": [
+            "Nicepage",
+            "jQuery",
+            "Open Graph",
+            "HSTS"
+        ]
+    },
+    "api.cms-beta.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "dns3.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "examcheck.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "exams.study.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Cloudflare"
+        ]
+    },
+    "ext01ldap.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ftp.iitm.ac.in": {
+        "techstack": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "alumni.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "discourse.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "Discourse",
+            "Nginx",
+            "PWA",
+            "web-vitals",
+            "Unpkg",
+            "HSTS",
+            "Ruby on Rails",
+            "Ruby"
+        ]
+    },
+    "cppics.iitm.ac.in": {
+        "techstack": [
+            "Drupal",
+            "jQuery",
+            "HSTS",
+            "PHP"
+        ]
+    },
+    "events.respark.iitm.ac.in": {
+        "techstack": [
+            "Apache HTTP Server",
+            "Ubuntu"
+        ]
+    },
+    "ccd.cse.iitm.ac.in": {
+        "techstack": [
+            "Debian",
+            "Apache HTTP Server"
+        ]
+    },
+    "catalysis.eprints.iitm.ac.in": {
+        "techstack": [
+            "Flowplayer",
+            "Apache HTTP Server",
+            "Ubuntu",
+            "HSTS"
+        ]
+    },
+    "cacs.iitm.ac.in": {
+        "techstack": [
+            "GeneratePress",
+            "LiteSpeed",
+            "LiteSpeed Cache",
+            "Perfmatters",
+            "Priority Hints",
+            "WordPress",
+            "HSTS",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ae.iitm.ac.in": {
+        "techstack": [
+            "Red Hat",
+            "RoundCube",
+            "PHP",
+            "Popper",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery UI",
+            "OpenSSL",
+            "cdnjs",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "dev.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Cloudflare"
+        ]
+    },
+    "asuldap.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "5gtbdocs.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "backend.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Cloud Trace",
+            "Google Hosted Libraries",
+            "Firebase",
+            "jQuery",
+            "HTTP/3",
+            "Google Cloud"
+        ]
+    },
+    "asr.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "HSTS",
+            "Vercel"
+        ]
+    },
+    "acr.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "cifil.iitm.ac.in": {
+        "techstack": [
+            "Zoho Sites",
+            "Open Graph",
+            "Cart Functionality",
+            "HSTS"
+        ]
+    },
+    "ge.iitm.ac.in": {
+        "techstack": [
+            "Next.js",
+            "Priority Hints",
+            "Amazon CloudFront",
+            "YouTube",
+            "HSTS",
+            "React",
+            "Webpack",
+            "Amazon Web Services"
+        ]
+    },
+    "ccw.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Hosted Libraries",
+            "Google Maps",
+            "DataTables",
+            "Spring",
+            "Popper",
+            "Java",
+            "jQuery",
+            "Cart Functionality",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare",
+            "Vercel"
+        ]
+    },
+    "cenlib.iitm.ac.in": {
+        "techstack": [
+            "Google Maps",
+            "Modernizr",
+            "Laravel",
+            "jQuery",
+            "OWL Carousel",
+            "HSTS",
+            "Bootstrap",
+            "PHP"
+        ]
+    },
+    "archive.iitm.ac.in": {
+        "techstack": [
+            "Vimeo",
+            "GoDaddy Website Builder",
+            "Re:amaze",
+            "PWA",
+            "Open Graph",
+            "YouTube",
+            "HSTS"
+        ]
+    },
+    "global.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Analytics",
+            "Google Tag Manager",
+            "Framer Motion",
+            "Nginx",
+            "Swiper",
+            "Popper",
+            "Open Graph",
+            "Ubuntu",
+            "YouTube",
+            "Vercel"
+        ]
+    },
+    "coezet.iitm.ac.in": {
+        "techstack": [
+            "Ionicons",
+            "jQuery",
+            "OWL Carousel",
+            "YouTube",
+            "HSTS"
+        ]
+    },
+    "doms.iitm.ac.in": {
+        "techstack": [
+            "FlippingBook",
+            "Swiper",
+            "Popper",
+            "Joomla",
+            "jQuery",
+            "jsDelivr",
+            "Open Graph",
+            "Cloudinary",
+            "HSTS",
+            "Bootstrap",
+            "PHP"
+        ]
+    },
+    "heritage.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Maps",
+            "Google Tag Manager",
+            "Drupal",
+            "Nginx",
+            "PHP",
+            "Popper",
+            "AOS",
+            "jQuery",
+            "Unpkg",
+            "YouTube",
+            "HSTS"
+        ]
+    },
+    "apm.iitm.ac.in": {
+        "techstack": [
+            "Vimeo",
+            "Popper",
+            "Java",
+            "jQuery",
+            "jsDelivr",
+            "cdnjs",
+            "YouTube",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "conf.code.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Cloud Trace",
+            "DataTables",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "cdnjs",
+            "HTTP/3",
+            "Bootstrap",
+            "Google Cloud",
+            "Cloudflare"
+        ]
+    },
+    "cfi.iitm.ac.in": {
+        "techstack": [
+            "Vue.js",
+            "Google Analytics",
+            "Google Tag Manager",
+            "Font Awesome",
+            "PWA",
+            "cdnjs",
+            "YouTube",
+            "HSTS",
+            "Cloudflare"
+        ]
+    },
+    "biotech.iitm.ac.in": {
+        "techstack": [
+            "Modernizr",
+            "Swiper",
+            "PHP",
+            "Popper",
+            "jQuery",
+            "jsDelivr",
+            "OWL Carousel",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "eegpu.dev.iitm.ac.in": {
+        "techstack": [
+            "RequireJS",
+            "jQuery",
+            "TornadoServer",
+            "Caddy",
+            "Bootstrap"
+        ]
+    },
+    "car.iitm.ac.in": {
+        "techstack": [
+            "jsDelivr",
+            "Unpkg",
+            "HSTS"
+        ]
+    },
+    "ceet.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "dawnlab.cse.iitm.ac.in": {
+        "techstack": [
+            "Debian",
+            "Apache HTTP Server"
+        ]
+    },
+    "app.diploma.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Firebase",
+            "Socket.io",
+            "Popper",
+            "Axios",
+            "jQuery",
+            "jsDelivr",
+            "Unpkg",
+            "cdnjs",
+            "Htmx",
+            "Bootstrap",
+            "Google Cloud",
+            "Node.js",
+            "Cloudflare"
+        ]
+    },
+    "chem.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Slider Revolution",
+            "PHP",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "Open Graph",
+            "OpenSSL",
+            "CentOS",
+            "Contact Form 7",
+            "Yoast SEO",
+            "HSTS",
+            "MySQL",
+            "Vercel"
+        ]
+    },
+    "dirv.iitm.ac.in": {
+        "techstack": [
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "eex.dev.iitm.ac.in": {
+        "techstack": [
+            "Moodle",
+            "Nginx",
+            "RequireJS",
+            "PHP",
+            "jQuery",
+            "Caddy",
+            "YUI",
+            "YUI Doc"
+        ]
+    },
+    "mailx4.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "cec.iitm.ac.in": {
+        "techstack": [
+            "Modernizr",
+            "Divi",
+            "LiteSpeed",
+            "RankMath SEO",
+            "reCAPTCHA",
+            "Priority Hints",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "Open Graph",
+            "YouTube",
+            "HTTP/3",
+            "Hostinger",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "api.ireflect.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "drone.ee2003.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "fd.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ai4bharat.iitm.ac.in": {
+        "techstack": [
+            "Varnish",
+            "Vercel Analytics",
+            "GitHub Pages",
+            "Fastly",
+            "Emotion",
+            "Priority Hints",
+            "Open Graph",
+            "YouTube",
+            "Vercel"
+        ]
+    },
+    "dns1.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "mech.iitm.ac.in": {
+        "techstack": [
+            "DataTables",
+            "Popper",
+            "jQuery",
+            "OWL Carousel",
+            "Underscore.js",
+            "cdnjs",
+            "YouTube",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "asr.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "e-verify.acservices.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Cloud"
+        ]
+    },
+    "icandsr.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Analytics",
+            "Google Tag Manager",
+            "DataTables",
+            "Slider Revolution",
+            "prettyPhoto",
+            "jQuery",
+            "jQuery UI",
+            "Twitter",
+            "Open Graph",
+            "YouTube",
+            "HSTS",
+            "Bootstrap",
+            "Vercel"
+        ]
+    },
+    "jeerep.iitm.ac.in": {
+        "techstack": [
+            "PHP",
+            "jQuery",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "ntcpwc.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "leap.respark.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "ncaht.iitm.ac.in": {
+        "techstack": [
+            "Open Graph"
+        ]
+    },
+    "internship.iitm.ac.in": {
+        "techstack": [
+            "Laravel",
+            "particles.js",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery CDN",
+            "Tiny Slider",
+            "Ubuntu",
+            "Bootstrap",
+            "PHP"
+        ]
+    },
+    "aidblab.cse.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "mentorship.study.iitm.ac.in": {
+        "techstack": [
+            "Google Sign-in",
+            "Nginx",
+            "jsDelivr"
+        ]
+    },
+    "htic.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "HSTS"
+        ]
+    },
+    "ia.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ee.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Modernizr",
+            "Popper",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "OWL Carousel",
+            "Ubuntu",
+            "cdnjs",
+            "YouTube",
+            "HTTP/3",
+            "Bootstrap",
+            "Cloudflare",
+            "Vercel"
+        ]
+    },
+    "ireflect.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ctcs.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Cloud CDN",
+            "decimal.js",
+            "Lodash",
+            "Sentry",
+            "WebsiteBuilder",
+            "Wix",
+            "Open Graph",
+            "HSTS",
+            "HTTP/3",
+            "Google Cloud",
+            "React",
+            "Vercel"
+        ]
+    },
+    "idp.iitm.ac.in": {
+        "techstack": [
+            "FancyBox",
+            "Modernizr",
+            "PHP",
+            "Apache HTTP Server",
+            "jQuery",
+            "CodeIgniter",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "hc-uat.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "icsrpis.iitm.ac.in": {
+        "techstack": [
+            "Ionicons",
+            "HSTS"
+        ]
+    },
+    "datacommons.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "che.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "home.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "ibse.iitm.ac.in": {
+        "techstack": [
+            "Slick",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "Unpkg",
+            "cdnjs",
+            "HSTS",
+            "Hugo",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "git.ee2003.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "lotus.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ioas.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "keepitflowing.alumni.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "jup.ee2003.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "irepose.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "mailx3.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "mtechadm.iitm.ac.in": {
+        "techstack": [
+            "Google Hosted Libraries",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "monitor.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "autodiscover.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "biomimicry.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "incubation.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "GoDaddy",
+            "Google Analytics",
+            "Microsoft 365",
+            "Apache HTTP Server",
+            "Open Graph",
+            "YouTube",
+            "Vercel"
+        ]
+    },
+    "mme.iitm.ac.in": {
+        "techstack": [
+            "Google Hosted Libraries",
+            "Modernizr",
+            "PHP",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "OWL Carousel",
+            "cdnjs",
+            "YouTube",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "jup.ee1103.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "physics.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Hosted Libraries",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "OWL Carousel",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare",
+            "Vercel"
+        ]
+    },
+    "10x.respark.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "oldcourses.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq9.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "old.ge.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "seek.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Cloudflare"
+        ]
+    },
+    "mst.iitm.ac.in": {
+        "techstack": [
+            "Divi",
+            "LiteSpeed",
+            "LiteSpeed Cache",
+            "reCAPTCHA",
+            "PHP",
+            "Priority Hints",
+            "jQuery",
+            "jQuery Migrate",
+            "jQuery Mobile",
+            "WordPress",
+            "YouTube",
+            "HTTP/3",
+            "Hostinger",
+            "MySQL"
+        ]
+    },
+    "doe.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Maps",
+            "Modernizr",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "OWL Carousel",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare",
+            "Vercel"
+        ]
+    },
+    "iitmk8s.wcte.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "jeeadv.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "nbg.dev.iitm.ac.in": {
+        "techstack": [
+            "RequireJS",
+            "jQuery",
+            "TornadoServer",
+            "Caddy",
+            "Bootstrap"
+        ]
+    },
+    "cms-beta.study.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Cloudflare"
+        ]
+    },
+    "evc.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pve.dev.iitm.ac.in": {
+        "techstack": [
+            "Marked",
+            "ExtJS",
+            "Proxmox VE",
+            "Caddy"
+        ]
+    },
+    "ovd.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "payments.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "PHP",
+            "HTTP/3",
+            "Google Cloud"
+        ]
+    },
+    "cmsrv.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "blog.techsoc.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Lucide",
+            "jQuery",
+            "jsDelivr",
+            "Open Graph",
+            "YouTube",
+            "Google Cloud"
+        ]
+    },
+    "pace.cse.iitm.ac.in": {
+        "techstack": [
+            "Debian",
+            "Popper",
+            "Apache HTTP Server",
+            "jQuery",
+            "Bootstrap"
+        ]
+    },
+    "se2001.ds.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Popper",
+            "jsDelivr",
+            "cdnjs",
+            "HTTP/3",
+            "Bootstrap",
+            "Google Cloud",
+            "Cloudflare"
+        ]
+    },
+    "pynq13.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "smtp2.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "jitsi.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "placements.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Maps",
+            "Swiper",
+            "PHP",
+            "Apache HTTP Server",
+            "HSTS",
+            "HTTP/3",
+            "Bootstrap",
+            "Google Cloud"
+        ]
+    },
+    "r2d2.iitm.ac.in": {
+        "techstack": [
+            "Open Graph",
+            "YouTube"
+        ]
+    },
+    "seek.study.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Cloudflare"
+        ]
+    },
+    "pynq2.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "publications.cse.iitm.ac.in": {
+        "techstack": [
+            "Debian",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery UI"
+        ]
+    },
+    "rbcdsai.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "Font Awesome",
+            "Popper",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "Twitter",
+            "OWL Carousel",
+            "Unpkg",
+            "cdnjs",
+            "YouTube",
+            "HSTS",
+            "Hugo",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "cce.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ipa.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "nipra.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "placement.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Maps",
+            "Modernizr",
+            "Laravel",
+            "Slider Revolution",
+            "Popper",
+            "Apache HTTP Server",
+            "jQuery",
+            "jsDelivr",
+            "Ubuntu",
+            "cdnjs",
+            "YouTube",
+            "Bootstrap",
+            "PHP",
+            "Cloudflare",
+            "Vercel"
+        ]
+    },
+    "nsm.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "o1.ptr404.mail.nptel.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "moodle.respark.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq10.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "backend.exams.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Hosted Libraries",
+            "Firebase",
+            "jQuery",
+            "Google Cloud"
+        ]
+    },
+    "mm.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "oir.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "chennai36.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Cloud CDN",
+            "decimal.js",
+            "Lodash",
+            "Sentry",
+            "Priority Hints",
+            "WebsiteBuilder",
+            "Wix",
+            "Open Graph",
+            "YouTube",
+            "HSTS",
+            "HTTP/3",
+            "Google Cloud",
+            "React",
+            "Vercel"
+        ]
+    },
+    "sfp.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "redmine.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "sense.cse.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "cb-dev.seek.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "impactstories.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "csemail.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq8.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq12.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "rpcrm.iitm.ac.in": {
+        "techstack": [
+            "XRegExp",
+            "jQuery",
+            "HSTS"
+        ]
+    },
+    "philanthropy.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Open Graph",
+            "Cloudflare",
+            "HSTS",
+            "HTTP/3",
+            "HubSpot",
+            "HubSpot CMS Hub",
+            "Vercel"
+        ]
+    },
+    "siddhi.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "recruit.iitm.ac.in": {
+        "techstack": [
+            "Popper",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "pynq6.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "cb-exam.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud CDN",
+            "Google Cloud Trace",
+            "Google Hosted Libraries",
+            "Firebase",
+            "jQuery",
+            "HTTP/3",
+            "Google Cloud"
+        ]
+    },
+    "respark.iitm.ac.in": {
+        "techstack": [
+            "Apache HTTP Server",
+            "OWL Carousel",
+            "Ubuntu",
+            "cdnjs",
+            "jQuery",
+            "Cloudflare"
+        ]
+    },
+    "research.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "inup.iitm.ac.in": {
+        "techstack": [
+            "Swiper",
+            "Popper",
+            "Isotope",
+            "jQuery",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "quantum.iitm.ac.in": {
+        "techstack": [
+            "scrollreveal",
+            "Priority Hints",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "HSTS",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "remote.iitm.ac.in": {
+        "techstack": [
+            "Nginx",
+            "Ubuntu"
+        ]
+    },
+    "jam.iitm.ac.in": {
+        "techstack": [
+            "jQuery",
+            "YouTube",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "shaastramag-uat.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "smtp1.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "school-connect.study.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "Open Graph"
+        ]
+    },
+    "mdl.ireflect.study.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "shaastramag.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "Drupal",
+            "Nginx",
+            "Linkedin Insight Tag",
+            "reCAPTCHA",
+            "PHP",
+            "AOS",
+            "jQuery",
+            "Unpkg",
+            "HSTS"
+        ]
+    },
+    "pynq5.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq3.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq4.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "uay.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "webtest.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "web1.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "wmtech.code.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Firebase",
+            "Socket.io",
+            "Popper",
+            "Axios",
+            "jQuery",
+            "jsDelivr",
+            "Unpkg",
+            "cdnjs",
+            "Htmx",
+            "Bootstrap",
+            "Google Cloud",
+            "Node.js",
+            "Cloudflare"
+        ]
+    },
+    "readcode.dev.iitm.ac.in": {
+        "techstack": [
+            "gunicorn",
+            "Alpine.js",
+            "jsDelivr",
+            "Tailwind CSS",
+            "Unpkg",
+            "Caddy",
+            "HSTS",
+            "Htmx",
+            "Python"
+        ]
+    },
+    "waf01.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "jitsi.evc.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.leap.respark.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.incubation.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "GoDaddy",
+            "Google Analytics",
+            "Microsoft 365",
+            "Apache HTTP Server",
+            "Open Graph",
+            "YouTube",
+            "Vercel"
+        ]
+    },
+    "tcoe.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.respark.iitm.ac.in": {
+        "techstack": [
+            "Apache HTTP Server",
+            "OWL Carousel",
+            "Ubuntu",
+            "cdnjs",
+            "jQuery",
+            "Cloudflare"
+        ]
+    },
+    "www.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Lucide",
+            "jQuery",
+            "jsDelivr",
+            "Open Graph",
+            "YouTube",
+            "Google Cloud"
+        ]
+    },
+    "www.cse.iitm.ac.in": {
+        "techstack": [
+            "Debian",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery UI"
+        ]
+    },
+    "iitmwww.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "term.ee1103.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "wsai.iitm.ac.in": {
+        "techstack": [
+            "Swiper",
+            "Elementor",
+            "Priority Hints",
+            "Apache HTTP Server",
+            "aThemes Sydney",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "www.shaastramag.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "Drupal",
+            "Nginx",
+            "Linkedin Insight Tag",
+            "reCAPTCHA",
+            "PHP",
+            "AOS",
+            "jQuery",
+            "Unpkg",
+            "HSTS"
+        ]
+    },
+    "web.zmail.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "sustainability.iitm.ac.in": {
+        "techstack": [
+            "Vercel",
+            "Vercel Analytics",
+            "Priority Hints",
+            "HSTS"
+        ]
+    },
+    "www.ioas.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "theory.cse.iitm.ac.in": {
+        "techstack": [
+            "Modernizr",
+            "Debian",
+            "Apache HTTP Server"
+        ]
+    },
+    "pynq11.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "study.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Moment.js",
+            "reCAPTCHA",
+            "Popper",
+            "AddToAny",
+            "jQuery",
+            "Bootstrap",
+            "Google Cloud"
+        ]
+    },
+    "zanzibar.iitm.ac.in": {
+        "techstack": [
+            "Next.js",
+            "Priority Hints",
+            "Amazon CloudFront",
+            "Open Graph",
+            "YouTube",
+            "HTTP/3",
+            "React",
+            "Webpack",
+            "Amazon Web Services"
+        ]
+    },
+    "zmail.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "smtp.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "tlc.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ugadmissions.iitm.ac.in": {
+        "techstack": [
+            "Slider Revolution",
+            "prettyPhoto",
+            "jQuery",
+            "Twitter",
+            "YouTube",
+            "HSTS"
+        ]
+    },
+    "admin.exams.study.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "Font Awesome",
+            "Popper",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "yrf.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Font Awesome",
+            "Swiper",
+            "Elementor",
+            "Popper",
+            "particles.js",
+            "Amazon CloudFront",
+            "jQuery",
+            "WooCommerce",
+            "YouTube",
+            "HSTS",
+            "HTTP/3",
+            "Bootstrap",
+            "Amazon Web Services",
+            "WordPress",
+            "Vercel"
+        ]
+    },
+    "term.ee2003.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "uatv2.joyofgiving.alumni.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.ae.iitm.ac.in": {
+        "techstack": [
+            "Font Awesome",
+            "DataTables",
+            "Red Hat",
+            "Popper",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery CDN",
+            "OpenSSL",
+            "Unpkg",
+            "cdnjs",
+            "YouTube",
+            "Hugo",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "students.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "waf7.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "web.ee.iitm.ac.in": {
+        "techstack": [
+            "Open Graph"
+        ]
+    },
+    "tech-talk.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "ShareThis",
+            "Priority Hints",
+            "Amazon CloudFront",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "CookieYes",
+            "YouTube",
+            "HSTS",
+            "HTTP/3",
+            "Amazon Web Services",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "waf1.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "staging.seek.study.iitm.ac.in": {
+        "techstack": [
+            "Firebase",
+            "jsDelivr",
+            "cdnjs",
+            "HSTS",
+            "HTTP/3",
+            "Cloudflare"
+        ]
+    },
+    "www.chennai36.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Cloud CDN",
+            "decimal.js",
+            "Lodash",
+            "Sentry",
+            "Priority Hints",
+            "WebsiteBuilder",
+            "Wix",
+            "Open Graph",
+            "YouTube",
+            "HSTS",
+            "HTTP/3",
+            "Google Cloud",
+            "React",
+            "Vercel"
+        ]
+    },
+    "www.ed.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "waf6.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.ee.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Modernizr",
+            "Popper",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery CDN",
+            "jsDelivr",
+            "OWL Carousel",
+            "Ubuntu",
+            "cdnjs",
+            "YouTube",
+            "HTTP/3",
+            "Bootstrap",
+            "Cloudflare",
+            "Vercel"
+        ]
+    },
+    "www.biomimicry.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.ctcs.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Cloud CDN",
+            "decimal.js",
+            "Lodash",
+            "Sentry",
+            "WebsiteBuilder",
+            "Wix",
+            "Open Graph",
+            "HSTS",
+            "HTTP/3",
+            "Google Cloud",
+            "React",
+            "Vercel"
+        ]
+    },
+    "giftshop.iitm.ac.in": {
+        "techstack": [
+            "Zoho Commerce",
+            "Zoho PageSense",
+            "Google Analytics",
+            "Google Tag Manager",
+            "Open Graph",
+            "Cart Functionality",
+            "HSTS",
+            "Zoho"
+        ]
+    },
+    "appdev.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "Mermaid",
+            "MkDocs",
+            "Unpkg",
+            "cdnjs",
+            "YouTube",
+            "Highlight.js",
+            "Python",
+            "Cloudflare"
+        ]
+    },
+    "dsai.iitm.ac.in": {
+        "techstack": [
+            "Swiper",
+            "Elementor",
+            "Priority Hints",
+            "Apache HTTP Server",
+            "aThemes Sydney",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "es.study.iitm.ac.in": {
+        "techstack": [
+            "Google Cloud Trace",
+            "Google Tag Manager",
+            "Firebase",
+            "Socket.io",
+            "Popper",
+            "Axios",
+            "jQuery",
+            "jsDelivr",
+            "Unpkg",
+            "cdnjs",
+            "Htmx",
+            "Bootstrap",
+            "Google Cloud",
+            "Node.js",
+            "Cloudflare"
+        ]
+    },
+    "civil.iitm.ac.in": {
+        "techstack": [
+            "Google Hosted Libraries",
+            "Google Maps",
+            "Modernizr",
+            "PHP",
+            "jQuery",
+            "WordPress",
+            "Contact Form 7",
+            "HSTS",
+            "Bootstrap",
+            "MySQL"
+        ]
+    },
+    "ee2003.dev.iitm.ac.in": {
+        "techstack": [
+            "RequireJS",
+            "jQuery",
+            "TornadoServer",
+            "Caddy",
+            "Bootstrap"
+        ]
+    },
+    "bioincubator.iitm.ac.in": {
+        "techstack": [
+            "Google Hosted Libraries",
+            "Popper",
+            "jQuery",
+            "cdnjs",
+            "HSTS",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "dos.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "cessa.iitm.ac.in": {
+        "techstack": [
+            "Slick",
+            "PHP",
+            "Apache HTTP Server",
+            "jQuery",
+            "OWL Carousel",
+            "cdnjs",
+            "Bootstrap",
+            "Cloudflare"
+        ]
+    },
+    "ed.iitm.ac.in": {
+        "techstack": [
+            "FancyBox",
+            "FlexSlider",
+            "Modernizr",
+            "jQuery",
+            "OWL Carousel",
+            "YouTube",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "ae2.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "empower23.respark.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "hss.iitm.ac.in": {
+        "techstack": [
+            "Google Maps",
+            "Smart Slider 3",
+            "Swiper",
+            "Elementor",
+            "Priority Hints",
+            "jQuery",
+            "jQuery Migrate",
+            "Twenty Nineteen",
+            "WordPress",
+            "HSTS",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    "jup.dev.iitm.ac.in": {
+        "techstack": [
+            "RequireJS",
+            "jQuery",
+            "TornadoServer",
+            "Caddy",
+            "Bootstrap"
+        ]
+    },
+    "mailx2.iitm.ac.in": {
+        "techstack": [
+            "HSTS"
+        ]
+    },
+    "ms2001p.study.iitm.ac.in": {
+        "techstack": [
+            "Laravel",
+            "Popper",
+            "Apache HTTP Server",
+            "jsDelivr",
+            "Ubuntu",
+            "Bootstrap",
+            "PHP"
+        ]
+    },
+    "nccrd.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Modernizr",
+            "Moment.js",
+            "Pure Chat",
+            "jQuery",
+            "HSTS",
+            "Bootstrap"
+        ]
+    },
+    "admissions.ge.iitm.ac.in": {
+        "techstack": [
+            "Vercel Analytics",
+            "Google Tag Manager",
+            "PWA",
+            "Popper",
+            "Amazon ALB",
+            "Apache HTTP Server",
+            "jQuery",
+            "YouTube",
+            "Bootstrap",
+            "Amazon Web Services",
+            "Vercel"
+        ]
+    },
+    "rise.cse.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pynq7.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "joaps.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "pallava.iitm.ac.in": {
+        "techstack": [
+            "Apache HTTP Server",
+            "OpenSSL"
+        ]
+    },
+    "pynq14.dev.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "ssp.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "wcte.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Sign-in",
+            "Google Tag Manager",
+            "Nginx",
+            "Site Kit",
+            "Elementor",
+            "PHP",
+            "Priority Hints",
+            "Astra",
+            "jQuery",
+            "jQuery Migrate",
+            "WordPress",
+            "Open Graph",
+            "Ubuntu",
+            "Contact Form 7",
+            "MySQL"
+        ]
+    },
+    "www.gate.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.doe.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "www.backend.seek.onlinedegree.iitm.ac.in": {
+        "techstack": [
+            "No technologies found"
+        ]
+    },
+    "tlc2.iitm.ac.in": {
+        "techstack": [
+            "Google Analytics",
+            "Google Tag Manager",
+            "MonsterInsights",
+            "Swiper",
+            "Elementor",
+            "Redux Framework",
+            "Priority Hints",
+            "Ionicons",
+            "Apache HTTP Server",
+            "jQuery",
+            "jQuery Migrate",
+            "jsDelivr",
+            "WordPress",
+            "OWL Carousel",
+            "YouTube",
+            "Hammer.js",
+            "Bootstrap",
+            "PHP",
+            "MySQL"
+        ]
+    }
+}

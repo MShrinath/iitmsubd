@@ -1,0 +1,982 @@
+{
+    "backend.seek.onlinedegree.iitm.ac.in": {
+        "http_Status": "404",
+        "https_Status": "404"
+    },
+    "code.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "app.onlinedegree.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "302"
+    },
+    "facapp.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ds.study.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "302"
+    },
+    "cb-staging.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "timeout"
+    },
+    "cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "timeout"
+    },
+    "gate.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "cs1102.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "forms.study.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "302"
+    },
+    "cb-prod.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "405"
+    },
+    "exams-cb.seek.study.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "dns2.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "diploma.iitm.ac.in": {
+        "http_Status": "303",
+        "https_Status": "303"
+    },
+    "bcga.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "api.cms-beta.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "404"
+    },
+    "dns3.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "examcheck.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "503"
+    },
+    "exams.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "ext01ldap.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "ftp.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "alumni.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "discourse.onlinedegree.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "403"
+    },
+    "cppics.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "events.respark.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "ccd.cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "catalysis.eprints.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "timeout"
+    },
+    "cacs.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "ae.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "dev.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "asuldap.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "5gtbdocs.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "backend.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "405"
+    },
+    "asr.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "acr.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "cifil.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "ge.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "ccw.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "cenlib.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "archive.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "global.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "coezet.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "doms.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "heritage.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "apm.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "302"
+    },
+    "conf.code.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "cfi.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "biotech.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "eegpu.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "405"
+    },
+    "car.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "timeout"
+    },
+    "ceet.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "dawnlab.cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "app.diploma.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "302"
+    },
+    "chem.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "dirv.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "eex.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "200"
+    },
+    "mailx4.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "cec.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "api.ireflect.study.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "404"
+    },
+    "drone.ee2003.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "502"
+    },
+    "fd.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "ai4bharat.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "dns1.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "mech.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "asr.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "502"
+    },
+    "e-verify.acservices.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "icandsr.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "jeerep.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ntcpwc.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "leap.respark.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "ncaht.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "internship.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "aidblab.cse.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "mentorship.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "htic.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ia.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "ee.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "200"
+    },
+    "ireflect.study.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "ctcs.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "idp.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "hc-uat.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "401"
+    },
+    "icsrpis.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "datacommons.iitm.ac.in": {
+        "http_Status": "502",
+        "https_Status": "502"
+    },
+    "che.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "503"
+    },
+    "home.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ibse.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "git.ee2003.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "502"
+    },
+    "lotus.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "ioas.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "keepitflowing.alumni.iitm.ac.in": {
+        "http_Status": "403",
+        "https_Status": "timeout"
+    },
+    "jup.ee2003.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "irepose.iitm.ac.in": {
+        "http_Status": "503",
+        "https_Status": "503"
+    },
+    "mailx3.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "mtechadm.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "monitor.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "autodiscover.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "biomimicry.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "404"
+    },
+    "incubation.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "301"
+    },
+    "mme.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "jup.ee1103.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "physics.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "10x.respark.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "oldcourses.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "pynq9.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "old.ge.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "seek.onlinedegree.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "mst.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "doe.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "iitmk8s.wcte.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "jeeadv.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "nbg.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "405"
+    },
+    "cms-beta.study.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "evc.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "pve.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "501"
+    },
+    "ovd.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "timeout"
+    },
+    "payments.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "302"
+    },
+    "cmsrv.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "blog.techsoc.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "onlinedegree.iitm.ac.in": {
+        "http_Status": "303",
+        "https_Status": "303"
+    },
+    "pace.cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "se2001.ds.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "302"
+    },
+    "pynq13.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "smtp2.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "jitsi.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "placements.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "r2d2.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "pynq2.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "publications.cse.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "rbcdsai.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "cce.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "ipa.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "nipra.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "placement.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "nsm.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "o1.ptr404.mail.nptel.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "moodle.respark.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "timeout"
+    },
+    "pynq10.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "backend.exams.study.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "timeout"
+    },
+    "mm.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "oir.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "chennai36.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "sfp.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "redmine.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "sense.cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "cb-dev.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "timeout"
+    },
+    "impactstories.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "404"
+    },
+    "csemail.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "pynq8.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "pynq12.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "rpcrm.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "400"
+    },
+    "philanthropy.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "siddhi.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "recruit.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "pynq6.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "cb-exam.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "405"
+    },
+    "respark.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "research.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "inup.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "quantum.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "remote.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "jam.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "shaastramag-uat.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "401"
+    },
+    "smtp1.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "school-connect.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "mdl.ireflect.study.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "shaastramag.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "pynq5.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "pynq3.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "pynq4.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "uay.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "webtest.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "502"
+    },
+    "web1.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "wmtech.code.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "302"
+    },
+    "readcode.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "302"
+    },
+    "waf01.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "503"
+    },
+    "jitsi.evc.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "www.leap.respark.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "www.incubation.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "timeout"
+    },
+    "tcoe.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "www.respark.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "www.onlinedegree.iitm.ac.in": {
+        "http_Status": "303",
+        "https_Status": "303"
+    },
+    "www.cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "iitmwww.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "term.ee1103.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "wsai.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "www.shaastramag.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "web.zmail.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "sustainability.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "www.ioas.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "theory.cse.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "pynq11.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "zanzibar.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "301"
+    },
+    "zmail.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "smtp.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "tlc.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ugadmissions.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "admin.exams.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "yrf.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "term.ee2003.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "uatv2.joyofgiving.alumni.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "401"
+    },
+    "www.ae.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "students.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "waf7.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "web.ee.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "tech-talk.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "waf1.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "staging.seek.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "www.chennai36.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "301"
+    },
+    "www.ed.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "waf6.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "www.ee.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "200"
+    },
+    "www.biomimicry.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "404"
+    },
+    "www.ctcs.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "301"
+    },
+    "giftshop.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "appdev.onlinedegree.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "dsai.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "timeout"
+    },
+    "es.study.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "302"
+    },
+    "civil.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ee2003.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "405"
+    },
+    "bioincubator.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "dos.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "cessa.iitm.ac.in": {
+        "http_Status": "200",
+        "https_Status": "200"
+    },
+    "ed.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "ae2.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "empower23.respark.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "hss.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "jup.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "405"
+    },
+    "mailx2.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "timeout"
+    },
+    "ms2001p.study.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "302"
+    },
+    "nccrd.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "200"
+    },
+    "admissions.ge.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "rise.cse.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "pynq7.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "joaps.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "pallava.iitm.ac.in": {
+        "http_Status": "302",
+        "https_Status": "timeout"
+    },
+    "pynq14.dev.iitm.ac.in": {
+        "http_Status": "308",
+        "https_Status": "timeout"
+    },
+    "ssp.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "200"
+    },
+    "wcte.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    },
+    "www.gate.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "www.doe.iitm.ac.in": {
+        "http_Status": "timeout",
+        "https_Status": "timeout"
+    },
+    "www.backend.seek.onlinedegree.iitm.ac.in": {
+        "http_Status": "404",
+        "https_Status": "404"
+    },
+    "tlc2.iitm.ac.in": {
+        "http_Status": "301",
+        "https_Status": "200"
+    }
+}
