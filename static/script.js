@@ -717,34 +717,10 @@ document.getElementById("nmapModal").addEventListener("hidden.bs.modal", () => {
 
 
 function copyNmapResults(ip) {
-    const resultsElement = document.querySelector('.nmap-results pre');
-    if (resultsElement) {
-        navigator.clipboard.writeText(resultsElement.textContent)
-            .then(() => {
-                // Create toast notification
-                const toast = document.createElement('div');
-                toast.className = 'position-fixed top-0 end-0 p-3';
-                toast.style.zIndex = '1070';
-                toast.innerHTML = `
-                    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                            <strong class="me-auto">✅ Success</strong>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                        <div class="toast-body">
-                            Nmap results copied to clipboard!
-                        </div>
-                    </div>
-                `;
-                document.body.appendChild(toast);
-                
-                // Auto remove after 3 seconds
-                setTimeout(() => {
-                    toast.remove();
-                }, 3000);
-            })
-            .catch(() => alert("❌ Failed to copy results."));
-    }
+    const el = document.querySelector('.nmap-results pre');
+    if (!el) return;
+
+    safeCopy(el.textContent, "Nmap results copied to clipboard!");
 }
 
 function showCertModal(cert) {
@@ -974,32 +950,62 @@ function updateChartColors(chart) {
 function copyRawCertJSON() {
     const raw = document.getElementById("rawCertData");
     if (!raw) return;
-    navigator.clipboard.writeText(raw.textContent)
-        .then(() => {
-            // Create toast notification
-            const toast = document.createElement('div');
-            toast.className = 'position-fixed top-0 end-0 p-3';
-            toast.style.zIndex = '1070';
-            toast.innerHTML = `
-                <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-                    <div class="toast-header">
-                        <strong class="me-auto">✅ Success</strong>
-                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                    </div>
-                    <div class="toast-body">
-                        Certificate data copied to clipboard!
-                    </div>
-                </div>
-            `;
-            document.body.appendChild(toast);
-            
-            // Auto remove after 3 seconds
-            setTimeout(() => {
-                toast.remove();
-            }, 3000);
-        })
-        .catch(() => alert("❌ Failed to copy."));
+
+    safeCopy(raw.textContent, "Certificate data copied to clipboard!");
 }
+
+
+function safeCopy(text, successMessage) {
+    // Modern clipboard (works only in secure context)
+    if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text)
+            .then(() => showToast(successMessage))
+            .catch(() => fallbackCopy(text, successMessage));
+    } else {
+        // Fallback for HTTP / LAN / older browsers
+        fallbackCopy(text, successMessage);
+    }
+}
+
+function fallbackCopy(text, successMessage) {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed"; // prevent scroll jump
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+
+    try {
+        document.execCommand("copy");
+        showToast(successMessage);
+    } catch {
+        alert("❌ Failed to copy.");
+    }
+
+    document.body.removeChild(textarea);
+}
+
+function showToast(message) {
+    const toast = document.createElement('div');
+    toast.className = 'position-fixed top-0 end-0 p-3';
+    toast.style.zIndex = '1070';
+    toast.innerHTML = `
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">✅ Success</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                ${message}
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(toast);
+
+    setTimeout(() => toast.remove(), 3000);
+}
+
 
 document.getElementById("rescanBtn").addEventListener("click", () => {
     if (!confirm("Do you want to re-scan?")) return;
