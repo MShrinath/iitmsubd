@@ -1,23 +1,30 @@
-// Theme handling
 let currentTheme = localStorage.getItem('theme') || 'dark';
-
-// Set initial theme
 document.documentElement.setAttribute('data-theme', currentTheme);
 
-// Mouse move tracking for card spotlight effect
+function toggleTheme() {
+    currentTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    localStorage.setItem('theme', currentTheme);
+    
+    // Update toggle icon
+    const themeToggle = document.querySelector('.theme-toggle');
+    if (themeToggle) {
+        themeToggle.innerHTML = currentTheme === 'dark' 
+            ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z"></path></svg>'
+            : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27105 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9196 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08036 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z"></path></svg>';
+    }
+    
+    // Update chart if it exists
+    const chart = Chart.getChart("certDonutChart");
+    if (chart) {
+        updateChartColors(chart);
+    }
+}
+
 document.addEventListener('mousemove', (e) => {
     document.documentElement.style.setProperty('--mouse-x', `${e.clientX}px`);
     document.documentElement.style.setProperty('--mouse-y', `${e.clientY}px`);
 });
-
-function escapeHTML(str) {
-    return str
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
-}
 
 
 function loadResults() {
@@ -45,6 +52,8 @@ function loadResults() {
             `;
         });
 }
+
+
 
 function renderReport(data) {
     const container = document.getElementById("reportSection");
@@ -447,6 +456,16 @@ function renderReport(data) {
     }
 }
 
+
+function escapeHTML(str) {
+    return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
 function formatDomainName(domain) {
     // Try to fetch a favicon
     return `
@@ -458,6 +477,7 @@ function formatDomainName(domain) {
         </div>
     `;
 }
+
 
 function renderHttpStatus(httpArray) {
     if (!httpArray || httpArray.length < 1 || httpArray[0] == null)
@@ -475,30 +495,8 @@ function renderHttpStatus(httpArray) {
     return `<span class="badge ${badgeClass}">${icon} ${code}</span>`;
 }
 
-function renderCertStatus(certArray) {
-    if (!certArray) return `<span class="badge bg-secondary">Unknown</span>`;
-    
-    const valid = certArray[0];
-    if (valid) {
-        // Parse the date to check if it's expiring soon
-        const expiryDate = new Date(certArray[1]);
-        const now = new Date();
-        const diffDays = (expiryDate - now) / (1000 * 60 * 60 * 24);
-        
-        let badgeClass = 'bg-success';
-        let icon = '🔒';
-        let formattedDate = new Date(certArray[1]).toLocaleDateString();
-        
-        if (diffDays < 30) {
-            badgeClass = 'bg-warning';
-            icon = '⚠️';
-        }
-        
-        return `<span class="badge ${badgeClass}">${icon} ${formattedDate}</span>`;
-    } else {
-        return `<span class="badge bg-danger">❌ Missing</span>`;
-    }
-}
+
+
 
 function renderDomainPopupButton(domains, title, proto = "https") {
     if (domains.length === 0) return "";
@@ -511,6 +509,7 @@ function renderDomainPopupButton(domains, title, proto = "https") {
         </button>
     `;
 }
+
 
 function showDomainList(domains, title, proto = "https") {
     const modal = new bootstrap.Modal(document.getElementById("domainListModal"));
@@ -562,6 +561,9 @@ function showDomainList(domains, title, proto = "https") {
     modal.show();
 }
 
+
+
+
 function scrollToDomain(domain) {
     const id = `card-${domain.replace(/\W/g, '-')}`;
     const el = document.getElementById(id);
@@ -586,375 +588,7 @@ function scrollToDomain(domain) {
     }
 }
 
-function runNmap(ip, domain) {
-    // Show loading state on the button
-    const nmapBtn = document.querySelector(`[data-ip="${ip}"]`);
-    const originalText = nmapBtn.innerHTML;
-    nmapBtn.innerHTML = `
-        <div class="spinner-border spinner-border-sm me-1" role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>
-        Running...
-    `;
-    nmapBtn.disabled = true;
-
-    showNmapModal({
-        output: `
-            🔍 Scan running...
-        `
-    }, ip, domain);
-
-    fetch(`/nmap/${ip}`)
-        .then(response => response.text())
-        .then(text => {
-            if (text.trim().length > 0) {
-                showNmapModal({ output: text }, ip, domain);
-            } else {
-                showNmapModal({ error: "No output from Nmap." }, ip, domain);
-            }
-        })
-        .catch(error => {
-            console.error('Nmap error:', error);
-            showNmapModal({ error: error.message }, ip, domain);
-        })
-        .finally(() => {
-            nmapBtn.innerHTML = originalText;
-            nmapBtn.disabled = false;
-        });
-
-}
-
-function rerunNmap(ip, domain) {
-    // Show loading state on the button
-    const nmapBtn = document.querySelector(`[data-ip="${ip}"]`);
-    const originalText = nmapBtn.innerHTML;
-    nmapBtn.innerHTML = `
-        <div class="spinner-border spinner-border-sm me-1" role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>
-        Re-running...
-    `;
-    nmapBtn.disabled = true;
-
-    showNmapModal({
-        output: `
-            🔍 Re-running scan...
-        `
-    }, ip, domain);
-
-    fetch(`/renmap/${ip}`)
-        .then(response => response.text())
-        .then(text => {
-            if (text.trim().length > 0) {
-                showNmapModal({ output: text }, ip, domain);
-            } else {
-                showNmapModal({ error: "No output from Nmap." }, ip, domain);
-            }
-        })
-        .catch(error => {
-            console.error('Nmap error:', error);
-            showNmapModal({ error: error.message }, ip, domain);
-        })
-        .finally(() => {
-            nmapBtn.innerHTML = originalText;
-            nmapBtn.disabled = false;
-        });
-}
-
-const nmapModalInstance = new bootstrap.Modal(document.getElementById("nmapModal"));
-let nmapModalShown = false;
-
-function showNmapModal(nmapData, ip = "N/A", domain = "N/A") {
-    const modalTitle = document.getElementById("nmapModalTitle");
-    const modalBody = document.getElementById("nmapModalBody");
-
-    modalTitle.textContent = `Nmap Results for ${domain} (${ip})`;
-
-    if (nmapData.error) {
-        modalBody.innerHTML = `
-            <div class="alert alert-danger">
-                <h5>❌ Error running Nmap</h5>
-                <p>${nmapData.error}</p>
-            </div>
-        `;
-    } else {
-        modalBody.innerHTML = `
-            <div class="nmap-results">
-                <div class="mb-3">
-                    <h6>Target Information</h6>
-                    <div class="bg-dark p-3 rounded">
-                        <div class="text-info">Domain: <span class="text-white">${domain}</span></div>
-                        <div class="text-info">IP Address: <span class="text-white">${ip}</span></div>
-                    </div>
-                </div>
-                
-                <div class="mb-3">
-                    <h6>Scan Results</h6>
-                    <pre class="bg-dark text-light p-3 rounded" style="max-height: 400px; overflow-y: auto; font-family: 'Courier New', monospace; font-size: 0.9em;">${escapeHTML(nmapData.output)}</pre>
-                </div>
-                
-                <div class="d-flex gap-2">
-                    <button class="btn btn-sm btn-outline-secondary" onclick="copyNmapResults('${ip}')">
-                        📋 Copy Results
-                    </button>
-                    <button class="btn btn-sm btn-outline-info" onclick="rerunNmap('${ip}', '${domain}')">
-                        🔄 Re-run Scan
-                    </button>
-                </div>
-            </div>
-        `;
-    }
-
-    if (!nmapModalShown) {
-        nmapModalInstance.show();
-        nmapModalShown = true;
-    }
-}
-// Handle modal close event to reset state
-document.getElementById("nmapModal").addEventListener("hidden.bs.modal", () => {
-    nmapModalShown = false;
-});
-
-
-function copyNmapResults(ip) {
-    const el = document.querySelector('.nmap-results pre');
-    if (!el) return;
-
-    safeCopy(el.textContent, "Nmap results copied to clipboard!");
-}
-
-function showCertModal(cert) {
-    const modal = new bootstrap.Modal(document.getElementById("certModal"));
-    const certBody = document.getElementById("certDetails");
-
-    if (!cert) {
-        certBody.innerHTML = `<div class="text-danger">No certificate info available.</div>`;
-        modal.show();
-        return;
-    }
-
-    if (cert.error) {
-        certBody.innerHTML = `
-            <div class="text-danger">
-                ❌ Error retrieving certificate:<br>
-                <code>${cert.error}</code>
-            </div>
-        `;
-        modal.show();
-        return;
-    }
-
-    const now = new Date();
-    const validToDate = new Date(cert.valid_to);
-    let validityClass = "text-success";
-
-    if (validToDate < now) {
-        validityClass = "text-danger"; // expired
-    } else if ((validToDate - now) / (1000 * 60 * 60 * 24) < 30) {
-        validityClass = "text-warning"; // expiring soon
-    }
-
-    // Create a more modern certificate display
-    let content = `
-        <div class="certificate-display">
-            <div class="cert-header mb-4">
-                <h4 class="text-info">${cert.subject_common_name}</h4>
-                <div class="cert-status ${validToDate < now ? 'expired' : 'valid'}">
-                    ${validToDate < now ? '❌ Expired' : '✅ Valid'}
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="cert-field mb-3">
-                        <div class="cert-label">Issuer</div>
-                        <div class="cert-value">${cert.issuer_common_name || "N/A"}</div>
-                    </div>
-                    
-                    <div class="cert-field mb-3">
-                        <div class="cert-label">Valid From</div>
-                        <div class="cert-value text-success">${formatDate(cert.valid_from)}</div>
-                    </div>
-                    
-                    <div class="cert-field mb-3">
-                        <div class="cert-label">Valid To</div>
-                        <div class="cert-value ${validityClass}">${formatDate(cert.valid_to)}</div>
-                    </div>
-                </div>
-                
-                <div class="col-md-6">
-                    <div class="cert-field mb-3">
-                        <div class="cert-label">Serial Number</div>
-                        <div class="cert-value font-monospace">${cert.serial_number || "N/A"}</div>
-                    </div>
-                    
-                    <div class="cert-field">
-                        <div class="cert-label">Alternative Names</div>
-                        <div class="cert-value alt-names">
-                            ${renderAltNames(cert.full_raw?.subjectAltName)}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    `;
-
-    // Raw JSON + Copy Button
-    const rawJSON = JSON.stringify(cert, null, 2);
-    content += `
-        <div class="mt-4 pt-3 border-top">
-            <button class="btn btn-sm btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" data-bs-target="#rawCertCollapse">
-                🔍 Show Raw
-            </button>
-            <button class="btn btn-sm btn-outline-dark" onclick="copyRawCertJSON()">📋 Copy Raw to Clipboard</button>
-
-            <div class="collapse mt-2" id="rawCertCollapse">
-                <pre id="rawCertData" style="background-color: var(--bg-secondary); padding: 1em; border: 1px solid var(--border-color); max-height: 300px; overflow-y: auto;">${rawJSON}</pre>
-            </div>
-        </div>
-    `;
-
-    certBody.innerHTML = content;
-    modal.show();
-}
-
-function formatDate(dateString) {
-    const date = new Date(dateString);
-    return date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
-}
-
-function renderAltNames(altNamesArray) {
-    if (!altNamesArray || !Array.isArray(altNamesArray) || altNamesArray.length === 0) {
-        return '<span class="text-muted">None</span>';
-    }
-    
-    const names = altNamesArray.map(alt => alt[1]);
-    if (names.length <= 3) {
-        return names.map(name => `<span class="badge bg-light text-dark mb-1 me-1">${name}</span>`).join(' ');
-    } else {
-        const visibleNames = names.slice(0, 3);
-        const hiddenCount = names.length - 3;
-        
-        return `
-            ${visibleNames.map(name => `<span class="badge bg-light text-dark mb-1 me-1">${name}</span>`).join(' ')}
-            <button class="btn btn-sm btn-link p-0" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#moreAltNames">
-                +${hiddenCount} more
-            </button>
-            <div class="collapse mt-1" id="moreAltNames">
-                ${names.slice(3).map(name => `<span class="badge bg-light text-dark mb-1 me-1">${name}</span>`).join(' ')}
-            </div>
-        `;
-    }
-}
-
-// Theme toggle function
-function toggleTheme() {
-    currentTheme = currentTheme === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', currentTheme);
-    localStorage.setItem('theme', currentTheme);
-    
-    // Update toggle icon
-    const themeToggle = document.querySelector('.theme-toggle');
-    if (themeToggle) {
-        themeToggle.innerHTML = currentTheme === 'dark' 
-            ? '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z"></path></svg>'
-            : '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27105 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9196 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08036 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z"></path></svg>';
-    }
-    
-    // Update chart if it exists
-    const chart = Chart.getChart("certDonutChart");
-    if (chart) {
-        updateChartColors(chart);
-    }
-}
-
-function renderCertChart(countOk, countWarning, countError) {
-    // Get the chart context
-    const ctx = document.getElementById('certDonutChart');
-    if (!ctx) return;
-    
-    // Check if chart already exists and destroy it
-    const existingChart = Chart.getChart(ctx);
-    if (existingChart) {
-        existingChart.destroy();
-    }
-    
-    // Chart.js configuration
-    const certChart = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-            labels: ['OK', 'WARNING', 'ERROR'],
-            datasets: [{
-                data: [countOk, countWarning, countError],
-                backgroundColor: [
-                    getComputedStyle(document.documentElement).getPropertyValue('--chart-success'),
-                    getComputedStyle(document.documentElement).getPropertyValue('--chart-warning'),
-                    getComputedStyle(document.documentElement).getPropertyValue('--chart-danger')
-                ],
-                borderColor: [
-                    getComputedStyle(document.documentElement).getPropertyValue('--chart-success'),
-                    getComputedStyle(document.documentElement).getPropertyValue('--chart-warning'),
-                    getComputedStyle(document.documentElement).getPropertyValue('--chart-danger')
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        color: getComputedStyle(document.documentElement).getPropertyValue('--text-primary'),
-                        font: {
-                            size: 12
-                        }
-                    }
-                },
-                title: {
-                    display: false
-                }
-            },
-            cutout: '70%',
-            animation: {
-                animateScale: true,
-                animateRotate: true
-            }
-        }
-    });
-}
-
-function updateChartColors(chart) {
-    chart.data.datasets[0].backgroundColor = [
-        getComputedStyle(document.documentElement).getPropertyValue('--chart-success'),
-        getComputedStyle(document.documentElement).getPropertyValue('--chart-warning'),
-        getComputedStyle(document.documentElement).getPropertyValue('--chart-danger')
-    ];
-    chart.data.datasets[0].borderColor = [
-        getComputedStyle(document.documentElement).getPropertyValue('--chart-success'),
-        getComputedStyle(document.documentElement).getPropertyValue('--chart-warning'),
-        getComputedStyle(document.documentElement).getPropertyValue('--chart-danger')
-    ];
-    
-    chart.options.plugins.legend.labels.color = 
-        getComputedStyle(document.documentElement).getPropertyValue('--text-primary');
-    
-    chart.update();
-}
-
-// Clipboard copy function
-function copyRawCertJSON() {
-    const raw = document.getElementById("rawCertData");
-    if (!raw) return;
-
-    safeCopy(raw.textContent, "Certificate data copied to clipboard!");
-}
-
-
+// copy to clipboard with fallback
 function safeCopy(text, successMessage) {
     // Modern clipboard (works only in secure context)
     if (navigator.clipboard && window.isSecureContext) {
@@ -1007,6 +641,7 @@ function showToast(message) {
 }
 
 
+
 document.getElementById("rescanBtn").addEventListener("click", () => {
     if (!confirm("Do you want to re-scan?")) return;
 
@@ -1031,5 +666,4 @@ document.getElementById("rescanBtn").addEventListener("click", () => {
     };
 });
 
-// Initialize on page load
 loadResults();
