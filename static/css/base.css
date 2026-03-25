@@ -1,0 +1,69 @@
+/* Base Styles */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+  transition: color var(--transition-speed) ease;
+}
+
+a {
+  color: var(--primary);
+  transition: color var(--transition-speed) ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--info);
+  text-decoration: underline;
+}
+
+header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  transition: border-color var(--transition-speed) ease;
+}
+
+#domainCountDisplay {
+  font-weight: 500;
+  color: var(--primary);
+  background-color: var(--bg-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease,
+              box-shadow var(--transition-speed) ease;
+}
+
+pre {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease,
+              border-color var(--transition-speed) ease;
+}
+
+#scanLog {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

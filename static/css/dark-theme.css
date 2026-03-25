@@ -1,0 +1,137 @@
+[data-theme="dark"] {
+  /* Dark Theme Variables */
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-card: #21262d;
+  --bg-modal: #2d333b;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #8b949e;
+  --border-color: #30363d;
+  --success: #3fb950;
+  --warning: #d29922;
+  --danger: #f85149;
+  --info: #58a6ff;
+  --primary: #58a6ff;
+
+  /* Chart Colors - Dark */
+  --chart-success: rgba(63, 185, 80, 0.8);
+  --chart-warning: rgba(237, 179, 54, 0.8);
+  --chart-danger: rgba(248, 81, 73, 0.8);
+
+  /* Dark Mode Overrides for Bootstrap Components */
+  .form-control {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  .form-control::placeholder {
+    color: var(--text-muted) !important;
+    opacity: 1;
+  }
+
+  .input-group-text {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  .legend-text {
+    color: var(--text-primary) !important;
+  }
+
+  /* Override Bootstrap light background on cards */
+  .text-bg-light {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+  }
+
+  /* Force card titles to use dark theme text color */
+  .card .card-title {
+    color: var(--text-primary) !important;
+  }
+
+  /* Override for the clipboard copy element */
+  .clipboard-copy, .copy-raw {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  /* Target button (or element) containing the copy raw text */
+  .copy-raw,
+  button.copy-raw,
+  .copy-raw * {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  /* Popup and toast notifications */
+  .toast, .alert {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  .toast .toast-header {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+
+  /* UI Elements */
+  --shadow: 0 .125rem .25rem rgba(0, 0, 0, .3);
+  --shadow-lg: 0 .5rem 1rem rgba(0, 0, 0, .4);
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+  /* Button overrides for dark mode */
+  .btn-outline-dark {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--text-primary) !important;
+  }
+
+  .btn-outline-dark:hover {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--text-primary) !important;
+  }
+
+  /* Legend and card overrides */
+  .status-legend .card,
+  .legend-text,
+  .card.shadow-sm {
+    background-color: var(--bg-card) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border-color) !important;
+  }
+
+  /* Ensure card content is visible in dark mode */
+  .card-body strong,
+  .card-body div,
+  .card-body span {
+    color: var(--text-primary) !important;
+  }
+
+  /* Close button for dark mode */
+  .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
+
+  /* Loading animation for dark mode */
+  .loading::after {
+    background: linear-gradient(90deg,
+                transparent,
+                rgba(255, 255, 255, 0.05),
+                transparent);
+  }
+
+  /* Card spotlight for dark mode */
+  .card::before {
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y),
+                rgba(255, 255, 255, 0.03),
+                transparent 40%);
+  }
+}
