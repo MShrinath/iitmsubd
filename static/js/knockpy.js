@@ -44,21 +44,46 @@ function renderReport(data) {
     const container = document.getElementById("reportSection");
     container.innerHTML = "";
 
-    let count = data.length;
-    let httpsOnly = [];
-    let httpOnly = [];
-    let expiringSoon = [];
-    let noCert = [];
-    let totalInvalidCert = 0;
-    let totalInvalidCertDomains = [];
-    let certExpired = 0;
-    let certExpiredDomains = [];
+    const stats = analyzeDomainData(data);
+    document.getElementById("domainCount").textContent = stats.count;
 
-    let countOk = 0;
-    let countWarning = 0;
-    let countError = 0;
+    container.appendChild(renderStatsChartSection(stats));
+    container.appendChild(renderDomainsHeader(stats.count));
+    container.appendChild(renderSearchBar());
+    
+    const filterButtons = renderFilterButtons();
+    container.appendChild(filterButtons);
+    container.appendChild(renderStatusLegend());
 
+    setupFilterFunctionality(filterButtons);
+    setupSearchFunctionality();
+
+    const row = renderDomainCardsGrid(data, stats);
+    container.appendChild(row);
+
+    renderCertChart(stats.countOk, stats.countWarning, stats.countError);
+    addThemeToggle();
+}
+
+// ========================================
+// DATA ANALYSIS
+// ========================================
+function analyzeDomainData(data) {
     const now = new Date();
+    const stats = {
+        count: data.length,
+        httpsOnly: [],
+        httpOnly: [],
+        expiringSoon: [],
+        noCert: [],
+        certExpired: [],
+        certExpiredDomains: [],
+        totalInvalidCert: 0,
+        totalInvalidCertDomains: [],
+        countOk: 0,
+        countWarning: 0,
+        countError: 0
+    };
 
     data.forEach(item => {
         const httpStatus = item.http?.[0];
@@ -67,96 +92,41 @@ function renderReport(data) {
         const certDetails = item.cert_details;
         const certError = certDetails && certDetails.error ? certDetails.error.toLowerCase() : "";
         const isCertExpired = certError.includes("certificate has expired");
-        
+
         if (isCertExpired) {
-            certExpired++;
-            certExpiredDomains.push(item.domain);
+            stats.certExpired.push(item.domain);
+            stats.certExpiredDomains.push(item.domain);
         }
 
-        if (httpsStatus && !httpStatus) httpsOnly.push(item.domain);
-        if (httpStatus && !httpsStatus) httpOnly.push(item.domain);
+        if (httpsStatus && !httpStatus) stats.httpsOnly.push(item.domain);
+        if (httpStatus && !httpsStatus) stats.httpOnly.push(item.domain);
 
         if (!certStatus) {
-            noCert.push(item.domain);
-            totalInvalidCert++;
-            totalInvalidCertDomains.push(item.domain);
+            stats.noCert.push(item.domain);
+            stats.totalInvalidCert++;
+            stats.totalInvalidCertDomains.push(item.domain);
         }
-        
+
         if (certStatus && certDetails?.valid_to) {
             const expiryDate = new Date(certDetails.valid_to);
             const diffDays = (expiryDate - now) / (1000 * 60 * 60 * 24);
-            if (diffDays < 30) expiringSoon.push(item.domain);
+            if (diffDays < 30) stats.expiringSoon.push(item.domain);
         }
-    
-        const httpOk = httpStatus === 200;
-        const httpsOk = httpsStatus === 200;
-        const notExpiring = certDetails?.valid_to ? ((new Date(certDetails.valid_to) - now) / (1000 * 60 * 60 * 24) >= 30) : false;
-        
-        // if (httpOk && httpsOk && certStatus && !isCertExpired && notExpiring) {
-        //     countOk++;
-        // } else if (isCertExpired) {
-        //     countError++;
-        // } else {
-        //     countWarning++;
-        // }
     });
 
-    // Update inline count beside heading
-    document.getElementById("domainCount").textContent = count;
+    return stats;
+}
 
-    // Chart Container
-    const chartContainer = document.createElement("div");
-    chartContainer.className = "mb-4";
-    chartContainer.innerHTML = `
+// ========================================
+// RENDER SECTIONS
+// ========================================
+function renderStatsChartSection(stats) {
+    const section = document.createElement("div");
+    section.className = "mb-4";
+    section.innerHTML = `
         <div class="row g-4 align-items-center">
             <div class="col-md-8">
-                <div class="row g-3 mb-4">
-                    <div class="col-md-4">
-                        <div class="card text-bg-light border-danger h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">🔔 Certificates Expiring Soon</h5>
-                                <p class="fs-4 fw-semibold">${expiringSoon.length}</p>
-                                ${renderDomainPopupButton(expiringSoon, "Expiring Soon Domains")}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card text-bg-light border-warning h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">🌐 HTTP Service Unavailable</h5>
-                                <p class="fs-4 fw-semibold">${httpsOnly.length}</p>
-                                ${renderDomainPopupButton(httpsOnly, "No HTTP Domains", "https")}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card text-bg-light border-warning h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">🔓 Insecure (HTTP Only)</h5>
-                                <p class="fs-4 fw-semibold">${httpOnly.length}</p>
-                                ${renderDomainPopupButton(httpOnly, "HTTP Only Domains", "http")}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card text-bg-light border-danger h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">🛑 Certificate Expired</h5>
-                                <p class="fs-4 fw-semibold">${certExpired}</p>
-                                ${renderDomainPopupButton(certExpiredDomains, "Expired Certificate Domains", "http")}
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card text-bg-light border-warning h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">🔐 Certificate Verification Failed</h5>
-                                <p class="fs-4 fw-semibold">${totalInvalidCert}</p>
-                                ${renderDomainPopupButton(totalInvalidCertDomains, "Invalid Certificate Domains", "http")}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                ${renderStatsCards(stats)}
             </div>
             <div class="col-md-4">
                 <div class="card h-100">
@@ -170,16 +140,77 @@ function renderReport(data) {
             </div>
         </div>
     `;
-    
-    container.appendChild(chartContainer);
+    return section;
+}
 
-    // Domains grid
-    const domainsTitle = document.createElement("h3");
-    domainsTitle.className = "mb-3 mt-4";
-    domainsTitle.innerHTML = `Domain Status <span class="badge bg-secondary">${count}</span>`;
-    container.appendChild(domainsTitle);
-    
-    // Search bar
+function renderStatsCards(stats) {
+    const cards = [
+        { 
+            title: '🔔 Certificates Expiring Soon', 
+            count: stats.expiringSoon.length, 
+            domains: stats.expiringSoon, 
+            label: 'Expiring Soon Domains', 
+            class: 'border-danger' 
+        },
+        { 
+            title: '🌐 HTTP Service Unavailable', 
+            count: stats.httpsOnly.length, 
+            domains: stats.httpsOnly, 
+            label: 'No HTTP Domains', 
+            class: 'border-warning', 
+            proto: 'https' 
+        },
+        { 
+            title: '🔓 Insecure (HTTP Only)', 
+            count: stats.httpOnly.length, 
+            domains: stats.httpOnly, 
+            label: 'HTTP Only Domains', 
+            class: 'border-warning', 
+            proto: 'http' 
+        },
+        { 
+            title: '🛑 Certificate Expired', 
+            count: stats.certExpiredDomains.length, 
+            domains: stats.certExpiredDomains, 
+            label: 'Expired Certificate Domains', 
+            class: 'border-danger', 
+            proto: 'http' 
+        },
+        { 
+            title: '🔐 Certificate Verification Failed', 
+            count: stats.totalInvalidCert, 
+            domains: stats.totalInvalidCertDomains, 
+            label: 'Invalid Certificate Domains', 
+            class: 'border-warning', 
+            proto: 'http' 
+        }
+    ];
+
+    return `
+        <div class="row g-3 mb-4">
+            ${cards.map(card => `
+                <div class="col-md-4">
+                    <div class="card text-bg-light ${card.class} h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">${card.title}</h5>
+                            <p class="fs-4 fw-semibold">${card.count}</p>
+                            ${renderDomainPopupButton(card.domains, card.label, card.proto || 'https')}
+                        </div>
+                    </div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+function renderDomainsHeader(count) {
+    const header = document.createElement("h3");
+    header.className = "mb-3 mt-4";
+    header.innerHTML = `Domain Status <span class="badge bg-secondary">${count}</span>`;
+    return header;
+}
+
+function renderSearchBar() {
     const searchBar = document.createElement("div");
     searchBar.className = "mb-4";
     searchBar.innerHTML = `
@@ -192,9 +223,10 @@ function renderReport(data) {
             <input type="text" class="form-control" id="domainSearch" placeholder="Search domains...">
         </div>
     `;
-    container.appendChild(searchBar);
+    return searchBar;
+}
 
-    // Filter buttons
+function renderFilterButtons() {
     const filterButtons = document.createElement("div");
     filterButtons.className = "mb-4 btn-group";
     filterButtons.innerHTML = `
@@ -203,229 +235,231 @@ function renderReport(data) {
         <button class="btn btn-outline-warning" data-filter="warning">Warnings</button>
         <button class="btn btn-outline-danger" data-filter="error">Errors</button>
     `;
-    container.appendChild(filterButtons);
+    return filterButtons;
+}
 
-
-    const statusLegend = document.createElement("div");
-    statusLegend.className = "mb-4";
-
-    statusLegend.innerHTML = `
-    <div class="card shadow-sm status-legend">
-        <div class="card-body">
-        <div class="row g-3">
-            <div class="col-md-4">
-            <div class="d-flex align-items-center">
-                <span class="badge bg-success me-3" style="width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center;">✅</span>
-                <div>
-                <strong>OK</strong><br>
-                All checks passed: HTTP/HTTPS responses are 200, certificate is valid & not expiring soon.
+function renderStatusLegend() {
+    const legend = document.createElement("div");
+    legend.className = "mb-4";
+    legend.innerHTML = `
+        <div class="card shadow-sm status-legend">
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-success me-3" style="width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center;">✅</span>
+                            <div>
+                                <strong>OK</strong><br>
+                                All checks passed: HTTP/HTTPS responses are 200, certificate is valid & not expiring soon.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-warning text-dark me-3" style="width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center;">⚠️</span>
+                            <div>
+                                <strong>Warning</strong><br>
+                                One or more issues: non-200 responses or certificate expiring soon.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-danger me-3" style="width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center;">❌</span>
+                            <div>
+                                <strong>Error</strong><br>
+                                Certificate is missing or invalid, HTTPS is broken.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="d-flex align-items-center">
-                <span class="badge bg-warning text-dark me-3" style="width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center;">⚠️</span>
-                <div>
-                <strong>Warning</strong><br>
-                One or more issues: non-200 responses or certificate expiring soon.
-                </div>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="d-flex align-items-center">
-                <span class="badge bg-danger me-3" style="width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center;">❌</span>
-                <div>
-                <strong>Error</strong><br>
-                Certificate is missing or invalid, HTTPS is broken.
-                </div>
-            </div>
             </div>
         </div>
-        </div>
-    </div>
     `;
+    return legend;
+}
 
-    container.appendChild(statusLegend);
-
-
-    // Setup filter functionality
+// ========================================
+// INTERACTIVITY
+// ========================================
+function setupFilterFunctionality(filterButtons) {
     filterButtons.querySelectorAll('button').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            // Remove active class from all buttons
-            filterButtons.querySelectorAll('button').forEach(b => 
-                b.classList.remove('active'));
-            
-            // Add active class to clicked button
+            filterButtons.querySelectorAll('button').forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
             
-            // Get filter value
             const filter = e.target.getAttribute('data-filter');
-            
-            // Apply filter
             const cards = document.querySelectorAll('.domain-card');
+            
             cards.forEach(card => {
-                if (filter === 'all') {
+                if (filter === 'all' || card.classList.contains(filter)) {
                     card.style.display = '';
                 } else {
-                    if (card.classList.contains(filter)) {
-                        card.style.display = '';
-                    } else {
-                        card.style.display = 'none';
-                    }
+                    card.style.display = 'none';
                 }
             });
         });
     });
+}
 
-    // Setup search functionality
+function setupSearchFunctionality() {
     document.getElementById('domainSearch').addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase();
         const cards = document.querySelectorAll('.domain-card');
         
         cards.forEach(card => {
             const domain = card.getAttribute('data-domain').toLowerCase();
-            if (domain.includes(searchTerm)) {
-                card.style.display = '';
-            } else {
-                card.style.display = 'none';
-            }
+            card.style.display = domain.includes(searchTerm) ? '' : 'none';
         });
     });
+}
 
+// ========================================
+// DOMAIN CARDS
+// ========================================
+function renderDomainCardsGrid(data, stats) {
     const row = document.createElement("div");
     row.className = "row g-4";
 
     data.forEach(item => {
-        let domainClass = "border-success";
-        let statusClass = "ok";
-        let statusOk = true;
-
-        const httpStatus = item.http?.[0];
-        const httpsStatus = item.https?.[0];
-        const certStatus = item.cert?.[0];
-        const certDetails = item.cert_details;
+        const status = calculateDomainStatus(item);
+        const col = createDomainCard(item, status);
         
-        const httpOk = httpStatus === 200;
-        const httpsOk = httpsStatus === 200;
-        const certOk = certStatus === true;
-        const notExpiring = certDetails?.valid_to 
-            ? (new Date(certDetails.valid_to) - new Date()) / (1000 * 60 * 60 * 24) >= 30
-            : false;
+        row.appendChild(col);
 
-        // Default: assume OK, override if not
-        if (!httpOk || !httpsOk) {
-            domainClass = "border-warning";
-            statusClass = "warning";
-            statusOk = false;
-        }
+        if (status.statusClass === "ok") stats.countOk++;
+        else if (status.statusClass === "warning") stats.countWarning++;
+        else if (status.statusClass === "error") stats.countError++;
+    });
 
-        // Cert is missing or invalid = ERROR
-        if (!certOk) {
-            domainClass = "border-danger";
-            statusClass = "error";
-            statusOk = false;
-        }
+    return row;
+}
 
-        // Cert valid but expiring soon = WARNING
-        if (certOk && !notExpiring) {
-            domainClass = "border-warning";
-            statusClass = "warning";
-            statusOk = false;
-        }
+function calculateDomainStatus(item) {
+    const httpStatus = item.http?.[0];
+    const httpsStatus = item.https?.[0];
+    const certStatus = item.cert?.[0];
+    const certDetails = item.cert_details;
+    
+    const httpOk = httpStatus === 200;
+    const httpsOk = httpsStatus === 200;
+    const certOk = certStatus === true;
+    const notExpiring = certDetails?.valid_to 
+        ? (new Date(certDetails.valid_to) - new Date()) / (1000 * 60 * 60 * 24) >= 30
+        : false;
 
-        // Final check: all must be good for OK
-        if (httpOk && httpsOk && certOk && notExpiring) {
-            domainClass = "border-success";
-            statusClass = "ok";
-            statusOk = true;
-        }
+    let domainClass = "border-success";
+    let statusClass = "ok";
+    let statusOk = true;
 
-        // final countok countwarning counterror
-        if (statusClass === "ok") {
-            countOk++;
-        }
-        else if (statusClass === "warning") {
-            countWarning++;
-        }
-        else if (statusClass === "error") {
-            countError++;
-        }
+    if (!httpOk || !httpsOk) {
+        domainClass = "border-warning";
+        statusClass = "warning";
+        statusOk = false;
+    }
 
-        const col = document.createElement("div");
-        col.className = "col-md-6 col-lg-4 domain-card " + statusClass;
-        col.setAttribute('data-domain', item.domain);
+    if (!certOk) {
+        domainClass = "border-danger";
+        statusClass = "error";
+        statusOk = false;
+    }
 
-        const card = document.createElement("div");
-        card.className = `card h-100 ${domainClass}`;
-        card.innerHTML = `
-            <div class="card-body" id="card-${item.domain.replace(/\W/g, '-')}" data-domain="${item.domain}">
-                <h5 class="card-title d-flex align-items-center">
-                    <span class="status-icon me-2">${statusOk ? "✅" : "⚠️"}</span>
-                    <span class="domain-name">${formatDomainName(item.domain)}</span>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <span class="badge domain-badge me-2">${item.ip?.join(", ") || "N/A"}</span>
-                </h6>
-                <div class="mt-3">
-                    <div class="d-flex justify-content-between mb-2 align-items-center">
-                        <strong>HTTP:</strong> 
-                        ${renderHttpStatus(item.http)}
-                    </div>
-                    <div class="d-flex justify-content-between mb-2 align-items-center">
-                        <strong>HTTPS:</strong> 
-                        ${renderHttpStatus(item.https)}
-                    </div>
-                    <div class="d-flex justify-content-between mb-3 align-items-center">
-                        <strong>Certificate:</strong> 
-                        ${renderCertStatus(item.cert)}
-                    </div>
+    if (certOk && !notExpiring) {
+        domainClass = "border-warning";
+        statusClass = "warning";
+        statusOk = false;
+    }
+
+    if (httpOk && httpsOk && certOk && notExpiring) {
+        domainClass = "border-success";
+        statusClass = "ok";
+        statusOk = true;
+    }
+
+    return { domainClass, statusClass, statusOk };
+}
+
+function createDomainCard(item, status) {
+    const col = document.createElement("div");
+    col.className = "col-md-6 col-lg-4 domain-card " + status.statusClass;
+    col.setAttribute('data-domain', item.domain);
+
+    const card = document.createElement("div");
+    card.className = `card h-100 ${status.domainClass}`;
+    card.innerHTML = buildDomainCardHTML(item, status.statusOk);
+
+    attachCardEventListeners(card, item);
+    col.appendChild(card);
+    return col;
+}
+
+function buildDomainCardHTML(item, statusOk) {
+    return `
+        <div class="card-body" id="card-${item.domain.replace(/\W/g, '-')}" data-domain="${item.domain}">
+            <h5 class="card-title d-flex align-items-center">
+                <span class="status-icon me-2">${statusOk ? "✅" : "⚠️"}</span>
+                <span class="domain-name">${formatDomainName(item.domain)}</span>
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
+                <span class="badge domain-badge me-2">${item.ip?.join(", ") || "N/A"}</span>
+            </h6>
+            <div class="mt-3">
+                <div class="d-flex justify-content-between mb-2 align-items-center">
+                    <strong>HTTP:</strong> 
+                    ${renderHttpStatus(item.http)}
                 </div>
-                <div class="d-flex mt-3">
-                    <a href="https://${item.domain}" target="_blank" class="btn btn-sm btn-outline-primary me-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                        </svg>
-                        Visit
-                    </a>
-                    ${item.cert_details ? `
+                <div class="d-flex justify-content-between mb-2 align-items-center">
+                    <strong>HTTPS:</strong> 
+                    ${renderHttpStatus(item.https)}
+                </div>
+                <div class="d-flex justify-content-between mb-3 align-items-center">
+                    <strong>Certificate:</strong> 
+                    ${renderCertStatus(item.cert)}
+                </div>
+            </div>
+            <div class="d-flex mt-3 gap-2">
+                <a href="https://${item.domain}" target="_blank" class="btn btn-sm btn-outline-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                        <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                    </svg>
+                    Visit
+                </a>
+                ${item.cert_details ? `
                     <button class="btn btn-sm btn-outline-info cert-details-btn">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
                             <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
                             <path d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z"/>
                         </svg>
-                        Certificate
-                    </button>` : ''}
-                    ${item.ip && item.ip.length > 0 ? `
+                        Cert
+                    </button>
+                ` : ''}
+                ${item.ip && item.ip.length > 0 ? `
                     <button class="btn btn-sm btn-outline-warning nmap-btn" data-ip="${item.ip[0]}">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-radar" viewBox="0 0 16 16">
                             <path d="M6.634 1.135A7 7 0 0 1 15 8a.5.5 0 0 1-1 0 6 6 0 1 0-6.5 5.98v-1.005A5 5 0 1 1 13 8a.5.5 0 0 1-1 0 4 4 0 1 0-4.5 3.969v-1.011A2.999 2.999 0 1 1 11 8a.5.5 0 0 1-1 0 2 2 0 1 0-2.5 1.936v-.998A1 1 0 1 1 9 8a.5.5 0 0 1-1 0 .5.5 0 0 0-1-1v5.5a.5.5 0 0 1-1 0V8a1.5 1.5 0 1 1 1.5-1.5"/>
                         </svg>
                         Nmap
-                    </button>` : ''}
-                </div>
+                    </button>
+                ` : ''}
             </div>
-        `;
+        </div>
+    `;
+}
 
-        if (item.cert_details) {
-            card.querySelector('.cert-details-btn').addEventListener("click", () => showCertModal(item.cert_details));
-        }
-        // Add Nmap button functionality
-        const nmapBtn = card.querySelector('.nmap-btn');
-        if (item) {
-            nmapBtn.addEventListener("click", () => runNmap(item.ip[0], item.domain));
-        }
+function attachCardEventListeners(card, item) {
+    const certBtn = card.querySelector('.cert-details-btn');
+    if (certBtn && item.cert_details) {
+        certBtn.addEventListener("click", () => showCertModal(item.cert_details));
+    }
 
-        col.appendChild(card);
-        row.appendChild(col);
-    });
+    const nmapBtn = card.querySelector('.nmap-btn');
+    if (nmapBtn && item.ip) {
+        nmapBtn.addEventListener("click", () => runNmap(item.ip[0], item.domain));
+    }
+}
 
-    container.appendChild(row);
-
-    // Initialize Chart
-    renderCertChart(countOk, countWarning, countError);
-
-    // Add theme toggle to header
+function addThemeToggle() {
     if (!document.querySelector('.theme-toggle')) {
         const header = document.querySelector('header');
         const themeToggle = document.createElement('button');
