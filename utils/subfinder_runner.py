@@ -145,7 +145,7 @@ def check_http_https_status(hosts):
         print(f"Checking HTTP/HTTPS status for {host}...")
         for proto in ["http", "https"]:
             url = f"{proto}://{host}"
-            field = "http_Status" if proto == "http" else "https_Status"
+            field = "httpstatus" if proto == "http" else "httpsstatus"  # FIX: Use lowercase
             try:
                 r = requests.head(url, timeout=5)
                 update_final_data(host, field, str(r.status_code))
@@ -173,17 +173,31 @@ def runner_subfinder(target,SUBFINDER_DATA_FILE):
     wap_out_temp = os.path.join(tools_dir, 'txt', f'{domain}_wappalyzer_output_temp.json')
     http_status_out = os.path.join(tools_dir, 'txt', f'{domain}_http_status.json')
 
-    print(f"[INFO] Starting scan for domain: {domain}\n")
+    yield f"[+] Starting Subfinder scan for {domain}..."
     run_subfinder(domain)
+    yield "[+] Subfinder scan complete."
+    
+    yield "[+] Running DNSx for IP resolution..."
     run_dnsx(domain)
+    
+    yield "[+] Extracting and filtering hosts..."
     hosts = extract_and_filter_hosts(domain)
     if not hosts:
-        print("[ERROR] No valid subdomains found.")
+        yield "[ERROR] No valid subdomains found."
         return
+    
+    yield f"[+] Found {len(hosts)} valid subdomains."
+    
+    yield "[+] Running SSLScan for certificate information..."
     run_sslscan(hosts)
+    
+    yield "[+] Running Wappalyzer for technology detection..."
     run_wappalyzer(hosts)
+    
+    yield "[+] Checking HTTP/HTTPS status codes..."
     check_http_https_status(hosts)
-    print(f"\n[INFO] Scan complete. Final data saved to: {FINAL_DATA}")
+    
+    yield f"✅ Scan complete! Data saved to: {FINAL_DATA}"
 
 
 # Example usage:
