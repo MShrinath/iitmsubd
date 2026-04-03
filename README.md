@@ -1,30 +1,71 @@
-# IITM Subdomain Enumeration Tool
+# IITM Subdomain Enumeration Tool (Knockpy + Subfinder)
 
-This developer-only tool enumerates subdomains for a given domain _iitm.ac.in_, collects details (like HTTP/HTTPS status, certificate information) and generates an interactive summary report.
+I built this tool during my internship at **IITM CyStar** to support subdomain reconnaissance and reporting workflows. After the internship, I continued developing it — adding new features, improving the UI, and expanding the toolset.
 
-## Features
+### Internship Certificate
 
-- **Subdomain Enumeration:** Uses the [knock-subdomains](https://pypi.org/project/knock-subdomains/) package as part of the process.
-- **Enhanced Results:** The tool loads and enhances subdomain data with certificate details.
-- **Real-time Scan Streaming:** Uses Server-Sent Events (SSE) to stream scan progress.
-- **Interactive Report:** The web UI (built with Flask and Chart.js) displays a dashboard with domain status, certificate charts, and filtering/searching capabilities.
-- **Developer-Only:** This tool is intended for internal development and testing.
+![IITM Internship Certificate](./certificate_mshrinath.jpg)
+
+- LinkedIn Post: [View Post](https://www.linkedin.com/feed/update/urn:li:activity:7354341162909921284/)
+
+This project now supports both **Knockpy** and **Subfinder** pipelines, with a Flask dashboard to visualize and compare outputs.
+
+## What This Tool Does
+
+- Enumerates subdomains for a target domain (currently configured for `iitm.ac.in`).
+- Runs scans via Knockpy and Subfinder.
+- Loads results and supporting metadata (HTTP status, certificate and related tool outputs).
+- Shows results through web pages and streamed progress updates.
+
+## Key Features
+
+- Dual-engine scanning (Knockpy + Subfinder) with SSE progress streaming
+- Multi-page Flask UI with interactive charts and domain filtering
+- Tech stack detection (Wappalyzer), SSL cert scanning, DNS resolution (dnsx)
+- Nmap port scanning, dark/light theme, reusable JS/CSS architecture
 
 ## Project Structure
 
-- **app.py:** Main Flask application which serves the web pages and API endpoints.
-- **Dockerfile:** Containerize the tool for consistent development environment.
-- **requirements.txt:** Lists required Python packages (Flask, knock-subdomains, etc.).
-- **templates/index.html:** Front-end page for the report.
-- **static/script.js:** Contains logic for fetching, filtering, and rendering the report.
-- **data/iitm.ac.in_knockpy_results_with_certs.json:** Data file storing subdomain scan results.
-- **utils/knockpy_runner.py:** Module that runs the subdomain enumeration and enhances the output.
+- `app.py` - Main Flask app with routes and API endpoints.
+- `Dockerfile` - Container setup for consistent execution.
+- `requirements.txt` - Python dependencies.
+- `README.md` - Project documentation.
+- `data/` - Stored JSON output for Knockpy/Subfinder runs.
+- `tools/` - External reconnaissance binaries and outputs:
+    - `subfinder.exe` - Subdomain discovery tool
+    - `dnsx.exe` - DNS resolver
+    - `httpx.exe` - HTTP prober  
+    - `sslscan.exe` - SSL certificate scanner
+    - `wappalyzer.exe` - Technology detection
+    - `txt/` - Raw/auxiliary outputs from recon tooling
+- `templates/`
+    - `index.html` - Landing/dashboard page.
+    - `knockpy.html` - Knockpy scan page.
+    - `subfinder.html` - Subfinder scan page.
+- `static/css/` - Styles, variables, animations, dark theme.
+- `static/js/` - Page scripts, shared utilities, alerts, cert/nmap handlers.
+- `utils/`
+    - `knockpy_runner.py` - Knockpy scan runner.
+    - `subfinder_runner.py` - Subfinder scan runner.
+    - `nmap_runner.py` - Nmap integration runner.
+    - `config.py` - Runtime configuration.
 
 ## Installation
 
-Ensure you have Docker installed on your system. Then build and run the container using the following commands:
+### Option 1: Run with Docker
 
 ```sh
 docker build -t iitm-subd .
 docker run -p 5000:5000 iitm-subd
 ```
+
+### Option 2: Run locally
+
+```sh
+git clone https://github.com/MShrinath/iitmsubd
+cd iitmsubd
+pip install -r requirements.txt
+python app.py
+```
+
+Open `http://127.0.0.1:5000` in your browser.
